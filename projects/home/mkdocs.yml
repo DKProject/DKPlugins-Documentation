@@ -1,0 +1,51 @@
+site_name: DKPlugins Documentation
+site_description:
+site_url: http://dkplugins.pretronic.net/
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+  extra_css:
+    - stylesheets/bootstrap-grid.min.css
+    - stylesheets/style.css
+  logo: https://content.pretronic.net/brand/dkplugins-logo.png
+  favicon: https://content.pretronic.net/brand/dkplugins-logo.png
+  palette:
+    scheme: preference
+    primary: 'green'
+    accent: 'green'
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - admonition
+  - meta
+  - pymdownx.smartsymbols
+  - def_list
+  - pymdownx.tasklist:
+      clickable_checkbox: false
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+plugins:
+  - search
+  - git-revision-date
+
+extra_css:
+  - stylesheets/dark_theme.css
+  - stylesheets/codehilite.css
+  - stylesheets/bootstrap-grid.min.css
+  - stylesheets/style.css
+
+edit_uri: https://github.com/dkproject/DKPlugins-Documentation/edit/main/projects/home/docs/
+
+nav:
+  - Overview: index.md
+  - Server:
+  - Plugins:
+  - Console:
