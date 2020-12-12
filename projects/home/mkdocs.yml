@@ -46,6 +46,6 @@ edit_uri: https://github.com/dkproject/DKPlugins-Documentation/edit/main/project
 
 nav:
   - Overview: index.md
-  - Server:
-  - Plugins:
-  - Console:
+  - DKCoins: index.md
+  - DKBans: index.md
+  - DKPerms: index.md
