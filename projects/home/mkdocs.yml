@@ -46,6 +46,12 @@ edit_uri: https://github.com/dkproject/DKPlugins-Documentation/edit/main/project
 
 nav:
   - Overview: index.md
-  - DKCoins: index.md
-  - DKBans: index.md
-  - DKPerms: index.md
+  - DKPerms:
+      - Introduction: dkperms/index.md
+      - Support: dkperms/support.md
+      - FAQ: dkperms/support.md
+      - Plugin Usage: dkperms/support.md
+        - Defintions: dkperms/plugin-usage/defintions.md
+        - Commands: dkperms/plugin-usage/defintions.md
+        - Placeholders: dkperms/plugin-usage/defintions.md
+      - Developer API: dkperms/support.md
