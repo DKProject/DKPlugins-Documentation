@@ -50,7 +50,7 @@ nav:
       - Introduction: dkperms/index.md
       - Support: dkperms/support.md
       - FAQ: dkperms/support.md
-      - Plugin Usage: dkperms/support.md
+      - Plugin Usage:
         - Defintions: dkperms/plugin-usage/defintions.md
         - Commands: dkperms/plugin-usage/defintions.md
         - Placeholders: dkperms/plugin-usage/defintions.md
