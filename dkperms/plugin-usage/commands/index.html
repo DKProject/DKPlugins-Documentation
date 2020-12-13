@@ -72,6 +72,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#commands" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -426,10 +431,69 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Commands
+        <span class="md-nav__icon md-icon"></span>
+      </label>
     
     <a href="./" class="md-nav__link md-nav__link--active">
       Commands
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-commands" class="md-nav__link">
+    General commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-commands" class="md-nav__link">
+    User commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#group-commands" class="md-nav__link">
+    Group commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#permission-commands" class="md-nav__link">
+    Permission commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meta-commands" class="md-nav__link">
+    Meta commands
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -475,6 +539,64 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-commands" class="md-nav__link">
+    General commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-commands" class="md-nav__link">
+    User commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#group-commands" class="md-nav__link">
+    Group commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#permission-commands" class="md-nav__link">
+    Permission commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meta-commands" class="md-nav__link">
+    Meta commands
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -485,9 +607,79 @@
                   </a>
                 
                 
-                  <h1>Commands</h1>
-                
-                
+                <h1 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h1>
+<p>This page describes all available commands to operate DKPerms from the player chat and console.</p>
+<p>Important things to remember about commands:
+* Required arguments are declared with <code>&lt;example&gt;</code>
+* Optional arguments are declared with <code>[example]</code>
+* Sub commands documented on another page are declared with <code>...</code></p>
+<h2 id="general-commands">General commands<a class="headerlink" href="#general-commands" title="Permanent link">&para;</a></h2>
+<p>These commands are used to operate DKPerms on your network or server.</p>
+<ul>
+<li><a href="General-Commands#perms"><code>/perms</code></a></li>
+<li><a href="General-Commands#perms-info"><code>/perms info</code></a></li>
+<li><a href="General-Commands#perms-sync"><code>/perms sync</code></a></li>
+<li><a href="General-Commands#perms-migrate-system"><code>/perms migrate</code></a></li>
+<li><a href="General-Commands#perms-groups"><code>/perms groups</code></a></li>
+<li><a href="General-Commands#perms-group-group-"><code>/perms group &lt;group&gt;</code></a></li>
+<li><a href="General-Commands#perms-user-player-"><code>/perms user &lt;user&gt;</code></a></li>
+<li><a href="General-Commands#perms-track-track-"><code>/perms track &lt;track&gt;</code></a></li>
+<li><a href="General-Commands#perms-analyse-action"><code>/perms analyse</code></a></li>
+</ul>
+<h2 id="user-commands">User commands<a class="headerlink" href="#user-commands" title="Permanent link">&para;</a></h2>
+<p>These commands are for manging user permissions, groups and metadata.</p>
+<p><code>&lt;player&gt;</code> The name or unique id of the player.</p>
+<ul>
+<li><a href="User-Commands#perms-user-player-info"><code>/perms user &lt;player&gt; info</code></a></li>
+<li><a href="User-Commands#perms-user-player-permission-"><code>/perms user &lt;player&gt; permission</code></a></li>
+<li><a href="User-Commands#perms-user-player-meta-"><code>/perms user &lt;player&gt; meta</code></a></li>
+<li><a href="User-Commands#perms-user-player-parent-"><code>/perms user &lt;player&gt; parent</code></a></li>
+</ul>
+<h2 id="group-commands">Group commands<a class="headerlink" href="#group-commands" title="Permanent link">&para;</a></h2>
+<p>Commands for manging groups. <code>&lt;group&gt;</code> is the name of the group.</p>
+<ul>
+<li><code>/perms group &lt;group&gt; info</code></li>
+<li><code>/perms group &lt;group&gt; create</code></li>
+<li><code>/perms group &lt;group&gt; delete</code></li>
+<li><code>/perms group &lt;group&gt; rename &lt;newName&gt;</code></li>
+<li><code>/perms group &lt;group&gt; copy &lt;newName&gt;</code></li>
+<li><code>/perms group &lt;group&gt; members [scope] [page]</code></li>
+<li><code>/perms group &lt;group&gt; permission</code></li>
+<li><code>/perms group &lt;group&gt; meta</code></li>
+<li><code>/perms group &lt;group&gt; group</code></li>
+<li><code>/perms group &lt;group&gt; setPriority &lt;priorit&gt;</code></li>
+</ul>
+<h2 id="permission-commands">Permission commands<a class="headerlink" href="#permission-commands" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>permission list [scope]</code></li>
+<li><code>permission tree</code></li>
+<li><code>permission show &lt;permission&gt; [scope]</code></li>
+<li><code>permission set &lt;permission&gt; [action] [duration] [scope] [modifier]</code></li>
+<li><code>permission unset &lt;permission&gt; [scope]</code></li>
+<li><code>permission clear [scope]</code></li>
+<li><code>permission check &lt;permission&gt; [scope]</code></li>
+</ul>
+<h2 id="meta-commands">Meta commands<a class="headerlink" href="#meta-commands" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>meta list [scope]</code></li>
+<li><code>meta tree</code></li>
+<li><code>meta show &lt;key&gt; [scope]</code></li>
+<li><code>meta set &lt;key&gt; &lt;value&gt; [duration] [scope]</code></li>
+<li><code>meta unset &lt;key&gt; [scope]</code></li>
+<li><code>meta clear [scope]</code></li>
+<li><code>meta check &lt;key&gt; [scope]</code></li>
+</ul>
+<h4>Group / Parent commands</h4>
+<ul>
+<li><code>group list [scope]</code></li>
+<li><code>group tree</code></li>
+<li><code>group show &lt;group&gt; [scope]</code></li>
+<li><code>group set &lt;group&gt; [action] [duration] [scope] [modifier]</code></li>
+<li><code>group add &lt;group&gt; [action] [duration] [scope] [modifier]</code></li>
+<li><code>group remove &lt;group&gt; [scope]</code></li>
+<li><code>group clear [scope]</code></li>
+<li><code>group check &lt;key&gt; [scope]</code></li>
+</ul>
                 
                   
                     

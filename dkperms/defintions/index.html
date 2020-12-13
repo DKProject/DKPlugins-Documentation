@@ -16,7 +16,7 @@
     
     
       
-        <title>Defintions - DKPlugins Documentation</title>
+        <title>Definitions - DKPlugins Documentation</title>
       
     
     
@@ -72,6 +72,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#definitions" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -111,7 +116,7 @@
           </span>
                 <span class="md-header-nav__topic md-ellipsis">
             
-              Defintions
+              Definitions
             
           </span>
             </div>
@@ -343,10 +348,76 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Defintions
+        <span class="md-nav__icon md-icon"></span>
+      </label>
     
     <a href="./" class="md-nav__link md-nav__link--active">
       Defintions
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#permissions" class="md-nav__link">
+    Permissions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meta" class="md-nav__link">
+    Meta
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#groups-permission-groups" class="md-nav__link">
+    Groups (Permission groups)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#server-groups" class="md-nav__link">
+    Server Groups
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scope" class="md-nav__link">
+    Scope
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#permission-object" class="md-nav__link">
+    Permission Object
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -473,6 +544,71 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#permissions" class="md-nav__link">
+    Permissions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meta" class="md-nav__link">
+    Meta
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#groups-permission-groups" class="md-nav__link">
+    Groups (Permission groups)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#server-groups" class="md-nav__link">
+    Server Groups
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scope" class="md-nav__link">
+    Scope
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#permission-object" class="md-nav__link">
+    Permission Object
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -483,9 +619,51 @@
                   </a>
                 
                 
-                  <h1>Defintions</h1>
-                
-                
+                <h1 id="definitions">Definitions<a class="headerlink" href="#definitions" title="Permanent link">&para;</a></h1>
+<p>This page describes the key definitions and the structure of DKPerms. It is very important that you understand these things before you start using DKPerms.</p>
+<h2 id="permissions">Permissions<a class="headerlink" href="#permissions" title="Permanent link">&para;</a></h2>
+<p>Every plugin installed on your server usually brings its own permissions, these permissions are required to
+restrict commands and features to different users and groups. These permissions allow you to control which user has access to a command or feature.</p>
+<p>The permission node is a sequence of letters and is provided by the respective plugin author.
+For example, to ban (<code>/ban dkrieger hacking</code>) a user with DKBans the permission <code>dkbans.ban</code> is required.</p>
+<h2 id="meta">Meta<a class="headerlink" href="#meta" title="Permanent link">&para;</a></h2>
+<p>The meta is a key value based information that can be set to groups and users.
+Unlike permissions, the meta contains a value that can be read by another plugin.</p>
+<p>For example, you might want to display a prefix before the player name in the tab list, so
+you can set a meta entry with the key <code>prefix</code> and your value.</p>
+<h2 id="groups-permission-groups">Groups (Permission groups)<a class="headerlink" href="#groups-permission-groups" title="Permanent link">&para;</a></h2>
+<p>Usually different players have the same permission. In this case DKPerms has groups, which you can give permissions,
+metas and other groups, later on you can assign this group to different players.</p>
+<p>For example, you can create a <code>moderator</code> group, which contains permissions for banning, kicking and teleport.
+When now a new moderator joins your team, you can easily assign the <code>moderator</code> group to him/her, and he/she will automatically get necessary permissions.</p>
+<h2 id="server-groups">Server Groups<a class="headerlink" href="#server-groups" title="Permanent link">&para;</a></h2>
+<p>A server group is a collection of different servers, every server is automatically in a server group the name of the group
+is the first part of the group separator (<code>-</code>) defined in the configuration</p>
+<p>For example, you have a different SkyWars servers called:
+* <code>SkyWars-1</code>
+* <code>SkyWars-2</code>
+* <code>SkyWars-3</code></p>
+<p>The server group for these servers is called <code>SkyWars</code>, if you now need the same permissions on all skywars servers,
+it is much easier to assign the permission to the server group instead to each server.</p>
+<h2 id="scope">Scope<a class="headerlink" href="#scope" title="Permanent link">&para;</a></h2>
+<p>DKPerms is based on a tree structure, everything in DKPerms (Objects, permissions, groups etc.) belongs to a scope and is only valid for this and all subordinate scopes.</p>
+<p>This example shows how a tree can look like:</p>
+<ul>
+<li><code>Nemspace=Minecraft</code><ul>
+<li><code>ServerGroup=Lobby</code><ul>
+<li><code>Server=Lobby-1</code><ul>
+<li><code>World=World-1</code></li>
+</ul>
+</li>
+<li><code>Server=Lobby-2</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>If the permission <code>dkbans.ban</code> is assigned to a player on the scope <code>Nemspace=Minecraft\\ServerGroup=Lobby</code> the permission is valid on <code>Lobby-1</code> and <code>Lobby-2</code>.</p>
+<h2 id="permission-object">Permission Object<a class="headerlink" href="#permission-object" title="Permanent link">&para;</a></h2>
+<p>A PermissionObject holds permission data and can be a group, user or a custom type. Objects are registered in DKPerms and assigned to a third-party resource.</p>
                 
                   
                     
