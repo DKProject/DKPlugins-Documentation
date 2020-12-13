@@ -43,6 +43,7 @@ extra_css:
   - stylesheets/style.css
 
 edit_uri: https://github.com/dkproject/DKPlugins-Documentation/edit/main/projects/home/docs/
+disableRepo: true
 
 nav:
   - Overview: index.md
