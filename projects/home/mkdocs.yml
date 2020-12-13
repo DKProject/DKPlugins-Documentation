@@ -52,8 +52,8 @@ nav:
       - Defintions: dkperms/defintions.md
       - FAQ: dkperms/faq.md
       - Plugin Setup:
-          - Installation: dkperms/plugin-setup/defintions.md
+          - Installation: dkperms/plugin-setup/installation.md
       - Plugin Usage:
-        - Commands: dkperms/plugin-usage/defintions.md
-        - Placeholders: dkperms/plugin-usage/defintions.md
+        - Commands: dkperms/plugin-usage/commands.md
+        - Placeholders: dkperms/plugin-usage/placeholders.md
       - Developer API: dkperms/support.md
