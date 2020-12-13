@@ -7,7 +7,7 @@ title: Support
 DKPerms support is offered by our Team and community via Discord to all DKPerms buyers. All supporters do this voluntarily and answer as soon as possible.
 
 Before you ask, please try to solve the problem by yourself with the help of this wiki.
-<br/> **-> Checkout the [FAQ](Frequently-Asked-Questions)**
+<br/> **-> Checkout the [FAQ](https://dkplugins.pretronic.net/dkperms/Frequently-Asked-Questions)**
 
 [![Join DKPlugins Discord](https://discordapp.com/api/guilds/513441444959223809/embed.png?style=banner2)](https://discord.gg/ZR7HtTw)
 
