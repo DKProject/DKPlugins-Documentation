@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="http://dkplugins.pretronic.net/dkperms/plugin-usage/commands/general-commands/">
+        <link rel="canonical" href="http://dkplugins.pretronic.net/dkperms/plugin-usage/commands/permission-commands/">
       
       
       <link rel="shortcut icon" href="https://content.pretronic.net/brand/dkplugins-logo.png">
@@ -16,7 +16,7 @@
     
     
       
-        <title>General Commands - DKPlugins Documentation</title>
+        <title>Permission Commands - DKPlugins Documentation</title>
       
     
     
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#general-commands" class="md-skip">
+        <a href="#permission-commands" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +116,7 @@
           </span>
                 <span class="md-header-nav__topic md-ellipsis">
             
-              General Commands
+              Permission Commands
             
           </span>
             </div>
@@ -209,9 +209,7 @@
         
           
 
-  
-
-<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
@@ -219,7 +217,9 @@
   <li class="md-tabs__item">
     
     
-    <a href="../../../.." class="md-tabs__link">
+      
+    
+    <a href="../../../.." class="md-tabs__link md-tabs__link--active">
       Overview
     </a>
   </li>
@@ -231,9 +231,7 @@
     <li class="md-tabs__item">
       
       
-        
-      
-      <a href="../../../" class="md-tabs__link md-tabs__link--active">
+      <a href="../../../" class="md-tabs__link">
         DKPerms
       </a>
     </li>
@@ -295,12 +293,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
     <label class="md-nav__link" for="nav-2">
       DKPerms
       <span class="md-nav__icon md-icon"></span>
@@ -402,12 +398,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6" checked>
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6" >
     <label class="md-nav__link" for="nav-2-6">
       Plugin Usage
       <span class="md-nav__icon md-icon"></span>
@@ -424,12 +418,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6-1" type="checkbox" id="nav-2-6-1" checked>
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6-1" type="checkbox" id="nav-2-6-1" >
     <label class="md-nav__link" for="nav-2-6-1">
       Commands
       <span class="md-nav__icon md-icon"></span>
@@ -458,105 +450,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        General Commands
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-    
-    <a href="./" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../general-commands/" class="md-nav__link">
       General Commands
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#perms" class="md-nav__link">
-    /perms
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perms-info" class="md-nav__link">
-    /perms info
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perms-sync" class="md-nav__link">
-    /perms sync
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perms-migrate-system" class="md-nav__link">
-    /perms migrate &lt;system&gt;
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perms-groups" class="md-nav__link">
-    /perms groups
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perms-group-group" class="md-nav__link">
-    /perms group &lt;group&gt; ...
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perms-user-player" class="md-nav__link">
-    /perms user &lt;player&gt; ...
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perms-track-track" class="md-nav__link">
-    /perms track &lt;track&gt; ...
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perms-analyse-action" class="md-nav__link">
-    /perms analyse &lt;action&gt;
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -623,64 +521,43 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#perms" class="md-nav__link">
-    /perms
+  <a href="#set-key-value-time-unit-scope" class="md-nav__link">
+    set &lt;key&gt; &lt;value&gt; [time] [unit] [scope]
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#perms-info" class="md-nav__link">
-    /perms info
+  <a href="#unset-key-scope" class="md-nav__link">
+    unset &lt;key&gt; [scope]
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#perms-sync" class="md-nav__link">
-    /perms sync
+  <a href="#show-key-scope" class="md-nav__link">
+    show &lt;key&gt; [scope]
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#perms-migrate-system" class="md-nav__link">
-    /perms migrate &lt;system&gt;
+  <a href="#clear-scope" class="md-nav__link">
+    clear [scope]
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#perms-groups" class="md-nav__link">
-    /perms groups
+  <a href="#list-scope" class="md-nav__link">
+    list [scope]
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#perms-group-group" class="md-nav__link">
-    /perms group &lt;group&gt; ...
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perms-user-player" class="md-nav__link">
-    /perms user &lt;player&gt; ...
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perms-track-track" class="md-nav__link">
-    /perms track &lt;track&gt; ...
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perms-analyse-action" class="md-nav__link">
-    /perms analyse &lt;action&gt;
+  <a href="#tree-scope" class="md-nav__link">
+    tree [scope]
   </a>
   
 </li>
@@ -697,93 +574,44 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/dkproject/DKPlugins-Documentation/edit/master/projects/home/docs/dkperms/plugin-usage/commands/general-commands.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/dkproject/DKPlugins-Documentation/edit/master/projects/home/docs/dkperms/plugin-usage/commands/permission-commands.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="general-commands">General Commands<a class="headerlink" href="#general-commands" title="Permanent link">&para;</a></h1>
-<p>This page describes the usage and permissions of the DKPerms general commands.</p>
-<p>Important things to remember:
+                <h1 id="permission-commands">Permission Commands<a class="headerlink" href="#permission-commands" title="Permanent link">&para;</a></h1>
+<p>This page describes the usage of DKPerms <strong>?</strong>.</p>
+<p>Important thinks to remember:
 * Required arguments are declared with <code>&lt;example&gt;</code>
 * Optional arguments are declared with <code>[example]</code></p>
 <h4>Index</h4>
 <ul>
-<li><a href="#perms"><code>/perms</code></a></li>
-<li><a href="#perms-info"><code>/perms info</code></a></li>
-<li><a href="#perms-sync"><code>/perms sync</code></a></li>
-<li><a href="#perms-migrate-system"><code>/perms migrate</code></a></li>
-<li><a href="#perms-groups"><code>/perms groups</code></a></li>
-<li><a href="#perms-group-group-"><code>/perms group &lt;group&gt;</code></a></li>
-<li><a href="#perms-user-player-"><code>/perms user &lt;user&gt;</code></a></li>
-<li><a href="#perms-track-track-"><code>/perms track &lt;track&gt;</code></a></li>
-<li><a href="#perms-analyse-action"><code>/perms analyse</code></a></li>
+<li><a href="#set-key-value-time-unit-scope"><code>set &lt;key&gt; &lt;value&gt; [time] [unit] [scope]</code></a></li>
+<li><a href="#unset-key-scope"><code>unset &lt;key&gt; [scope]</code></a></li>
+<li><a href="#show-key-scope"><code>show &lt;key&gt; [scope]</code></a></li>
+<li><a href="#clear-scope"><code>clear [scope]</code></a></li>
+<li><a href="#list-scope"><code>list [scope]</code></a></li>
+<li><a href="#tree-scope"><code>tree [scope]</code></a></li>
 </ul>
 <hr />
-<h2 id="perms"><strong><code>/perms</code></strong><a class="headerlink" href="#perms" title="Permanent link">&para;</a></h2>
-<p><strong>Permission:</strong> dkperms.admin<br /></p>
-<p>This is the base command of DKPerms. It is use for administrating the whole DKPerms permission system on your network.
-If you don't have access to this command, the plugin version and author is displayed.</p>
+<h2 id="set-key-value-time-unit-scope"><strong><code>set &lt;key&gt; &lt;value&gt; [time] [unit] [scope]</code></strong><a class="headerlink" href="#set-key-value-time-unit-scope" title="Permanent link">&para;</a></h2>
+<p>Add permissions to a group/player.</p>
 <hr />
-<h2 id="perms-info"><strong><code>/perms info</code></strong><a class="headerlink" href="#perms-info" title="Permanent link">&para;</a></h2>
-<p><strong>Permission:</strong> dkperms.admin<br/>
-<strong>Alias:</strong> information, i, version, v<br/>
-Shows information about the current installed plugin, like the version and author.</p>
+<h2 id="unset-key-scope"><strong><code>unset &lt;key&gt; [scope]</code></strong><a class="headerlink" href="#unset-key-scope" title="Permanent link">&para;</a></h2>
+<p>Remove permissions from a group/player.</p>
 <hr />
-<h2 id="perms-sync"><strong><code>/perms sync</code></strong><a class="headerlink" href="#perms-sync" title="Permanent link">&para;</a></h2>
-<p><strong>Permission:</strong> dkperms.admin<br/>
-<strong>Alias:</strong> synchronize, s<br/>
-Synchronizes permissions, groups, users and metadata a cross multiple server in a network.</p>
+<h2 id="show-key-scope"><strong><code>show &lt;key&gt; [scope]</code></strong><a class="headerlink" href="#show-key-scope" title="Permanent link">&para;</a></h2>
+<p>Shows information about the set permissions.</p>
 <hr />
-<h2 id="perms-migrate-system"><strong><code>/perms migrate &lt;system&gt;</code></strong><a class="headerlink" href="#perms-migrate-system" title="Permanent link">&para;</a></h2>
-<p><strong>Permission:</strong> dkperms.admin<br/>
-<strong>Alias:</strong> migration, m<br/>
-<strong>Arguments:</strong>
-* <code>&lt;system&gt;</code> The system to migrate (DKPermsLegacy, PermissionEx etc.)</p>
-<p>Imports permissions and groups from other permission systems or older DKPerms versions.
-You can find a more detailed explanation <a href="">here</a>.</p>
+<h2 id="clear-scope"><strong><code>clear [scope]</code></strong><a class="headerlink" href="#clear-scope" title="Permanent link">&para;</a></h2>
+<p>Clear all added permissions.</p>
 <hr />
-<h2 id="perms-groups"><strong><code>/perms groups</code></strong><a class="headerlink" href="#perms-groups" title="Permanent link">&para;</a></h2>
-<p><strong>Permission:</strong> dkperms.admin<br/>
-Lists all available groups sorted by priority.</p>
+<h2 id="list-scope"><strong><code>list [scope]</code></strong><a class="headerlink" href="#list-scope" title="Permanent link">&para;</a></h2>
+<p>List all added permissions of the scope.</p>
 <hr />
-<h2 id="perms-group-group"><strong><code>/perms group &lt;group&gt; ...</code></strong><a class="headerlink" href="#perms-group-group" title="Permanent link">&para;</a></h2>
-<p><strong>Permission:</strong> dkperms.admin<br/>
-<strong>Alias:</strong> g<br/>
-<strong>Arguments:</strong>
-* <code>&lt;group&gt;</code> The name of the group
-* <code>...</code> Optional sub commands, see <a href="Permission-Group-Commands">Permission Group Commands</a></p>
-<p>Shows information about the targeted group and is used for managing groups.
-You can find a more detailed explanation <a href="Permission-Group-Commands">here</a>.</p>
+<h2 id="tree-scope"><strong><code>tree [scope]</code></strong><a class="headerlink" href="#tree-scope" title="Permanent link">&para;</a></h2>
+<p>List all added permissions.</p>
 <hr />
-<h2 id="perms-user-player"><strong><code>/perms user &lt;player&gt; ...</code></strong><a class="headerlink" href="#perms-user-player" title="Permanent link">&para;</a></h2>
-<p><strong>Permission:</strong> dkperms.admin<br/>
-<strong>Alias:</strong> u, player, p<br/>
-<strong>Arguments:</strong>
-* <code>&lt;player&gt;</code> The name of the player
-* <code>...</code> Optional sub commands, see <a href="User-Commands">User Commands</a></p>
-<p>Shows information about the targeted group and is used for managing players.
-You can find a more detailed explanation <a href="User-Commands">here</a>.</p>
-<hr />
-<h2 id="perms-track-track"><strong><code>/perms track &lt;track&gt; ...</code></strong><a class="headerlink" href="#perms-track-track" title="Permanent link">&para;</a></h2>
-<p><strong>Permission:</strong> dkperms.admin<br/>
-<strong>Alias:</strong> t<br/>
-<strong>Arguments:</strong>
-* <code>&lt;track&gt;</code> The name of the track
-* <code>...</code> Optional sub commands, see <a href="Track-Commands">Track Commands</a></p>
-<p>Shows information about the targeted track and is used for managing tracks.
-You can find a more detailed explanation <a href="Track-Commands">here</a>.</p>
-<hr />
-<h2 id="perms-analyse-action"><strong><code>/perms analyse &lt;action&gt;</code></strong><a class="headerlink" href="#perms-analyse-action" title="Permanent link">&para;</a></h2>
-<p><strong>Permission:</strong> dkperms.admin<br/>
-<strong>Arguments:</strong>
-* <code>&lt;action&gt;</code> The action to perform</p>
-<p>Helps debugging permissions problems on your server</p>
-<p><strong>Available actions:</strong>
-* <code>on</code> Enables permission analysing and printing
-* <code>off</code> Disables permission analysing and printing
-* <code>join</code> Joins the player into the printing listener to receive permission debug prints
-* <code>leave</code> Removed the player from the printing listener</p>
                 
                   
                     
