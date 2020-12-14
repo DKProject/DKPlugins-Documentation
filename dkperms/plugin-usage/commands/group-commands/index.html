@@ -209,7 +209,9 @@
         
           
 
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
@@ -217,9 +219,7 @@
   <li class="md-tabs__item">
     
     
-      
-    
-    <a href="../../../.." class="md-tabs__link md-tabs__link--active">
+    <a href="../../../.." class="md-tabs__link">
       Overview
     </a>
   </li>
@@ -231,7 +231,9 @@
     <li class="md-tabs__item">
       
       
-      <a href="../../../" class="md-tabs__link">
+        
+      
+      <a href="../../../" class="md-tabs__link md-tabs__link--active">
         DKPerms
       </a>
     </li>
@@ -293,10 +295,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     <label class="md-nav__link" for="nav-2">
       DKPerms
       <span class="md-nav__icon md-icon"></span>
@@ -398,10 +402,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6" >
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6" checked>
     <label class="md-nav__link" for="nav-2-6">
       Plugin Usage
       <span class="md-nav__icon md-icon"></span>
@@ -418,10 +424,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6-1" type="checkbox" id="nav-2-6-1" >
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6-1" type="checkbox" id="nav-2-6-1" checked>
     <label class="md-nav__link" for="nav-2-6-1">
       Commands
       <span class="md-nav__icon md-icon"></span>
@@ -474,10 +482,123 @@
           
           
 
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Group Commands
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Group Commands
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#perms-group-group-info" class="md-nav__link">
+    /perms group &lt;group&gt; info
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-group-group-create" class="md-nav__link">
+    /perms group &lt;group&gt; create
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-group-group-delete" class="md-nav__link">
+    /perms group &lt;group&gt; delete
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-group-group-rename-newname" class="md-nav__link">
+    /perms group &lt;group&gt; rename &lt;newname&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-group-group-copy-newname" class="md-nav__link">
+    /perms group &lt;group&gt; copy &lt;newname&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-group-group-members-scope" class="md-nav__link">
+    /perms group &lt;group&gt; members [scope]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-group-group-setpriority-priorit" class="md-nav__link">
+    /perms group &lt;group&gt; setPriority &lt;priorit&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-group-group-permission" class="md-nav__link">
+    /perms group &lt;group&gt; permission
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-group-group-meta" class="md-nav__link">
+    /perms group &lt;group&gt; meta
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-group-group-group" class="md-nav__link">
+    /perms group &lt;group&gt; group
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
 
   <li class="md-nav__item">
-    <a href="../user-commands/" class="md-nav__link">
-      Group Commands
+    <a href="../permission-commands/" class="md-nav__link">
+      Permission Commands
     </a>
   </li>
 
@@ -490,6 +611,18 @@
   <li class="md-nav__item">
     <a href="../parent-commands/" class="md-nav__link">
       Parent Commands
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../meta-commands/" class="md-nav__link">
+      Meta Commands
     </a>
   </li>
 
@@ -644,7 +777,7 @@
                 
                 
                 <h1 id="group-commands">Group Commands<a class="headerlink" href="#group-commands" title="Permanent link">&para;</a></h1>
-<p>This page describes the usage of DKPerms user commands. The grouü command always starts with <code>/perms group &lt;group&gt;</code>, while <code>&lt;group&gt;</code> is the name of the group.</p>
+<p>This page describes the usage of DKPerms group commands. The group command always starts with <code>/perms group &lt;group&gt;</code>, while <code>&lt;group&gt;</code> is the name of the group.</p>
 <p>Important things to remember:
 * Required arguments are declared with <code>&lt;example&gt;</code>
 * Optional arguments are declared with <code>[example]</code></p>

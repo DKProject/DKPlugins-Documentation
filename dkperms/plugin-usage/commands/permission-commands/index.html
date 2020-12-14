@@ -209,7 +209,9 @@
         
           
 
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
@@ -217,9 +219,7 @@
   <li class="md-tabs__item">
     
     
-      
-    
-    <a href="../../../.." class="md-tabs__link md-tabs__link--active">
+    <a href="../../../.." class="md-tabs__link">
       Overview
     </a>
   </li>
@@ -231,7 +231,9 @@
     <li class="md-tabs__item">
       
       
-      <a href="../../../" class="md-tabs__link">
+        
+      
+      <a href="../../../" class="md-tabs__link md-tabs__link--active">
         DKPerms
       </a>
     </li>
@@ -293,10 +295,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     <label class="md-nav__link" for="nav-2">
       DKPerms
       <span class="md-nav__icon md-icon"></span>
@@ -398,10 +402,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6" >
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6" checked>
     <label class="md-nav__link" for="nav-2-6">
       Plugin Usage
       <span class="md-nav__icon md-icon"></span>
@@ -418,10 +424,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6-1" type="checkbox" id="nav-2-6-1" >
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6-1" type="checkbox" id="nav-2-6-1" checked>
     <label class="md-nav__link" for="nav-2-6-1">
       Commands
       <span class="md-nav__icon md-icon"></span>
@@ -476,9 +484,101 @@
 
 
   <li class="md-nav__item">
-    <a href="../user-commands/" class="md-nav__link">
+    <a href="../group-commands/" class="md-nav__link">
       Group Commands
     </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Permission Commands
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Permission Commands
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#set-permission-action-duration-scope-modifier" class="md-nav__link">
+    set &lt;permission&gt; [action] [duration] [scope] [modifier]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unset-permission-scope" class="md-nav__link">
+    unset &lt;permission&gt; [scope]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clear-scope" class="md-nav__link">
+    clear [scope]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#list-scope" class="md-nav__link">
+    list [scope]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tree-scope" class="md-nav__link">
+    tree [scope]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#show-permission-scope" class="md-nav__link">
+    show &lt;permission&gt; [scope]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-permission-scope" class="md-nav__link">
+    check &lt;permission&gt; [scope]
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -490,6 +590,18 @@
   <li class="md-nav__item">
     <a href="../parent-commands/" class="md-nav__link">
       Parent Commands
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../meta-commands/" class="md-nav__link">
+      Meta Commands
     </a>
   </li>
 
@@ -557,22 +669,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#set-key-value-time-unit-scope" class="md-nav__link">
-    set &lt;key&gt; &lt;value&gt; [time] [unit] [scope]
+  <a href="#set-permission-action-duration-scope-modifier" class="md-nav__link">
+    set &lt;permission&gt; [action] [duration] [scope] [modifier]
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#unset-key-scope" class="md-nav__link">
-    unset &lt;key&gt; [scope]
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#show-key-scope" class="md-nav__link">
-    show &lt;key&gt; [scope]
+  <a href="#unset-permission-scope" class="md-nav__link">
+    unset &lt;permission&gt; [scope]
   </a>
   
 </li>
@@ -598,6 +703,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#show-permission-scope" class="md-nav__link">
+    show &lt;permission&gt; [scope]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-permission-scope" class="md-nav__link">
+    check &lt;permission&gt; [scope]
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -616,38 +735,105 @@
                 
                 
                 <h1 id="permission-commands">Permission Commands<a class="headerlink" href="#permission-commands" title="Permanent link">&para;</a></h1>
-<p>This page describes the usage of DKPerms <strong>?</strong>.</p>
-<p>Important thinks to remember:
+<p>This page describes the usage of DKPerms <strong>permission-commands</strong>. Those commands are sub commands of <a href="../user-commands/">user</a> and
+<a href="../group-commands/">group</a> commands.</p>
+<p>Important things to remember:
 * Required arguments are declared with <code>&lt;example&gt;</code>
 * Optional arguments are declared with <code>[example]</code></p>
 <h4>Index</h4>
 <ul>
-<li><a href="#set-key-value-time-unit-scope"><code>set &lt;key&gt; &lt;value&gt; [time] [unit] [scope]</code></a></li>
-<li><a href="#unset-key-scope"><code>unset &lt;key&gt; [scope]</code></a></li>
-<li><a href="#show-key-scope"><code>show &lt;key&gt; [scope]</code></a></li>
+<li><a href="#set-permission-action-duration-scope-modifier"><code>set &lt;permission&gt; [action] [duration] [scope] [modifier]</code></a></li>
+<li><a href="#unset-permission-scope"><code>unset &lt;permission&gt; [scope]</code></a></li>
 <li><a href="#clear-scope"><code>clear [scope]</code></a></li>
 <li><a href="#list-scope"><code>list [scope]</code></a></li>
 <li><a href="#tree-scope"><code>tree [scope]</code></a></li>
+<li><a href="#show-permission-scope"><code>show &lt;permission&gt; [scope]</code></a></li>
+<li><a href="#check-permission-scope"><code>check &lt;permission&gt; [scope]</code></a></li>
 </ul>
 <hr />
-<h2 id="set-key-value-time-unit-scope"><strong><code>set &lt;key&gt; &lt;value&gt; [time] [unit] [scope]</code></strong><a class="headerlink" href="#set-key-value-time-unit-scope" title="Permanent link">&para;</a></h2>
-<p>Add permissions to a group/player.</p>
+<h2 id="set-permission-action-duration-scope-modifier"><strong><code>set &lt;permission&gt; [action] [duration] [scope] [modifier]</code></strong><a class="headerlink" href="#set-permission-action-duration-scope-modifier" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> s, add, a <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;permission&gt;</code> The permission to set</li>
+<li><code>[action]</code> The action that should be used for this permission</li>
+<li><code>[duration]</code> The duration of how long the object is permitted to this permission</li>
+<li><code>[scope]</code> On which scope the permission should be assigned</li>
+<li><code>[modifier]</code> An action, what should happen if the object already has this permission</li>
+</ul>
+<p>This command sets a permission to a player, or a group.</p>
+<p><strong>Available actions:</strong></p>
+<ul>
+<li><code>+</code> Permits the player to this permission (default)</li>
+<li><code>++</code> Permits the player always to this permission (Ignore hierarchy priorities)</li>
+<li><code>-</code> Disallow the player to this permission(negative)</li>
+<li><code>--</code> Disallow the player always to this permission (Ignore hierarchy priorities)</li>
+</ul>
+<p><strong>Available modifiers:</strong></p>
+<ul>
+<li><code>r</code> Replace the existing entry with the new configuration</li>
+<li><code>f</code> Ignore and print an error message</li>
+<li><code>a</code> accumulate the duration with the existing duration and keep the configuration.</li>
+<li><code>l</code> Take the longest duration and keep the configuration.</li>
+</ul>
 <hr />
-<h2 id="unset-key-scope"><strong><code>unset &lt;key&gt; [scope]</code></strong><a class="headerlink" href="#unset-key-scope" title="Permanent link">&para;</a></h2>
-<p>Remove permissions from a group/player.</p>
-<hr />
-<h2 id="show-key-scope"><strong><code>show &lt;key&gt; [scope]</code></strong><a class="headerlink" href="#show-key-scope" title="Permanent link">&para;</a></h2>
-<p>Shows information about the set permissions.</p>
+<h2 id="unset-permission-scope"><strong><code>unset &lt;permission&gt; [scope]</code></strong><a class="headerlink" href="#unset-permission-scope" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> u <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;permission&gt;</code> The permission to unset</li>
+<li><code>[scope]</code> On which scope the permission should be removed</li>
+</ul>
+<p>This command removes an assigned permission from a user or group.</p>
 <hr />
 <h2 id="clear-scope"><strong><code>clear [scope]</code></strong><a class="headerlink" href="#clear-scope" title="Permanent link">&para;</a></h2>
-<p>Clear all added permissions.</p>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> c <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>[scope]</code> On which scope the group should be removed</li>
+</ul>
+<p>Clear all permissions from a user or group.</p>
 <hr />
 <h2 id="list-scope"><strong><code>list [scope]</code></strong><a class="headerlink" href="#list-scope" title="Permanent link">&para;</a></h2>
-<p>List all added permissions of the scope.</p>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> l <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>[scope]</code> The scope to list</li>
+</ul>
+<p>List all permissions of a user or group.</p>
 <hr />
 <h2 id="tree-scope"><strong><code>tree [scope]</code></strong><a class="headerlink" href="#tree-scope" title="Permanent link">&para;</a></h2>
-<p>List all added permissions.</p>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> t <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>[scope]</code> The scope to start (if missing, the root scope is taken).</li>
+</ul>
+<p>List the permission tree of a player or group.</p>
 <hr />
+<h2 id="show-permission-scope"><strong><code>show &lt;permission&gt; [scope]</code></strong><a class="headerlink" href="#show-permission-scope" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> s, get, g <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;permission&gt;</code> The name of the parent to show</li>
+<li><code>[scope]</code> On which scope the permission should be showed</li>
+</ul>
+<p>Show the current assignment configuration of a permission.</p>
+<hr />
+<h2 id="check-permission-scope"><strong><code>check &lt;permission&gt; [scope]</code></strong><a class="headerlink" href="#check-permission-scope" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> c, test <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;permission&gt;</code> The name of the permission to check</li>
+<li><code>[scope]</code> The lowest scope to be checked (if missing, the current scope is taken)</li>
+</ul>
+<p>Check if the permission is allowed or disallowed (The check tests each level and gives feedback on the status).</p>
                 
                   
                     
