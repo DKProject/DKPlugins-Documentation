@@ -57,6 +57,6 @@ nav:
       - Plugin Usage:
         - Commands:
           - Overview: dkperms/plugin-usage/commands/index.md
-          - General Commands: dkperms/plugin-usage/commands/index.md
+          - General Commands: dkperms/plugin-usage/commands/general-commands.md
         - Placeholders: dkperms/plugin-usage/placeholders.md
       - Developer API: dkperms/support.md
