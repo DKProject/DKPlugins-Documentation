@@ -14,39 +14,39 @@ Important things to remember about commands:
 ## General commands
 These commands are used to operate DKPerms on your network or server.
 
-* [```/perms```](general-commands#perms)
-* [```/perms info```](general-commands#perms-info)
-* [```/perms sync```](general-commands#perms-sync)
-* [```/perms migrate```](general-commands#perms-migrate-system)
-* [```/perms groups```](general-commands#perms-groups)
-* [```/perms group <group>```](general-commands#perms-group-group-)
-* [```/perms user <user>```](general-commands#perms-user-player-)
-* [```/perms track <track>```](general-commands#perms-track-track-)
-* [```/perms analyse```](general-commands#perms-analyse-action)
+* [```/perms```](general-commands.md#perms)
+* [```/perms info```](general-commands.md#perms-info)
+* [```/perms sync```](general-commands.md#perms-sync)
+* [```/perms migrate```](general-commands.md#perms-migrate-system)
+* [```/perms groups```](general-commands.md#perms-groups)
+* [```/perms group <group>```](general-commands.md#perms-group-group-)
+* [```/perms user <user>```](general-commands.md#perms-user-player-)
+* [```/perms track <track>```](general-commands.md#perms-track-track-)
+* [```/perms analyse```](general-commands.md#perms-analyse-action)
 
 ## User commands
 These commands are for manging user permissions, groups and metadata.
 
 ```<player> ``` The name or unique id of the player.
 
-* [```/perms user <player> info```](user-commands#perms-user-player-info)
-* [```/perms user <player> permission```](user-commands#perms-user-player-permission-)
-* [```/perms user <player> meta```](user-commands#perms-user-player-meta-)
-* [```/perms user <player> parent```](user-commands#perms-user-player-parent-)
+* [```/perms user <player> info```](user-commands.md#perms-user-player-info)
+* [```/perms user <player> permission```](user-commands.md#perms-user-player-permission-)
+* [```/perms user <player> meta```](user-commands.md#perms-user-player-meta-)
+* [```/perms user <player> parent```](user-commands.md#perms-user-player-parent-)
 
 ## Group commands
 Commands for manging groups. ```<group> ``` is the name of the group.
 
-* [```/perms group <group> info```](group-commands#perms-group-group-create)
-* [```/perms group <group> create```](group-commands#perms-group-group-create)
-* [```/perms group <group> delete```](group-commands#perms-group-group-delete)
-* [```/perms group <group> rename <newname>```](group-commands#perms-group-group-rename-newname)
-* [```/perms group <group> copy <newname>```](group-commands#perms-group-group-copy-newname)
-* [```/perms group <group> members [scope]```](group-commands#perms-group-group-rename-newname)
-* [```/perms group <group> permission```](group-commands#perms-group-group-permission)
-* [```/perms group <group> meta```](group-commands#perms-group-group-meta)
-* [```/perms group <group> group```](group-commands#perms-group-group-group)
-* [```/perms group <group> setPriority <priorit> ```](group-commands#perms-group-group-setpriority-priorit)
+* [```/perms group <group> info```](group-commands.md#perms-group-group-create)
+* [```/perms group <group> create```](group-commands.md#perms-group-group-create)
+* [```/perms group <group> delete```](group-commands.md#perms-group-group-delete)
+* [```/perms group <group> rename <newname>```](group-commands.md#perms-group-group-rename-newname)
+* [```/perms group <group> copy <newname>```](group-commands.md#perms-group-group-copy-newname)
+* [```/perms group <group> members [scope]```](group-commands.md#perms-group-group-rename-newname)
+* [```/perms group <group> permission```](group-commands.md#perms-group-group-permission)
+* [```/perms group <group> meta```](group-commands.md#perms-group-group-meta)
+* [```/perms group <group> group```](group-commands.md#perms-group-group-group)
+* [```/perms group <group> setPriority <priorit> ```](group-commands.md#perms-group-group-setpriority-priorit)
 
 ## Permission commands
 Sub commands to assign permissions to users and groups.
@@ -64,14 +64,14 @@ Sub commands to assign permissions to users and groups.
 
 Sub commands to assign parents (groups) to users and groups.
 
-* [```parent set <parent> [action] [duration] [scope] [modifier]```](parrent-commands#-parent-action-duration-scope-modifier)
-* [```parent add <parent> [action] [duration] [scope] [modifier]```](parrent-commands#-parent-action-duration-scope-modifier)
-* [```parent remove <parent> [scope]```](parrent-commands#remove-parent-scope)
-* [```parent clear [scope]```](parrent-commands#clear-scope)
-* [```parent list [scope]```](parrent-commands#list-scope)
-* [```parent tree [scope]```](parrent-commands#tree-scope)
-* [```parent show <parent> [scope]```](parrent-commands#show-parent-scope)
-* [```parent check <parent> [scope]```](parrent-commands#check-parent-scope)
+* [```parent set <parent> [action] [duration] [scope] [modifier]```](parrent-commands.md#-parent-action-duration-scope-modifier)
+* [```parent add <parent> [action] [duration] [scope] [modifier]```](parrent-commands.md#-parent-action-duration-scope-modifier)
+* [```parent remove <parent> [scope]```](parent-commands.md#remove-parent-scope)
+* [```parent clear [scope]```](parent-commands.md#clear-scope)
+* [```parent list [scope]```](parent-commands.md#list-scope)
+* [```parent tree [scope]```](parent-commands.md#tree-scope)
+* [```parent show <parent> [scope]```](parent-commands.md#show-parent-scope)
+* [```parent check <parent> [scope]```](parent-commands.md#check-parent-scope)
 
 ## Meta commands
 
