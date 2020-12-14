@@ -4,7 +4,7 @@ title: Frequently Asked Questions
 
 # Frequently Asked Questions
 
-These page contains some questions which are frequently asked about DKPerms.
+this page contains some questions which are frequently asked about DKPerms.
 Before you ask a question in our support, please check this page and make sure that the question is not already answered.
 
 ***

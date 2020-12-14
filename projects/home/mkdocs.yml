@@ -51,10 +51,12 @@ nav:
       - Introduction: dkperms/index.md
       - Support: dkperms/support.md
       - Defintions: dkperms/defintions.md
-      - FAQ: dkperms/faq.md
+      - FAQ: dkperms/frequently-asked-questions.md
       - Plugin Setup:
           - Installation: dkperms/plugin-setup/installation.md
       - Plugin Usage:
-        - Commands: dkperms/plugin-usage/commands.md
+        - Commands: dkperms/plugin-usage/index.md
+          - Overview: dkperms/plugin-usage/commands/index.md
+          - General Commands: dkperms/plugin-usage/commands/index.md
         - Placeholders: dkperms/plugin-usage/placeholders.md
       - Developer API: dkperms/support.md
