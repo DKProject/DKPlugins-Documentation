@@ -72,6 +72,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#placeholders" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -350,7 +355,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../faq/" class="md-nav__link">
+    <a href="../../frequently-asked-questions/" class="md-nav__link">
       FAQ
     </a>
   </li>
@@ -420,10 +425,47 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6-1" type="checkbox" id="nav-2-6-1" >
+    <label class="md-nav__link" for="nav-2-6-1">
+      Commands
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Commands" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-6-1">
+        <span class="md-nav__icon md-icon"></span>
+        Commands
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
     <a href="../commands/" class="md-nav__link">
-      Commands
+      Overview
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../commands/" class="md-nav__link">
+      General Commands
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -437,6 +479,8 @@
   <li class="md-nav__item md-nav__item--active">
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
     
     
     <a href="./" class="md-nav__link md-nav__link--active">
@@ -475,6 +519,21 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -485,9 +544,25 @@
                   </a>
                 
                 
-                  <h1>Placeholders</h1>
-                
-                
+                <h1 id="placeholders">Placeholders<a class="headerlink" href="#placeholders" title="Permanent link">&para;</a></h1>
+<p>DKPerms offers many placeholders which can be used in other plugins to display data provided by DKPerms. 
+DKPerms placeholders are available in all McNative supported placeholder sources (PlaceholderAPI).</p>
+<p>%dkperms_name%</p>
+<p>%dkperms_uniqueId%</p>
+<p>%dkperms_id%</p>
+<p>%dkperms_scope%</p>
+<p>%dkperms_rank%</p>
+<p>%dkperms_ranks%</p>
+<p>%dkperms_color%</p>
+<p>%dkperms_prefix%</p>
+<p>%dkperms_suffix%</p>
+<p>%dkperms_display%</p>
+<p>%dkperms_priority%</p>
+<p>%dkperms_team%</p>
+<p>%dkperms_priority%</p>
+<p>%dkperms_property_<KeyName>%</p>
+<p>%dkperms_boolProperty_<KeyName>%</p>
+<p>%dkperms_numberProperty_<KeyName>%</p>
                 
                   
                     
@@ -496,7 +571,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: 2020-12-13
+      Last update: 2020-12-14
     
   </small>
 </div>
