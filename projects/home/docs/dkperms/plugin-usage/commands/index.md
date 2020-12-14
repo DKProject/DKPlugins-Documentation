@@ -51,14 +51,13 @@ Commands for manging groups. ```<group> ``` is the name of the group.
 ## Permission commands
 Sub commands to assign permissions to users and groups.
 
-* ```permission list [scope]```
-* ```permission tree```
-* ```permission show <permission> [scope]```
-* ```permission set <permission> [action] [duration] [scope] [modifier]```
-* ```permission unset <permission> [scope]```
-* ```permission clear [scope]```
-* ```permission check <permission> [scope]```
-
+* [```permission set <permission> [action] [duration] [scope] [modifier]```](permission-commands.md#set-permission-action-duration-scope-modifier)
+* [```permission unset <permission> [scope]```](permission-commands.md#unset-permission-scope)
+* [```permission clear [scope]```](permission-commands.md#clear-scope)
+* [```permission list [scope]```](permission-commands.md#list-scope)
+* [```permission tree [scope]```](permission-commands.md#tree-scope)
+* [```permission show <permission> [scope]```](permission-commands.md#show-permission-scope)
+* [```permission check <permission> [scope]```](permission-commands.md#check-permission-scope)
 
 ## Parent commands
 
@@ -77,13 +76,35 @@ Sub commands to assign parents (groups) to users and groups.
 
 Sub commands to set meta values to users and groups.
 
-* ```meta list [scope]```
-* ```meta tree```
-* ```meta show <key> [scope]```
-* ```meta set <key> <value> [duration] [scope] ```
-* ```meta unset <key> [scope]```
-* ```meta clear [scope]```
-* ```meta check <key> [scope]```
+* [```set <key> <value> [duration] [scope]```](meta-commands.md#set-key-value-duration-scope)
+* [```unset <key> [scope]```](meta-commands.md#unset-key-scope)
+* [```show <key> [scope]```](meta-commands.md#show-key-scope)
+* [```clear [scope]```](meta-commands.md#clear-scope)
+* [```list [scope]```](meta-commands.md#list-scope)
+* [```tree [scope]```](meta-commands.md#tree-scope)
+
+
+## Track commands
+
+
+## Rank commands
+
+Simplified commands to assign groups / ranks to players. You can permit your staff team to use these commands.
+
+* ```/rank list```
+* ```/rank set```
+* ```/rank add```
+* ```/rank remove```
+* ```/rank promote```
+* ```/rank demote```
+
+
+## Additional commands
+
+Additional commands provided by DKPerms.
+
+* ```/team```
+
 
 
 

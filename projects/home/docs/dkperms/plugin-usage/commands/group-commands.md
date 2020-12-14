@@ -4,7 +4,7 @@ title: Group Commands
 
 # Group Commands
 
-This page describes the usage of DKPerms user commands. The grouü command always starts with `/perms group <group>`, while `<group>` is the name of the group.
+This page describes the usage of DKPerms group commands. The group command always starts with `/perms group <group>`, while `<group>` is the name of the group.
 
 Important things to remember:
 * Required arguments are declared with ```<example>```

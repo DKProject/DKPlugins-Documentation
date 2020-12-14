@@ -118,7 +118,7 @@ Clear all parent of an object (user or group).
 **Alias:** l <br/>
 **Arguments:**
 
-* `[scope]` The lowest scope to be checked (if missing, the current scope is taken)
+* `[scope]` The scope to list
 
 List all parents (groups) of an object.
 
@@ -143,7 +143,7 @@ List the parent tree of a player or group.
 **Arguments:**
 
 * `<parent>` The name of the parent to show
-* `[scope]` On which scope the parent should be cleared
+* `[scope]` On which scope the parent should be showed
 
 Show the current assignment configuration of an assigned parent.
 
