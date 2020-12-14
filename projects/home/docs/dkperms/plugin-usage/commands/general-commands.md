@@ -6,6 +6,10 @@ title: General Commands
 
 This page describes the usage and permissions of the DKPerms general commands.
 
+Important things to remember:
+* Required arguments are declared with ```<example>```
+* Optional arguments are declared with ```[example]```
+
 #### Index
 
 * [```/perms```](#perms)
