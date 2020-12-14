@@ -20,7 +20,7 @@ This page describes the usage and permissions of the DKPerms general commands.
 
 ***
 
-##### **```/perms```**
+## **```/perms```**
 
 **Permission:** dkperms.admin<br />
 
@@ -29,7 +29,7 @@ If you don't have access to this command, the plugin version and author is displ
 
 ***
 
-##### **```/perms info```**
+## **```/perms info```**
 
 **Permission:** dkperms.admin<br/>
 **Alias:** information, i, version, v<br/>
@@ -37,7 +37,7 @@ Shows information about the current installed plugin, like the version and autho
 
 ***
 
-##### **```/perms sync```**
+## **```/perms sync```**
 
 **Permission:** dkperms.admin<br/>
 **Alias:** synchronize, s<br/>
@@ -45,7 +45,7 @@ Synchronizes permissions, groups, users and metadata a cross multiple server in 
 
 ***
 
-##### **```/perms migrate <system>```**
+## **```/perms migrate <system>```**
 
 **Permission:** dkperms.admin<br/>
 **Alias:** migration, m<br/>
@@ -57,14 +57,14 @@ You can find a more detailed explanation [here]().
 
 ***
 
-##### **```/perms groups```**
+## **```/perms groups```**
 
 **Permission:** dkperms.admin<br/>
 Lists all available groups sorted by priority.
 
 ***
 
-##### **```/perms group <group> ...```**
+## **```/perms group <group> ...```**
 
 **Permission:** dkperms.admin<br/>
 **Alias:** g<br/>
@@ -77,7 +77,7 @@ You can find a more detailed explanation [here](Permission-Group-Commands).
 
 ***
 
-##### **```/perms user <player> ...```**
+## **```/perms user <player> ...```**
 
 **Permission:** dkperms.admin<br/>
 **Alias:** u, player, p<br/>
@@ -90,7 +90,7 @@ You can find a more detailed explanation [here](User-Commands).
 
 ***
 
-##### **```/perms track <track> ...```**
+## **```/perms track <track> ...```**
 
 **Permission:** dkperms.admin<br/>
 **Alias:** t<br/>
@@ -103,7 +103,7 @@ You can find a more detailed explanation [here](Track-Commands).
 
 ***
 
-##### **```/perms analyse <action>```**
+## **```/perms analyse <action>```**
 
 **Permission:** dkperms.admin<br/>
 **Arguments:**
