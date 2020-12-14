@@ -54,6 +54,7 @@ Synchronizes permissions, groups, users and metadata a cross multiple server in 
 **Permission:** dkperms.admin<br/>
 **Alias:** migration, m<br/>
 **Arguments:**
+
 * `<system>` The system to migrate (DKPermsLegacy, PermissionEx etc.)
 
 Imports permissions and groups from other permission systems or older DKPerms versions.
@@ -73,6 +74,7 @@ Lists all available groups sorted by priority.
 **Permission:** dkperms.admin<br/>
 **Alias:** g<br/>
 **Arguments:**
+
 * `<group>` The name of the group
 * `...` Optional sub commands, see [Permission Group Commands](Permission-Group-Commands)
 
@@ -86,6 +88,7 @@ You can find a more detailed explanation [here](Permission-Group-Commands).
 **Permission:** dkperms.admin<br/>
 **Alias:** u, player, p<br/>
 **Arguments:**
+
 * `<player>` The name of the player
 * `...` Optional sub commands, see [User Commands](User-Commands)
 
@@ -99,6 +102,7 @@ You can find a more detailed explanation [here](User-Commands).
 **Permission:** dkperms.admin<br/>
 **Alias:** t<br/>
 **Arguments:**
+
 * `<track>` The name of the track
 * `...` Optional sub commands, see [Track Commands](Track-Commands)
 
@@ -111,11 +115,13 @@ You can find a more detailed explanation [here](Track-Commands).
 
 **Permission:** dkperms.admin<br/>
 **Arguments:**
+
 * `<action>` The action to perform
 
 Helps debugging permissions problems on your server
 
 **Available actions:**
+
 * `on` Enables permission analysing and printing
 * `off` Disables permission analysing and printing
 * `join` Joins the player into the printing listener to receive permission debug prints

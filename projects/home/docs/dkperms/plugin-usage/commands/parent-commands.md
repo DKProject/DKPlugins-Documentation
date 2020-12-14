@@ -32,6 +32,7 @@ Important things to remember:
 **Permission:** dkperms.admin<br/>
 **Alias:** s <br/>
 **Arguments:**
+
 * `<parent>` The name of the parent
 * `[action]` The action that should be used for this parent assignment
 * `[duration]` The duration of how long the object should be in this group
@@ -41,12 +42,14 @@ Important things to remember:
 This command sets a parent to a player, or a group, all assigned parents are removed from the player.
 
 **Available actions:**
+
 * `+` Allow the player to the group (default)
 * `++` Allow the player always to the group (Ignore hierarchy priorities)
 * `-` Disallow the player to the group (negative)
 * `--` Disallow the player always to the group (Ignore hierarchy priorities)
 
 **Available modifiers:**
+
 * `r` Replace the existing entry with the new configuration
 * `f` Ignore and print an error message
 * `a` accumulate the duration with the existing duration and keep the configuration.
@@ -59,6 +62,7 @@ This command sets a parent to a player, or a group, all assigned parents are rem
 **Permission:** dkperms.admin<br/>
 **Alias:** a <br/>
 **Arguments:**
+
 * `<parent>` The name of the parent to add
 * `[action]` The action that should be used for this parent assignment
 * `[duration]` The duration of how long the object should be in this parent
@@ -68,12 +72,14 @@ This command sets a parent to a player, or a group, all assigned parents are rem
 This command adds a parent to a player or group, all assigned parents are kept.
 
 **Available actions:**
+
 * `+` Allow the player to the group (default)
 * `++` Allow the player always to the group (Ignore hierarchy priorities)
 * `-` Disallow the player to the group (negative)
 * `--` Disallow the player always to the group (Ignore hierarchy priorities)
 
 **Available modifiers:**
+
 * `r` Replace the existing entry with the new configuration
 * `f` Ignore and print an error message
 * `a` accumulate the duration with the existing duration and keep the configuration.
@@ -86,6 +92,7 @@ This command adds a parent to a player or group, all assigned parents are kept.
 **Permission:** dkperms.admin<br/>
 **Alias:** c <br/>
 **Arguments:**
+
 * `<parent>` The name of the parent to remove
 * `[scope]` On which scope the group should be removed
 
@@ -98,6 +105,7 @@ Remove an assigned parent from an object (user or group).
 **Permission:** dkperms.admin<br/>
 **Alias:** c <br/>
 **Arguments:**
+
 * `[scope]` On which scope the parents should be cleared
 
 Clear all parent of an object (user or group). 
@@ -109,6 +117,7 @@ Clear all parent of an object (user or group).
 **Permission:** dkperms.admin<br/>
 **Alias:** l <br/>
 **Arguments:**
+
 * `[scope]` The lowest scope to be checked (if missing, the current scope is taken)
 
 List all parents (groups) of an object.
@@ -120,6 +129,7 @@ List all parents (groups) of an object.
 **Permission:** dkperms.admin<br/>
 **Alias:** t <br/>
 **Arguments:**
+
 * `[scope]` The scope to start (if missing, the root scope is taken).
 
 List the parent tree of a player or group.
@@ -131,6 +141,7 @@ List the parent tree of a player or group.
 **Permission:** dkperms.admin<br/>
 **Alias:** s, get, g <br/>
 **Arguments:**
+
 * `<parent>` The name of the parent to show
 * `[scope]` On which scope the parent should be cleared
 
@@ -143,6 +154,7 @@ Show the current assignment configuration of an assigned parent.
 **Permission:** dkperms.admin<br/>
 **Alias:** c, test <br/>
 **Arguments:**
+
 * `<parent>` The name of the parent to check
 * `[scope]` The lowest scope to be checked (if missing, the current scope is taken)
 

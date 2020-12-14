@@ -57,6 +57,7 @@ This command deletes an existing permission group, all players will be removed.
 **Permission:** dkperms.admin<br/>
 **Alias:** d <br/>
 **Arguments:**
+
 * `<newname>` The new name of the group
 
 This command renames an existing permission group.
@@ -68,6 +69,7 @@ This command renames an existing permission group.
 **Permission:** dkperms.admin<br/>
 **Alias:** clone, c <br/>
 **Arguments:**
+
 * `<newname>` The name for the new group
 
 This command copies an existing group and all its permissions, parent groups and metas.
@@ -79,6 +81,7 @@ This command copies an existing group and all its permissions, parent groups and
 **Permission:** dkperms.admin<br/>
 **Alias:** n, list, players<br/>
 **Arguments:**
+
 * `[scope]` The scope to which the group should be assigned (by default, the namespace minecraft is used).
 
 Lists all members of this group
@@ -90,6 +93,7 @@ Lists all members of this group
 **Permission:** dkperms.admin<br />
 **Alias:** priority, p<br/>
 **Arguments:**
+
 * `<priorit>` The priority to set (1 = Highest priority)
 
 Set the main priority of your hierarchy structure to this group.
@@ -101,6 +105,7 @@ Set the main priority of your hierarchy structure to this group.
 **Permission:** dkperms.admin<br/>
 **Alias:** permissions, perm, perms, p<br/>
 **Arguments:**
+
 * `...` Sub commands, see [Permission Commands](Permission-Commands)
 
 With this command you can add, delete, change or list permissions of a group.
@@ -112,6 +117,7 @@ You can find a more detailed explanation [here](Permission-Commands).
 **Permission:** dkperms.admin<br />
 **Alias:** m, properties<br/>
 **Arguments:**
+
 * `...` Sub commands, see [Meta Commands](Meta-Commands)
 
 With this command you can add, delete, change or list metadata of a group.
@@ -123,6 +129,7 @@ You can find a more detailed explanation [here](Meta-Commands).
 **Permission:** dkperms.admin<br />
 **Alias:** group, g<br/>
 **Arguments:**
+
 * `...` Sub commands, see [Parent Commands](Parent-Commands)
 
 With this command you can set, add, delete or list inherited groups (parents) of a group.

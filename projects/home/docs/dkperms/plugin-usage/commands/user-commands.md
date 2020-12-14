@@ -33,6 +33,7 @@ Shows information about the player and his primary groups.
 **Permission:** dkperms.admin<br/>
 **Alias:** permissions, perm, perms, p<br/>
 **Arguments:**
+
 * `...` Sub commands, see [Permission Commands](Permission-Commands)
 
 With this command you can add, delete, change or list permissions of a player.
@@ -45,6 +46,7 @@ You can find a more detailed explanation [here](Permission-Commands).
 **Permission:** dkperms.admin<br />
 **Alias:** m<br/>
 **Arguments:**
+
 * `...` Sub commands, see [Meta Commands](Meta-Commands)
 
 With this command you can add, delete, change or list metadata of a player.
@@ -57,6 +59,7 @@ You can find a more detailed explanation [here](Meta-Commands).
 **Permission:** dkperms.admin<br />
 **Alias:** p, group, g<br/>
 **Arguments:**
+
 * `...` Sub commands, see [Parent Commands](Parent-Commands)
 
 With this command you can set, add, delete or list inherited groups (parents) of a player.
