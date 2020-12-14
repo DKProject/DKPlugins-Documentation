@@ -55,7 +55,7 @@ nav:
       - Plugin Setup:
           - Installation: dkperms/plugin-setup/installation.md
       - Plugin Usage:
-        - Commands: dkperms/plugin-usage/index.md
+        - Commands:
           - Overview: dkperms/plugin-usage/commands/index.md
           - General Commands: dkperms/plugin-usage/commands/index.md
         - Placeholders: dkperms/plugin-usage/placeholders.md
