@@ -774,8 +774,10 @@ Synchronizes permissions, groups, users and metadata a cross multiple server in 
 <h2 id="perms-migrate-system"><strong><code>/perms migrate &lt;system&gt;</code></strong><a class="headerlink" href="#perms-migrate-system" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkperms.admin<br/>
 <strong>Alias:</strong> migration, m<br/>
-<strong>Arguments:</strong>
-* <code>&lt;system&gt;</code> The system to migrate (DKPermsLegacy, PermissionEx etc.)</p>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;system&gt;</code> The system to migrate (DKPermsLegacy, PermissionEx etc.)</li>
+</ul>
 <p>Imports permissions and groups from other permission systems or older DKPerms versions.
 You can find a more detailed explanation <a href="">here</a>.</p>
 <hr />
@@ -786,40 +788,50 @@ Lists all available groups sorted by priority.</p>
 <h2 id="perms-group-group"><strong><code>/perms group &lt;group&gt; ...</code></strong><a class="headerlink" href="#perms-group-group" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkperms.admin<br/>
 <strong>Alias:</strong> g<br/>
-<strong>Arguments:</strong>
-* <code>&lt;group&gt;</code> The name of the group
-* <code>...</code> Optional sub commands, see <a href="Permission-Group-Commands">Permission Group Commands</a></p>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;group&gt;</code> The name of the group</li>
+<li><code>...</code> Optional sub commands, see <a href="Permission-Group-Commands">Permission Group Commands</a></li>
+</ul>
 <p>Shows information about the targeted group and is used for managing groups.
 You can find a more detailed explanation <a href="Permission-Group-Commands">here</a>.</p>
 <hr />
 <h2 id="perms-user-player"><strong><code>/perms user &lt;player&gt; ...</code></strong><a class="headerlink" href="#perms-user-player" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkperms.admin<br/>
 <strong>Alias:</strong> u, player, p<br/>
-<strong>Arguments:</strong>
-* <code>&lt;player&gt;</code> The name of the player
-* <code>...</code> Optional sub commands, see <a href="User-Commands">User Commands</a></p>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;player&gt;</code> The name of the player</li>
+<li><code>...</code> Optional sub commands, see <a href="User-Commands">User Commands</a></li>
+</ul>
 <p>Shows information about the targeted group and is used for managing players.
 You can find a more detailed explanation <a href="User-Commands">here</a>.</p>
 <hr />
 <h2 id="perms-track-track"><strong><code>/perms track &lt;track&gt; ...</code></strong><a class="headerlink" href="#perms-track-track" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkperms.admin<br/>
 <strong>Alias:</strong> t<br/>
-<strong>Arguments:</strong>
-* <code>&lt;track&gt;</code> The name of the track
-* <code>...</code> Optional sub commands, see <a href="Track-Commands">Track Commands</a></p>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;track&gt;</code> The name of the track</li>
+<li><code>...</code> Optional sub commands, see <a href="Track-Commands">Track Commands</a></li>
+</ul>
 <p>Shows information about the targeted track and is used for managing tracks.
 You can find a more detailed explanation <a href="Track-Commands">here</a>.</p>
 <hr />
 <h2 id="perms-analyse-action"><strong><code>/perms analyse &lt;action&gt;</code></strong><a class="headerlink" href="#perms-analyse-action" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkperms.admin<br/>
-<strong>Arguments:</strong>
-* <code>&lt;action&gt;</code> The action to perform</p>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;action&gt;</code> The action to perform</li>
+</ul>
 <p>Helps debugging permissions problems on your server</p>
-<p><strong>Available actions:</strong>
-* <code>on</code> Enables permission analysing and printing
-* <code>off</code> Disables permission analysing and printing
-* <code>join</code> Joins the player into the printing listener to receive permission debug prints
-* <code>leave</code> Removed the player from the printing listener</p>
+<p><strong>Available actions:</strong></p>
+<ul>
+<li><code>on</code> Enables permission analysing and printing</li>
+<li><code>off</code> Disables permission analysing and printing</li>
+<li><code>join</code> Joins the player into the printing listener to receive permission debug prints</li>
+<li><code>leave</code> Removed the player from the printing listener</li>
+</ul>
                 
                   
                     

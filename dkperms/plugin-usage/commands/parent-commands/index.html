@@ -748,88 +748,112 @@
 <h2 id="set-parent-action-duration-scope-modifier"><strong><code>set &lt;parent&gt; [action] [duration] [scope] [modifier]</code></strong><a class="headerlink" href="#set-parent-action-duration-scope-modifier" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkperms.admin<br/>
 <strong>Alias:</strong> s <br/>
-<strong>Arguments:</strong>
-* <code>&lt;parent&gt;</code> The name of the parent
-* <code>[action]</code> The action that should be used for this parent assignment
-* <code>[duration]</code> The duration of how long the object should be in this group
-* <code>[scope]</code> On which scope the group should be assigned
-* <code>[modifier]</code> An action, what should happen if the object is already in this group</p>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;parent&gt;</code> The name of the parent</li>
+<li><code>[action]</code> The action that should be used for this parent assignment</li>
+<li><code>[duration]</code> The duration of how long the object should be in this group</li>
+<li><code>[scope]</code> On which scope the group should be assigned</li>
+<li><code>[modifier]</code> An action, what should happen if the object is already in this group</li>
+</ul>
 <p>This command sets a parent to a player, or a group, all assigned parents are removed from the player.</p>
-<p><strong>Available actions:</strong>
-* <code>+</code> Allow the player to the group (default)
-* <code>++</code> Allow the player always to the group (Ignore hierarchy priorities)
-* <code>-</code> Disallow the player to the group (negative)
-* <code>--</code> Disallow the player always to the group (Ignore hierarchy priorities)</p>
-<p><strong>Available modifiers:</strong>
-* <code>r</code> Replace the existing entry with the new configuration
-* <code>f</code> Ignore and print an error message
-* <code>a</code> accumulate the duration with the existing duration and keep the configuration.
-* <code>l</code> Take the longest duration and keep the configuration.</p>
+<p><strong>Available actions:</strong></p>
+<ul>
+<li><code>+</code> Allow the player to the group (default)</li>
+<li><code>++</code> Allow the player always to the group (Ignore hierarchy priorities)</li>
+<li><code>-</code> Disallow the player to the group (negative)</li>
+<li><code>--</code> Disallow the player always to the group (Ignore hierarchy priorities)</li>
+</ul>
+<p><strong>Available modifiers:</strong></p>
+<ul>
+<li><code>r</code> Replace the existing entry with the new configuration</li>
+<li><code>f</code> Ignore and print an error message</li>
+<li><code>a</code> accumulate the duration with the existing duration and keep the configuration.</li>
+<li><code>l</code> Take the longest duration and keep the configuration.</li>
+</ul>
 <hr />
 <h2 id="add-parent-action-duration-scope-modifier"><strong><code>add &lt;parent&gt; [action] [duration] [scope] [modifier]</code></strong><a class="headerlink" href="#add-parent-action-duration-scope-modifier" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkperms.admin<br/>
 <strong>Alias:</strong> a <br/>
-<strong>Arguments:</strong>
-* <code>&lt;parent&gt;</code> The name of the parent to add
-* <code>[action]</code> The action that should be used for this parent assignment
-* <code>[duration]</code> The duration of how long the object should be in this parent
-* <code>[scope]</code> On which scope the parent should be assigned
-* <code>[modifier]</code> An action, what should happen if the object is already in this group</p>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;parent&gt;</code> The name of the parent to add</li>
+<li><code>[action]</code> The action that should be used for this parent assignment</li>
+<li><code>[duration]</code> The duration of how long the object should be in this parent</li>
+<li><code>[scope]</code> On which scope the parent should be assigned</li>
+<li><code>[modifier]</code> An action, what should happen if the object is already in this group</li>
+</ul>
 <p>This command adds a parent to a player or group, all assigned parents are kept.</p>
-<p><strong>Available actions:</strong>
-* <code>+</code> Allow the player to the group (default)
-* <code>++</code> Allow the player always to the group (Ignore hierarchy priorities)
-* <code>-</code> Disallow the player to the group (negative)
-* <code>--</code> Disallow the player always to the group (Ignore hierarchy priorities)</p>
-<p><strong>Available modifiers:</strong>
-* <code>r</code> Replace the existing entry with the new configuration
-* <code>f</code> Ignore and print an error message
-* <code>a</code> accumulate the duration with the existing duration and keep the configuration.
-* <code>l</code> Take the longest duration and keep the configuration.</p>
+<p><strong>Available actions:</strong></p>
+<ul>
+<li><code>+</code> Allow the player to the group (default)</li>
+<li><code>++</code> Allow the player always to the group (Ignore hierarchy priorities)</li>
+<li><code>-</code> Disallow the player to the group (negative)</li>
+<li><code>--</code> Disallow the player always to the group (Ignore hierarchy priorities)</li>
+</ul>
+<p><strong>Available modifiers:</strong></p>
+<ul>
+<li><code>r</code> Replace the existing entry with the new configuration</li>
+<li><code>f</code> Ignore and print an error message</li>
+<li><code>a</code> accumulate the duration with the existing duration and keep the configuration.</li>
+<li><code>l</code> Take the longest duration and keep the configuration.</li>
+</ul>
 <hr />
 <h2 id="remove-parent-scope"><strong><code>remove &lt;parent&gt; [scope]</code></strong><a class="headerlink" href="#remove-parent-scope" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkperms.admin<br/>
 <strong>Alias:</strong> c <br/>
-<strong>Arguments:</strong>
-* <code>&lt;parent&gt;</code> The name of the parent to remove
-* <code>[scope]</code> On which scope the group should be removed</p>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;parent&gt;</code> The name of the parent to remove</li>
+<li><code>[scope]</code> On which scope the group should be removed</li>
+</ul>
 <p>Remove an assigned parent from an object (user or group).</p>
 <hr />
 <h2 id="clear-scope"><strong><code>clear [scope]</code></strong><a class="headerlink" href="#clear-scope" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkperms.admin<br/>
 <strong>Alias:</strong> c <br/>
-<strong>Arguments:</strong>
-* <code>[scope]</code> On which scope the parents should be cleared</p>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>[scope]</code> On which scope the parents should be cleared</li>
+</ul>
 <p>Clear all parent of an object (user or group). </p>
 <hr />
 <h2 id="list-scope"><strong><code>list [scope]</code></strong><a class="headerlink" href="#list-scope" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkperms.admin<br/>
 <strong>Alias:</strong> l <br/>
-<strong>Arguments:</strong>
-* <code>[scope]</code> The lowest scope to be checked (if missing, the current scope is taken)</p>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>[scope]</code> The lowest scope to be checked (if missing, the current scope is taken)</li>
+</ul>
 <p>List all parents (groups) of an object.</p>
 <hr />
 <h2 id="tree-scope"><strong><code>tree [scope]</code></strong><a class="headerlink" href="#tree-scope" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkperms.admin<br/>
 <strong>Alias:</strong> t <br/>
-<strong>Arguments:</strong>
-* <code>[scope]</code> The scope to start (if missing, the root scope is taken).</p>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>[scope]</code> The scope to start (if missing, the root scope is taken).</li>
+</ul>
 <p>List the parent tree of a player or group.</p>
 <hr />
 <h2 id="show-parent-scope"><strong><code>show &lt;parent&gt; [scope]</code></strong><a class="headerlink" href="#show-parent-scope" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkperms.admin<br/>
 <strong>Alias:</strong> s, get, g <br/>
-<strong>Arguments:</strong>
-* <code>&lt;parent&gt;</code> The name of the parent to show
-* <code>[scope]</code> On which scope the parent should be cleared</p>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;parent&gt;</code> The name of the parent to show</li>
+<li><code>[scope]</code> On which scope the parent should be cleared</li>
+</ul>
 <p>Show the current assignment configuration of an assigned parent.</p>
 <hr />
 <h2 id="check-parent-scope"><strong><code>check &lt;parent&gt; [scope]</code></strong><a class="headerlink" href="#check-parent-scope" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkperms.admin<br/>
 <strong>Alias:</strong> c, test <br/>
-<strong>Arguments:</strong>
-* <code>&lt;parent&gt;</code> The name of the parent to check
-* <code>[scope]</code> The lowest scope to be checked (if missing, the current scope is taken)</p>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;parent&gt;</code> The name of the parent to check</li>
+<li><code>[scope]</code> The lowest scope to be checked (if missing, the current scope is taken)</li>
+</ul>
 <p>Check if an object gets permissions from an assigned parent (The check tests each level and gives feedback on the status).</p>
                 
                   
