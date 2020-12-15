@@ -82,7 +82,7 @@ Sub commands to set meta values to users and groups.
 * [```clear [scope]```](meta-commands.md#clear-scope)
 * [```list [scope]```](meta-commands.md#list-scope)
 * [```tree [scope]```](meta-commands.md#tree-scope)
-
+* [```check <key> [scope]```](meta-commands.md#check-key-scope)
 
 ## Track commands
 

@@ -74,7 +74,7 @@ This command removes an assigned permission from a user or group.
 **Alias:** c <br/>
 **Arguments:**
 
-* `[scope]` On which scope the group should be removed
+* `[scope]` On which scope the permission should be removed
 
 Clear all permissions from a user or group.
 

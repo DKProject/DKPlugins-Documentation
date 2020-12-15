@@ -63,5 +63,8 @@ nav:
           - Permission Commands: dkperms/plugin-usage/commands/permission-commands.md
           - Parent Commands: dkperms/plugin-usage/commands/parent-commands.md
           - Meta Commands: dkperms/plugin-usage/commands/meta-commands.md
+          - Track Commands: dkperms/plugin-usage/commands/track-commands.md
+          - Rank Commands: dkperms/plugin-usage/commands/rank-commands.md
+          - Additional Commands: dkperms/plugin-usage/commands/additional-commands.md
         - Placeholders: dkperms/plugin-usage/placeholders.md
       - Developer API: dkperms/support.md

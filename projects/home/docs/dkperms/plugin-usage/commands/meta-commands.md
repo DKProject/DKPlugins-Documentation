@@ -34,10 +34,11 @@ Important things to remember:
 
 * [```set <key> <value> [duration] [scope]```](#set-key-value-duration-scope)
 * [```unset <key> [scope]```](#unset-key-scope)
-* [```show <key> [scope]```](#show-key-scope)
 * [```clear [scope]```](#clear-scope)
 * [```list [scope]```](#list-scope)
 * [```tree [scope]```](#tree-scope)
+* [```show <key> [scope]```](#show-key-scope)
+* [```check <key> [scope]```](#check-key-scope)
 
 
 ***
@@ -48,33 +49,87 @@ Important things to remember:
 **Alias:** s <br/>
 **Arguments:**
 
-* `<key>` The name of the parent to show
-* `[value]` On which scope the permission should be showed
+* `<key>` The meta key (default or custom)
+* `<value>` The value to set
+* `[duration]` The duration of how long the value is set to this object
+* `[scope]` On which scope the value is set
 
-Show the current assignment configuration of a permission.
+Sets a meta value (prefix, suffix etc.) to a user or group. 
 
 ***
 
 ## **```unset <key> [scope]```**
-Remove a meta from a group/player.
 
-***
+**Permission:** dkperms.admin<br/>
+**Alias:** u <br/>
+**Arguments:**
 
-## **```show <key> [scope]```**
-Shows information about the set meta.
+* `<key>` The meta key to remove
+* `[scope]` On which scope the value should be removed
+
+Removes a meta value from a user or group.
 
 ***
 
 ## **```clear [scope]```**
-Clear all added metas.
+
+**Permission:** dkperms.admin<br/>
+**Alias:** c <br/>
+**Arguments:**
+
+* `[scope]` On which scope the meta values should be cleared
+
+Clears all meta values form a user or group
 
 ***
 
+
 ## **```list [scope]```**
-List all added metas of the scope.
+
+**Permission:** dkperms.admin<br/>
+**Alias:** l <br/>
+**Arguments:**
+
+* `[scope]` The scope to list
+
+List all meta values of a user or group.
 
 ***
 
 ## **```tree [scope]```**
-List all added metas.
+
+**Permission:** dkperms.admin<br/>
+**Alias:** t <br/>
+**Arguments:**
+
+* `[scope]` The scope to start (if missing, the root scope is taken).
+
+List the meta tree of a player or group.
+
+***
+
+## **```show <key> [scope]```**
+
+**Permission:** dkperms.admin<br/>
+**Alias:** s, get, g <br/>
+**Arguments:**
+
+* `<key>` The meta key to show
+* `[scope]` On which scope the meta value should be showed
+
+Show the current configuration of a meta value.
+
+***
+
+## **```check <key> [scope]```**
+
+**Permission:** dkperms.admin<br/>
+**Alias:** c, test <br/>
+**Arguments:**
+
+* `<key>` The name of the meta key to check
+* `[scope]` The lowest scope to be checked (if missing, the current scope is taken)
+
+Check which is the effected meta value (The check tests each level and gives feedback on the status).
+
 
