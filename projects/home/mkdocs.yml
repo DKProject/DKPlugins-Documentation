@@ -68,3 +68,4 @@ nav:
           - Additional Commands: dkperms/plugin-usage/commands/additional-commands.md
         - Placeholders: dkperms/plugin-usage/placeholders.md
       - Developer API: dkperms/support.md
+        - Getting Started: dkperms/developer/index.md
