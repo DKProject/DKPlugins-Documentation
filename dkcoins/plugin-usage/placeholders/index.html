@@ -1,0 +1,832 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="http://dkplugins.pretronic.net/dkcoins/plugin-usage/placeholders/">
+      
+      
+      <link rel="shortcut icon" href="https://content.pretronic.net/brand/dkplugins-logo.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
+    
+    
+      
+        <title>Placeholders - DKPlugins Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.19753c6b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.196e0c26.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4cae4f">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/dark_theme.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/codehilite.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/bootstrap-grid.min.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/style.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="green" data-md-color-accent="green">
+      
+        <script>matchMedia("(prefers-color-scheme: dark)").matches&&document.body.setAttribute("data-md-color-scheme","slate")</script>
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#placeholders" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <!-- Application header -->
+<header class="md-header" data-md-component="header">
+
+
+
+    <!-- Top-level navigation -->
+    <nav class="md-header-nav md-grid" aria-label="Header">
+
+        <!-- Link to home -->
+        <a
+                href="https://docs.pretronic.net/"
+                title="DKPlugins Documentation"
+                class="md-header-nav__button md-logo"
+                aria-label="DKPlugins Documentation"
+        >
+            
+  <img src="https://content.pretronic.net/brand/dkplugins-logo.png" alt="logo">
+
+        </a>
+
+        <!-- Button to open drawer -->
+        <label class="md-header-nav__button md-icon" for="__drawer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+        </label>
+
+        <!-- Header title -->
+        <div class="md-header-nav__title" >
+            
+            <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            DKPlugins Documentation
+          </span>
+                <span class="md-header-nav__topic md-ellipsis">
+            
+              Placeholders
+            
+          </span>
+            </div>
+            
+        </div>
+
+        <div>
+            <div style="display: flex;align-items: center">
+
+                <span class="project-list">
+                    Projects
+                    <span class="md-nav__icon md-icon icon" ></span>
+                </span>
+
+                <div class="project-list-dialog">
+                    <div class="row">
+                        <div class="col-4">
+                            <h1>McNative</h1>
+                            <ul>
+                                <li><a href="https://docs.mcnative.org/server/" >Server</a></li>
+                                <li><a href="https://docs.mcnative.org/plugins/" >Plugins</a></li>
+                                <li><a href="https://docs.mcnative.org/console/" >Console</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <h1>DKPlugins</h1>
+                            <ul>
+                                <li><a href="https://dkplugins.pretronic.net/dkperms/" >DKPerms</a></li>
+                                <li><a href="https://dkplugins.pretronic.net/dkbans/" >DKBans</a></li>
+                                <li><a href="https://dkplugins.pretronic.net/dkcoins/" >DKCoins</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <h1>Open Source</h1>
+                            <ul>
+                                <li><a href="https://docs.pretronic.net/pretronic-libraries/" >Pretronic Libraries</a></li>
+                                <li><a href="https://docs.pretronic.net/pretronic-database-query/" >Pretronic Database Query</a></li>
+                                <li><a href="https://docs.pretronic.net/react-github-languages/" >React Github Languages</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Button to open search dialogue -->
+                
+                <label class="md-header-nav__button md-icon" for="__search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+                </label>
+
+                <!-- Search interface -->
+                
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+
+                <!-- Repository containing source -->
+                
+            </div>
+        </div>
+
+    </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+    
+      
+    
+    <a href="../../.." class="md-tabs__link md-tabs__link--active">
+      Overview
+    </a>
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+      
+      <a href="../../../dkperms/" class="md-tabs__link">
+        DKPerms
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="http://dkplugins.pretronic.net/" title="DKPlugins Documentation" class="md-nav__button md-logo" aria-label="DKPlugins Documentation">
+      
+  <img src="https://content.pretronic.net/brand/dkplugins-logo.png" alt="logo">
+
+    </a>
+    DKPlugins Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+    <label class="md-nav__link" for="nav-2">
+      DKPerms
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="DKPerms" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        DKPerms
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/support/" class="md-nav__link">
+      Support
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/defintions/" class="md-nav__link">
+      Defintions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/frequently-asked-questions/" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5" >
+    <label class="md-nav__link" for="nav-2-5">
+      Plugin Setup
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Plugin Setup" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        <span class="md-nav__icon md-icon"></span>
+        Plugin Setup
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/plugin-setup/installation/" class="md-nav__link">
+      Installation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6" >
+    <label class="md-nav__link" for="nav-2-6">
+      Plugin Usage
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Plugin Usage" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-6">
+        <span class="md-nav__icon md-icon"></span>
+        Plugin Usage
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6-1" type="checkbox" id="nav-2-6-1" >
+    <label class="md-nav__link" for="nav-2-6-1">
+      Commands
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Commands" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-6-1">
+        <span class="md-nav__icon md-icon"></span>
+        Commands
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/plugin-usage/commands/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/plugin-usage/commands/general-commands/" class="md-nav__link">
+      General Commands
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/plugin-usage/commands/user-commands/" class="md-nav__link">
+      User Commands
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/plugin-usage/commands/group-commands/" class="md-nav__link">
+      Group Commands
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/plugin-usage/commands/permission-commands/" class="md-nav__link">
+      Permission Commands
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/plugin-usage/commands/parent-commands/" class="md-nav__link">
+      Parent Commands
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/plugin-usage/commands/meta-commands/" class="md-nav__link">
+      Meta Commands
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/plugin-usage/commands/track-commands/" class="md-nav__link">
+      Track Commands
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/plugin-usage/commands/rank-commands/" class="md-nav__link">
+      Rank Commands
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/plugin-usage/commands/additional-commands/" class="md-nav__link">
+      Additional Commands
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/plugin-usage/placeholders/" class="md-nav__link">
+      Placeholders
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-7" type="checkbox" id="nav-2-7" >
+    <label class="md-nav__link" for="nav-2-7">
+      Developer API
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Developer API" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-7">
+        <span class="md-nav__icon md-icon"></span>
+        Developer API
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkperms/developer/" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dkcoins_balance_currency" class="md-nav__link">
+    %dkcoins_balance_[currency]%
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dkcoins_player_balancecurrency" class="md-nav__link">
+    %dkcoins_player_balance[currency]%
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dkcoins_top_namecurrency" class="md-nav__link">
+    %dkcoins_top_name[currency]%
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dkcoins_top_balancecurrency" class="md-nav__link">
+    %dkcoins_top_balance[currency]%
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dkcoins_toppos_currency" class="md-nav__link">
+    %dkcoins_toppos_[currency]%
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dkcoins_bank_balancecurrency" class="md-nav__link">
+    %dkcoins_bank_balance[currency]%
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/dkproject/DKPlugins-Documentation/edit/master/projects/home/docs/dkcoins/plugin-usage/placeholders.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="placeholders">Placeholders<a class="headerlink" href="#placeholders" title="Permanent link">&para;</a></h1>
+<p>DKCoin offers many placeholders which can be used in other plugins to display data provided by DKPerms.
+DKCoins placeholders are available in all McNative supported placeholder sources (PlaceholderAPI).</p>
+<p>Important things to remember:
+* Required arguments are declared with <code>&lt;example&gt;</code>
+* Optional arguments are declared with <code>[example]</code></p>
+<hr />
+<h2 id="dkcoins_balance_currency">%dkcoins_balance_[currency]%<a class="headerlink" href="#dkcoins_balance_currency" title="Permanent link">&para;</a></h2>
+<p>This placeholder shows the balance of the player bank account for the specified currency. If the <code>currency</code> is not 
+given, the default currency will be used.</p>
+<hr />
+<h2 id="dkcoins_player_balancecurrency">%dkcoins_player_<player><em>balance</em>[currency]%<a class="headerlink" href="#dkcoins_player_balancecurrency" title="Permanent link">&para;</a></h2>
+<p>This placeholder shows the balance of the specified player bank account for the specified currency. 
+If the <code>currency</code> is not given, the default currency will be used.</p>
+<hr />
+<h2 id="dkcoins_top_namecurrency">%dkcoins_top_<rank><em>name</em>[currency]%<a class="headerlink" href="#dkcoins_top_namecurrency" title="Permanent link">&para;</a></h2>
+<p>This placeholder shows the name of the bank account at the specified <code>rank</code> position.
+If the <code>currency</code> is not given, the default currency will be used.</p>
+<hr />
+<h2 id="dkcoins_top_balancecurrency">%dkcoins_top_<rank><em>balance</em>[currency]%<a class="headerlink" href="#dkcoins_top_balancecurrency" title="Permanent link">&para;</a></h2>
+<p>This placeholder shows the balance of the bank account at the specified <code>rank</code> position.
+If the <code>currency</code> is not given, the default currency will be used.</p>
+<hr />
+<h2 id="dkcoins_toppos_currency">%dkcoins_toppos_[currency]%<a class="headerlink" href="#dkcoins_toppos_currency" title="Permanent link">&para;</a></h2>
+<p>This placeholder shows the rank position of the player bank account in the specified <code>currency</code>.
+If the <code>currency</code> is not given, the default currency will be used.</p>
+<hr />
+<h2 id="dkcoins_bank_balancecurrency">%dkcoins_bank_<bank><em>balance</em>[currency]%<a class="headerlink" href="#dkcoins_bank_balancecurrency" title="Permanent link">&para;</a></h2>
+<p>This placeholder shows the balance of the specified <code>bank</code> account for the specified currency.
+If the <code>currency</code> is not given, the default currency will be used.</p>
+<hr />
+                
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      Last update: 2021-01-08
+    
+  </small>
+</div>
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <footer class="section area-footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0">
+                <div class="brand">
+                    <img class="img-fluid" alt="Brand" width="200" height="60" src="https://content.pretronic.net/brand/logo/pretronic-text.png">
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 ">
+                <h4>Pretronic</h4>
+                <ul>
+                    <li><a href="https://discord.pretronic.net">Discord</a></li>
+                    <li><a href="https://github.com/pretronic">GitHub</a></li>
+                    <li><a href="https://docs.pretronic.net">Documentation</a></li>
+                    <li><a href="https://paste.pretronic.net">Paste</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 ">
+                <h4>DKPlugins</h4>
+                <ul>
+                    <li><a href="https://dkplugins.pretronic.net/dkperms">DKPerms</a></li>
+                    <li><a href="https://dkplugins.pretronic.net/dkbans">DKBans</a></li>
+                    <li><a href="https://dkplugins.pretronic.net/dkcoins/">DKCoins</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 ">
+                <h4>Open Source</h4>
+                <ul>
+                    <li><a href="https://mcnative.org">McNative</a></li>
+                    <li><a href="https://docs.pretronic.net/pretronic-libraries/" >Pretronic Libraries</a></li>
+                    <li><a href="https://docs.pretronic.net/pretronic-database-query/" >Pretronic Database Query</a></li>
+                    <li><a href="https://docs.pretronic.net/react-github-languages/" >React GitHub Languages</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-min">
+            <ul>
+                <li><a href="https://pretronic.net/privacy">Privacy & cookies</a></li>
+                <li><a href="https://pretronic.net/imprint">Impressum</a></li>
+                <li>
+                    © Pretronic
+                    <script>document.write(new Date().getFullYear());</script>
+                </li>
+            </ul>
+
+            <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
+                <a href="#"><i class="Privacy & Cookies"></i></a>
+                <a href="#"><i class="Impressum"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../..",
+          features: ['navigation.tabs'],
+          search: Object.assign({
+            worker: "../../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
