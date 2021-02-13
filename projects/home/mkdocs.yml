@@ -54,7 +54,6 @@ nav:
       - FAQ: dkcoins/frequently-asked-questions.md
       - Plugin Setup:
           - Installation: dkcoins/plugin-setup/installation.md
-          - Migration: dkcoins/plugin-setup/migration.md
           - Configuration: dkcoins/plugin-setup/configuration.md
           - Storage: dkcoins/plugin-setup/storage.md
       - Plugin Usage:
@@ -74,6 +73,7 @@ nav:
       - FAQ: dkperms/frequently-asked-questions.md
       - Plugin Setup:
           - Installation: dkperms/plugin-setup/installation.md
+          - Migration: dkperms/plugin-setup/migration.md
           - Configuration: dkperms/plugin-setup/configuration.md
           - Storage: dkperms/plugin-setup/storage.md
       - Plugin Usage:
@@ -87,7 +87,6 @@ nav:
           - Meta Commands: dkperms/plugin-usage/commands/meta-commands.md
           - Track Commands: dkperms/plugin-usage/commands/track-commands.md
           - Rank Commands: dkperms/plugin-usage/commands/rank-commands.md
-          - Additional Commands: dkperms/plugin-usage/commands/additional-commands.md
         - Placeholders: dkperms/plugin-usage/placeholders.md
       - Developer API:
         - Getting Started: dkperms/developer/index.md
