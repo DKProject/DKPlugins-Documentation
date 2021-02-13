@@ -24,8 +24,8 @@ Make sure you use the following template to create your report, otherwise we wil
 **Network**: None / Proxy / CloudNet etc.
 **Storage**: SQLite / MariaDB etc.
 
-**Server Version / Build**: 1​40​2
-**McNative Version / Build**: 1​40​2
+**Server Version / Build**: 1402
+**McNative Version / Build**: 1402
 **Client Version**: 1.8
 
 **Logs / Images**

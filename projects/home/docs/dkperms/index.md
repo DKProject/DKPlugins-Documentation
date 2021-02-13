@@ -58,5 +58,3 @@ Before you ask, please try to solve the problem by yourself with the help of thi
 <br/> **-> Checkout the [FAQ](frequently-asked-questions.md)**
 
 [![Join DKPlugins Discord](https://discordapp.com/api/guilds/513441444959223809/embed.png?style=banner2)](https://discord.gg/ZR7HtTw)
-
-## License

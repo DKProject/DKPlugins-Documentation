@@ -4,7 +4,7 @@ title: Support
 
 # Support
 
-DKPerms support is offered by our Team and community via Discord to all DKPerms buyers. All supporters do this voluntarily and answer as soon as possible.
+DKCoins support is offered by our team and community via Discord. All supporters do this voluntarily and answer as soon as possible.
 
 Before you ask, please try to solve the problem by yourself with the help of this wiki.
 <br/> **-> Checkout the [FAQ](frequently-asked-questions.md)**
@@ -17,47 +17,33 @@ Before you create a bug report, make sure it is not a configuration issue, or a 
 Make sure you use the following template to create your report, otherwise we will delete your report and are not able to fix the issue.
 
 ```
-__**Template:**__
-
-**Project:** DKBans | DKPerms  | etc.
+**Project:** DKBans | DKPerms | etc.
 **Version**: 2.0.3
 
-**Platform**: BungeeCord / Bukkit (CloudNet)
-**Storage**: SQLite
+**Platform**: BungeeCord / Bukkit
+**Network**: None / Proxy / CloudNet etc.
+**Storage**: SQLite / MariaDB etc.
 
 **Server Version / Build**: 1402
+**McNative Version / Build**: 1402
 **Client Version**: 1.8
 
 **Logs / Images**
-gist.github.com (Recommended)
-hastebin.com
-imgur.com/upload
+https://paste.pretronic.net/
+https://imgur.com/upload
+./mcnative paste (recommended) 
 
 **Description**
-A clear description of the bug and when he occurs.
+A clear description about the issue and when it occurs.
 
 **To Reproduce**
-What we have to do, to trigger the bug?
+What we have to do, to trigger the bug.
 1. Ban a player with /ban
 2. Join the server
 ```
 
 ## Suggestions
-If you have a great idea that should be implemented in DKPerms. Feel free to create a suggestion in the [#suggestions](https://discordapp.com/channels/513441444959223809/513445184747339787/642483585135411211) channel on our Discord server.
+If you have a great idea that should be implemented in DKCoins. Feel free to create a suggestion.
+We use the Feedbacky platform to collect and vote for suggestions.
 
-Make sure your suggestion is understandable and that the following template is used.
-
-```
-__**Template:**__
-
-**Project**: DKBans | DKPerms | etc.
-
-**Description:**
-A detailed description of the suggestion.
-
-**Usage: **
-The usage, for what you can use this feature and why it is so useful.
-
-**Example:**
-A example, how this feature should work.
-```
+[Create a new Idea](https://feedbacky.pretronic.net/b/dkperms)

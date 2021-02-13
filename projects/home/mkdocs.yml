@@ -46,6 +46,25 @@ edit_uri: https://github.com/dkproject/DKPlugins-Documentation/edit/master/proje
 disableRepo: true
 
 nav:
+  - DKCoins:
+      - Introduction: dkcoins/index.md
+      - Support: dkcoins/support.md
+      - Defintions: dkcoins/defintions.md
+      - License: dkcoins/license.md
+      - FAQ: dkcoins/frequently-asked-questions.md
+      - Plugin Setup:
+          - Installation: dkcoins/plugin-setup/installation.md
+          - Configuration: dkcoins/plugin-setup/configuration.md
+          - Storage: dkcoins/plugin-setup/storage.md
+      - Plugin Usage:
+          - Commands:
+              - Overview: dkcoins/plugin-usage/commands/index.md
+              - General Commands: dkcoins/plugin-usage/commands/general-commands.md
+              - Bank Commands: dkcoins/plugin-usage/commands/bank-commands.md
+              - Currency Commands: dkcoins/plugin-usage/commands/currency-commands.md
+          - Placeholders: dkcoins/plugin-usage/placeholders.md
+      - Developer API:
+          - Getting Started: dkcoins/developer/index.md
   - DKPerms:
       - Introduction: dkperms/index.md
       - Support: dkperms/support.md

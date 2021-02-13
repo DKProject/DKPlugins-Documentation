@@ -4,7 +4,7 @@ title: License
 
 # License
 
-DKPerms is licensed with **Pretronic Premium Resource License (PPR)**, see the exact license terms below.
+DKPerms is licensed under the **Pretronic Premium Resource License (PPR)**, see the exact license terms below.
 
 ## Translated License
 

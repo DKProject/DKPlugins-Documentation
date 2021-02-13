@@ -8,6 +8,9 @@ DKCoins contains a large and powerful API that is easy to use. The api is very f
 possibility to fully interact with DKCoins. You don't need to worry about anything else, the DKPerms api 
 interface will handle everything for you.
 
+!!! note ""
+    **As soon as McNative is available for developers, we will document exactly how to use and integrate with DKPerms.
+    If you already want to use the DKPerms api, use the development channel on our Discord to get help from us and our community.**
 
 **Thread safety**
 

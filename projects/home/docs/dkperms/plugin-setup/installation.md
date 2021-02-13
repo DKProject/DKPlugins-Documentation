@@ -42,7 +42,7 @@ See also the DKPerms [license agreement](../license.md).
 
 ### **2. - Download**
 To install DKPerms, download the latest loader [here](https://downloads.mcnative.org/id/19303be6-0b2d-11eb-9f43-0242ac180002) and
-move it to your plugins folder. Start your server, if everything worked correctly a folder named `DKPerms` should be created in `./plugins`.
+move it to your plugins folder. Start your server.
 
 In this setup, we use the simple loader. If you are interested in the template loader to install multiple resources dynamically, 
 checkout the [McNative Docs](https://docs.mcnative.org/).
@@ -50,13 +50,21 @@ checkout the [McNative Docs](https://docs.mcnative.org/).
 !!! note ""
     If you are using a network with multiple servers, you must install DKPerms on all servers and connect to the same remote database.
 
-### **(3. - Storage setup)**
+### **3. - Licensing**
+After DKPerms has started you will see an error in your console (`Missing or wrong authentication credentials`). 
+To license DKPerms to your server you have to enter your network credentials in the McNative config (You will find the credentials in the McNative console).
+
+**Location:** `./plugins/McNative/config.yml`
+
+Restart your server, if everything worked correctly a folder named `DKPerms` should be created in `./plugins`.
+
+### **(4. - Storage setup)**
 After the installation you can optionally set up a storage solution like MySQL. Read more about storages [here](storage.md)
 
 !!! note ""
     If you are using a network with multiple servers, cou must connect to the same remote database.
 
-### **4. - Grant administrator rights to your account**
+### **5. - Grant administrator rights to your account**
 
 After DKPerms is successfully installed on your network, join with your minecraft account on the server and open the console 
 window then run the following command (Replace `<player>` with your username).
