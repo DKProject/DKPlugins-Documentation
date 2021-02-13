@@ -400,6 +400,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../../../dkcoins/plugin-setup/migration.md" class="md-nav__link">
+      Migration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../../../dkcoins/plugin-setup/configuration.md" class="md-nav__link">
       Configuration
     </a>
@@ -860,9 +872,80 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Track Commands
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
     <a href="./" class="md-nav__link md-nav__link--active">
       Track Commands
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-create" class="md-nav__link">
+    /perms track &lt;name&gt; create
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-delete" class="md-nav__link">
+    /perms track &lt;name&gt; delete
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-rename-newname" class="md-nav__link">
+    /perms track &lt;name&gt; rename &lt;newName&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-add-group" class="md-nav__link">
+    /perms track &lt;name&gt; add &lt;group&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-insert-group-position" class="md-nav__link">
+    /perms track &lt;name&gt; insert &lt;group&gt; &lt;position&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-remove-group" class="md-nav__link">
+    /perms track &lt;name&gt; remove &lt;group&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-list" class="md-nav__link">
+    /perms track &lt;name&gt; list
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -885,7 +968,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../additional-commands/" class="md-nav__link">
+    <a href="../additional-commands.md" class="md-nav__link">
       Additional Commands
     </a>
   </li>
@@ -972,6 +1055,63 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-create" class="md-nav__link">
+    /perms track &lt;name&gt; create
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-delete" class="md-nav__link">
+    /perms track &lt;name&gt; delete
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-rename-newname" class="md-nav__link">
+    /perms track &lt;name&gt; rename &lt;newName&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-add-group" class="md-nav__link">
+    /perms track &lt;name&gt; add &lt;group&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-insert-group-position" class="md-nav__link">
+    /perms track &lt;name&gt; insert &lt;group&gt; &lt;position&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-remove-group" class="md-nav__link">
+    /perms track &lt;name&gt; remove &lt;group&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perms-track-name-list" class="md-nav__link">
+    /perms track &lt;name&gt; list
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -988,6 +1128,87 @@
                 
                 
                 <h1 id="track-commands">Track Commands<a class="headerlink" href="#track-commands" title="Permanent link">&para;</a></h1>
+<p>This page describes the usage of DKPerms <strong>track-commands</strong>.</p>
+<p>Important things to remember:
+* Required arguments are declared with <code>&lt;example&gt;</code>
+* Optional arguments are declared with <code>[example]</code></p>
+<h4>Index</h4>
+<ul>
+<li><a href="#perms-track-name-create"><code>/perms track &lt;name&gt; create</code></a></li>
+<li><a href="#perms-track-name-delete"><code>/perms track &lt;name&gt; delete</code></a></li>
+<li><a href="#perms-track-name-rename-newname"><code>/perms track &lt;name&gt; rename &lt;newName&gt;</code></a></li>
+<li><a href="#perms-track-name-add-group"><code>/perms track &lt;name&gt; add &lt;group&gt;</code></a></li>
+<li><a href="#perms-track-name-insert-group-position"><code>/perms track &lt;name&gt; insert &lt;group&gt; &lt;position&gt;</code></a></li>
+<li><a href="#perms-track-name-remove-group"><code>/perms track &lt;name&gt; remove &lt;group&gt;</code></a></li>
+<li><a href="#perms-track-name-list"><code>/perms track &lt;name&gt; list</code></a></li>
+</ul>
+<hr />
+<h2 id="perms-track-name-create"><strong><code>/perms track &lt;name&gt; create</code></strong><a class="headerlink" href="#perms-track-name-create" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> c <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> The name of the track to create</li>
+</ul>
+<p>This command creates a new permission track to order groups.</p>
+<hr />
+<h2 id="perms-track-name-delete"><strong><code>/perms track &lt;name&gt; delete</code></strong><a class="headerlink" href="#perms-track-name-delete" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> d <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> The name of the track</li>
+</ul>
+<p>This command deletes an existing track.</p>
+<hr />
+<h2 id="perms-track-name-rename-newname"><strong><code>/perms track &lt;name&gt; rename &lt;newName&gt;</code></strong><a class="headerlink" href="#perms-track-name-rename-newname" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> re <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> The name of the track</li>
+<li><code>&lt;newName&gt;</code> The new name of the track</li>
+</ul>
+<p>Rename an existing track.</p>
+<hr />
+<h2 id="perms-track-name-add-group"><strong><code>/perms track &lt;name&gt; add &lt;group&gt;</code></strong><a class="headerlink" href="#perms-track-name-add-group" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> a <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> The name of the track</li>
+<li><code>&lt;group&gt;</code> The permission group which should be added to this track</li>
+</ul>
+<p>Add a permission group to this track.</p>
+<h2 id="perms-track-name-insert-group-position"><strong><code>/perms track &lt;name&gt; insert &lt;group&gt; &lt;position&gt;</code></strong><a class="headerlink" href="#perms-track-name-insert-group-position" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> i <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> The name of the track</li>
+<li><code>&lt;group&gt;</code> The permission group which should be inserted to this track</li>
+<li><code>&lt;position&gt;</code> The position where to insert the group</li>
+</ul>
+<p>Insert a permission group to this track.</p>
+<hr />
+<h2 id="perms-track-name-remove-group"><strong><code>/perms track &lt;name&gt; remove &lt;group&gt;</code></strong><a class="headerlink" href="#perms-track-name-remove-group" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> r <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> The name of the track</li>
+<li><code>&lt;group&gt;</code> The permission group to remove from this track</li>
+</ul>
+<p>Remove a permission group from this track.</p>
+<hr />
+<h2 id="perms-track-name-list"><strong><code>/perms track &lt;name&gt; list</code></strong><a class="headerlink" href="#perms-track-name-list" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.admin<br/>
+<strong>Alias:</strong> l <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> The name of the track</li>
+</ul>
+<p>List all groups of this track (ordered)</p>
                 
                   
                     
@@ -996,7 +1217,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: 2020-12-15
+      Last update: 2021-02-13
     
   </small>
 </div>

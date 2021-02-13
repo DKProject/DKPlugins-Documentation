@@ -400,6 +400,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../../../dkcoins/plugin-setup/migration.md" class="md-nav__link">
+      Migration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../../../dkcoins/plugin-setup/configuration.md" class="md-nav__link">
       Configuration
     </a>
@@ -872,9 +884,80 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Rank Commands
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
     <a href="./" class="md-nav__link md-nav__link--active">
       Rank Commands
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rank" class="md-nav__link">
+    /rank
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rank-player-list" class="md-nav__link">
+    /rank &lt;player&gt; list
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rank-player-add-group-action-duration-scope-modifier" class="md-nav__link">
+    /rank &lt;player&gt; add &lt;group&gt; [action] [duration] [scope] [modifier]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rank-player-set-group-action-duration-scope-modifier" class="md-nav__link">
+    /rank &lt;player&gt; set &lt;group&gt; [action] [duration] [scope] [modifier]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rank-player-remove-group-scope" class="md-nav__link">
+    /rank &lt;player&gt; remove &lt;group&gt; [scope]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rank-player-promote-track" class="md-nav__link">
+    /rank &lt;player&gt; promote [track]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rank-player-demote-track" class="md-nav__link">
+    /rank &lt;player&gt; demote [track]
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -885,7 +968,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../additional-commands/" class="md-nav__link">
+    <a href="../additional-commands.md" class="md-nav__link">
       Additional Commands
     </a>
   </li>
@@ -972,6 +1055,63 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rank" class="md-nav__link">
+    /rank
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rank-player-list" class="md-nav__link">
+    /rank &lt;player&gt; list
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rank-player-add-group-action-duration-scope-modifier" class="md-nav__link">
+    /rank &lt;player&gt; add &lt;group&gt; [action] [duration] [scope] [modifier]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rank-player-set-group-action-duration-scope-modifier" class="md-nav__link">
+    /rank &lt;player&gt; set &lt;group&gt; [action] [duration] [scope] [modifier]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rank-player-remove-group-scope" class="md-nav__link">
+    /rank &lt;player&gt; remove &lt;group&gt; [scope]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rank-player-promote-track" class="md-nav__link">
+    /rank &lt;player&gt; promote [track]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rank-player-demote-track" class="md-nav__link">
+    /rank &lt;player&gt; demote [track]
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -988,6 +1128,121 @@
                 
                 
                 <h1 id="rank-commands">Rank Commands<a class="headerlink" href="#rank-commands" title="Permanent link">&para;</a></h1>
+<p>DKPerms provides a simplified rank command to assign groups to players.</p>
+<p>Important things to remember:
+* Required arguments are declared with <code>&lt;example&gt;</code>
+* Optional arguments are declared with <code>[example]</code></p>
+<h4>Index</h4>
+<ul>
+<li><a href="#rank"><code>/rank</code></a></li>
+<li><a href="#rank-player-list"><code>/rank &lt;player&gt; list</code></a></li>
+<li><a href="#rank-player-add-group-action-duration-scope-modifier"><code>/rank &lt;player&gt; add &lt;group&gt; [action] [duration] [scope] [modifier]</code></a></li>
+<li><a href="#rank-player-set-group-action-duration-scope-modifier"><code>/rank &lt;player&gt; set &lt;group&gt; [action] [duration] [scope] [modifier]</code></a></li>
+<li><a href="#rank-player-remove-group-scope"><code>/rank &lt;player&gt; remove &lt;group&gt; [scope]</code></a></li>
+<li><a href="#rank-player-promote-track"><code>/rank &lt;player&gt; promote [track]</code></a></li>
+<li><a href="#rank-player-demote-track"><code>/rank &lt;player&gt; demote [track]</code></a></li>
+</ul>
+<hr />
+<h2 id="rank"><strong><code>/rank</code></strong><a class="headerlink" href="#rank" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.rank<br/>
+<strong>Alias:</strong>  <br/>
+<strong>Arguments:</strong></p>
+<p>This command lists your ranks, pair and allow this command to players.</p>
+<hr />
+<h2 id="rank-player-list"><strong><code>/rank &lt;player&gt; list</code></strong><a class="headerlink" href="#rank-player-list" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.rank.see.other<br/>
+<strong>Alias:</strong> l <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;player&gt;</code> The selected player</li>
+</ul>
+<p>List all ranks of a player.</p>
+<hr />
+<h2 id="rank-player-add-group-action-duration-scope-modifier"><strong><code>/rank &lt;player&gt; add &lt;group&gt; [action] [duration] [scope] [modifier]</code></strong><a class="headerlink" href="#rank-player-add-group-action-duration-scope-modifier" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.rank.change, dkperms.rank.change.<rank>, Higher priority as the player to modify <br/>
+<strong>Alias:</strong> add <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;player&gt;</code> The selected player</li>
+<li><code>&lt;group&gt;</code> The name of the parent to add</li>
+<li><code>[action]</code> The action that should be used for this parent assignment</li>
+<li><code>[duration]</code> The duration of how long the object should be in this parent</li>
+<li><code>[scope]</code> On which scope the parent should be assigned</li>
+<li><code>[modifier]</code> An action, what should happen if the object is already in this group</li>
+</ul>
+<p>This command adds a permission group to a player</p>
+<p><strong>Available actions:</strong></p>
+<ul>
+<li><code>+</code> Allow the player to the group (default)</li>
+<li><code>++</code> Allow the player always to the group (Ignore hierarchy priorities)</li>
+<li><code>-</code> Disallow the player to the group (negative)</li>
+<li><code>--</code> Disallow the player always to the group (Ignore hierarchy priorities)</li>
+</ul>
+<p><strong>Available modifiers:</strong></p>
+<ul>
+<li><code>r</code> Replace the existing entry with the new configuration</li>
+<li><code>f</code> Ignore and print an error message</li>
+<li><code>a</code> accumulate the duration with the existing duration and keep the configuration.</li>
+<li><code>l</code> Take the longest duration and keep the configuration.</li>
+</ul>
+<hr />
+<h2 id="rank-player-set-group-action-duration-scope-modifier"><strong><code>/rank &lt;player&gt; set &lt;group&gt; [action] [duration] [scope] [modifier]</code></strong><a class="headerlink" href="#rank-player-set-group-action-duration-scope-modifier" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.rank.change, dkperms.rank.change.<rank>, Higher priority as the player to modify <br/>
+<strong>Alias:</strong> s <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;player&gt;</code> The selected player</li>
+<li><code>&lt;group&gt;</code> The name of the parent to add</li>
+<li><code>[action]</code> The action that should be used for this parent assignment</li>
+<li><code>[duration]</code> The duration of how long the object should be in this parent</li>
+<li><code>[scope]</code> On which scope the parent should be assigned</li>
+<li><code>[modifier]</code> An action, what should happen if the object is already in this group</li>
+</ul>
+<p>This command sets a permission group to a player</p>
+<p><strong>Available actions:</strong></p>
+<ul>
+<li><code>+</code> Allow the player to the group (default)</li>
+<li><code>++</code> Allow the player always to the group (Ignore hierarchy priorities)</li>
+<li><code>-</code> Disallow the player to the group (negative)</li>
+<li><code>--</code> Disallow the player always to the group (Ignore hierarchy priorities)</li>
+</ul>
+<p><strong>Available modifiers:</strong></p>
+<ul>
+<li><code>r</code> Replace the existing entry with the new configuration</li>
+<li><code>f</code> Ignore and print an error message</li>
+<li><code>a</code> accumulate the duration with the existing duration and keep the configuration.</li>
+<li><code>l</code> Take the longest duration and keep the configuration.</li>
+</ul>
+<hr />
+<h2 id="rank-player-remove-group-scope"><strong><code>/rank &lt;player&gt; remove &lt;group&gt; [scope]</code></strong><a class="headerlink" href="#rank-player-remove-group-scope" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.rank.change, dkperms.rank.change.<rank>, Higher priority as the player to modify <br/>
+<strong>Alias:</strong> a <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;player&gt;</code> The selected player</li>
+<li><code>&lt;group&gt;</code> The name of the parent to add</li>
+<li><code>[scope]</code> On which scope the parent should be assigned</li>
+</ul>
+<p>This command removes a permission group to a player</p>
+<h2 id="rank-player-promote-track"><strong><code>/rank &lt;player&gt; promote [track]</code></strong><a class="headerlink" href="#rank-player-promote-track" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.rank.change, dkperms.rank.change.<rank>, Higher priority as the player to modify <br/>
+<strong>Alias:</strong> i <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;player&gt;</code> The selected player</li>
+<li><code>[track]</code> The track to take the group oder from, if not specified the groups are ordered by priority</li>
+</ul>
+<p>Promote a player to the next group.</p>
+<hr />
+<h2 id="rank-player-demote-track"><strong><code>/rank &lt;player&gt; demote [track]</code></strong><a class="headerlink" href="#rank-player-demote-track" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkperms.rank.change, dkperms.rank.change.<rank>, Higher priority as the player to modify <br/>
+<strong>Alias:</strong> i <br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;player&gt;</code> The selected player</li>
+<li><code>[track]</code> The track to take the group oder from, if not specified the groups are ordered by priority</li>
+</ul>
+<p>Demote a player to the next group.</p>
                 
                   
                     
@@ -996,7 +1251,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: 2020-12-15
+      Last update: 2021-02-13
     
   </small>
 </div>
