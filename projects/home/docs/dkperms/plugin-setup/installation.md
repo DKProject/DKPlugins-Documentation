@@ -37,7 +37,7 @@ DKPerms is a paid plugin and before you can start with the setup you have to pur
 See also the DKPerms [license agreement](../license.md).
 
 !!! note ""
-    If you are a buyer of DKPermsV1 on SpigotMc, you can get a free 6-month license until **If you are a buyer of DKPermsV1 
+    If you are a buyer of DKPermsV1 on SpigotMc, you can get a free 6-month license until If you are a buyer of DKPermsV1 
     on SpigotMc, you can get a free 6-month license until **2021-05-01**. To get your license, contact DKPerms via SpigotMc conversation.
 
 ### **2. - Download**
