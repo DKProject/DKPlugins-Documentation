@@ -5,6 +5,7 @@ title: Configuration
 # Configuration
 
 This page describes all configuration possibilities in the DKPerms config.yml.
+
 **Location:** ``./plugins/DKPerms/config.yml``
 
 #### Index

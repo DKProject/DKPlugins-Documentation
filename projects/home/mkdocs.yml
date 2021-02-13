@@ -50,6 +50,7 @@ nav:
       - Introduction: dkperms/index.md
       - Support: dkperms/support.md
       - Defintions: dkperms/defintions.md
+      - License: dkperms/license.md
       - FAQ: dkperms/frequently-asked-questions.md
       - Plugin Setup:
           - Installation: dkperms/plugin-setup/installation.md

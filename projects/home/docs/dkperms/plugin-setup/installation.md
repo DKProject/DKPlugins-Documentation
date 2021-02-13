@@ -36,9 +36,9 @@ If you are using DKPerms on multiple servers, you also need a supported remote d
 DKPerms is a paid plugin and before you can start with the setup you have to purchase a license in the [McNative Store](https://mcnative.org/plugins/pretronic/dkperms). 
 See also the DKPerms [license agreement](../license.md).
 
-!!! note
-If you are a buyer of DKPermsV1 on SpigotMc, you can get a free 6-month license until **If you are a buyer of DKPermsV1 
-on SpigotMc, you can get a free 6-month license until **2021-05-01**. To get your license, contact DKPerms via SpigotMc conversation.
+!!! note ""
+    If you are a buyer of DKPermsV1 on SpigotMc, you can get a free 6-month license until **If you are a buyer of DKPermsV1 
+    on SpigotMc, you can get a free 6-month license until **2021-05-01**. To get your license, contact DKPerms via SpigotMc conversation.
 
 ### **2. - Download**
 To install DKPerms, download the latest loader [here](https://downloads.mcnative.org/id/19303be6-0b2d-11eb-9f43-0242ac180002) and
@@ -47,14 +47,14 @@ move it to your plugins folder. Start your server, if everything worked correctl
 In this setup, we use the simple loader. If you are interested in the template loader to install multiple resources dynamically, 
 checkout the [McNative Docs](https://docs.mcnative.org/).
 
-!!! note
-If you are using a network with multiple servers, you must install DKPerms on all servers and connect to the same remote database.
+!!! note ""
+    If you are using a network with multiple servers, you must install DKPerms on all servers and connect to the same remote database.
 
 ### **(3. - Storage setup)**
 After the installation you can optionally set up a storage solution like MySQL. Read more about storages [here](storage.md)
 
-!!! note
-If you are using a network with multiple servers, cou must connect to the same remote database.
+!!! note ""
+    If you are using a network with multiple servers, cou must connect to the same remote database.
 
 ### **4. - Grant administrator rights to your account**
 

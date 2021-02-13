@@ -8,8 +8,8 @@ DKPerms is licensed with **Pretronic Premium Resource License (PPR)**, see the e
 
 ## Translated License
 
-!!! note
-This is only a translation of the original license below, only the original one is valid.
+!!! note ""
+    This is only a translation of the original license below, only the original one is valid.
 
 **Pretronic Premium Resource License (PPR)**
 
