@@ -19,14 +19,14 @@ This license applies to the Minecraft plugin DKPerms, which is distributed via M
 **Use** <br />
 You are entitled to use one copy of this software, provided you have purchased a license through one of our official sales outlets. The license is valid for the respective specified period of time.
 
-    **Guidelines** <br />
-	This software may not be used for racist, offensive, right-wing, fraudulent or other Illegal purposes. 
+**Guidelines** <br />
+This software may not be used for racist, offensive, right-wing, fraudulent or other Illegal purposes. 
 	
-	**Limitation** <br />
-	This license is valid for an organization with any number of servers up to a maximum online player count of 200. If you reach a daily peak of 200 players, we will be happy to provide you with a custom quote for the use of this software as well as related products. 
+**Limitation** <br />
+This license is valid for an organization with any number of servers up to a maximum online player count of 200. If you reach a daily peak of 200 players, we will be happy to provide you with a custom quote for the use of this software as well as related products. 
 	
-	**Liability ** <br />
-	The authors of this software take no responsibility and liability for any damage caused by or with this software.
+**Liability** <br />
+The authors of this software take no responsibility and liability for any damage caused by or with this software.
 
 
 **Source Code and Further Development** <br />
@@ -59,14 +59,14 @@ Diese Lizenz gilt für das Minecraft Plugin DKPerms, welches über MCNative.org 
 **Nutzung** <br />
 Sie sind berechtigt eine Kopie dieser Software zu verwenden, sofern Sie eine Lizenz über eine unserer offiziellen Verkaufsstellen erworben haben. Die Lizenz ist für den jeweilig angegebenen Zeitraum gültig
 
-    **Richtlinien** <br />
-	Diese Software darf nicht für rassistische, beleidigende, rechtsradikale, betrügerische oder weitere Illegale Zwecke genutzt werden. 
+**Richtlinien** <br />
+Diese Software darf nicht für rassistische, beleidigende, rechtsradikale, betrügerische oder weitere Illegale Zwecke genutzt werden. 
 	
-	**Limitierung** <br />
-	Diese Lizenz ist gültig für eine Organisation mit beliebig vielen Servern bis zu einer maximalen online Spieleranzahl von 200. Erreichen Sie einen täglichen Höhepunkt von 200 Spielern, werden wir Ihnen gerne ein individuelles Angebot für die Nutzung dieser Software sowie verwandten Produkte erstellen. 
+**Limitierung** <br />
+Diese Lizenz ist gültig für eine Organisation mit beliebig vielen Servern bis zu einer maximalen online Spieleranzahl von 200. Erreichen Sie einen täglichen Höhepunkt von 200 Spielern, werden wir Ihnen gerne ein individuelles Angebot für die Nutzung dieser Software sowie verwandten Produkte erstellen. 
 	
-	**Haftung ** <br />
-	Die Autoren dieser Software nehmen keine Verantwortung und Haftung für Schäden die durch oder mit dieser Software verursacht wurden.
+**Haftung** <br />
+Die Autoren dieser Software nehmen keine Verantwortung und Haftung für Schäden die durch oder mit dieser Software verursacht wurden.
 
 
 **Source Code und Weiterentwicklung** <br />
