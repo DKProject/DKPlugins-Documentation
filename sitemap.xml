@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+     <loc>http://dkplugins.pretronic.net/dkcoins/</loc>
+     <lastmod>2021-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkcoins/support/</loc>
+     <lastmod>2021-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkcoins/defintions/</loc>
+     <lastmod>2021-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkcoins/license/</loc>
+     <lastmod>2021-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkcoins/frequently-asked-questions/</loc>
+     <lastmod>2021-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkcoins/plugin-setup/installation/</loc>
+     <lastmod>2021-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkcoins/plugin-usage/commands/</loc>
+     <lastmod>2021-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkcoins/plugin-usage/commands/general-commands/</loc>
+     <lastmod>2021-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkcoins/plugin-usage/commands/bank-commands/</loc>
+     <lastmod>2021-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkcoins/plugin-usage/commands/currency-commands/</loc>
+     <lastmod>2021-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkcoins/plugin-usage/placeholders/</loc>
+     <lastmod>2021-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkcoins/developer/</loc>
+     <lastmod>2021-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
      <loc>http://dkplugins.pretronic.net/dkperms/</loc>
      <lastmod>2021-02-13</lastmod>
      <changefreq>daily</changefreq>
