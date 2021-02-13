@@ -16,7 +16,7 @@ DKPerms is a reliable permission system and has been optimized and improved over
     * Minecraft 1.8 - 1.16 support
     * H2 (SQLite), MySQL, MariaDB, PostgreSQL, MS-SQL and MongoDB support
     * Everything is configurable and customizable
-    * Live update over a network
+    * Live update over network
     * High performance and caching architecture
 * **Permissions**
     * Temporary and negative permissions
@@ -24,10 +24,12 @@ DKPerms is a reliable permission system and has been optimized and improved over
         * Per world permissions
         * Per server permissions
         * Per server group permissions
+        * Per custom implementation (e.g. region)
 * **Groups**
     * Temporary and negative groups
     * Default groups
     * Inheritance groups
+    * Custom group types
     * Group priorities for ranking and promotion
     * Tracks for creating group orders
     * Assign to different scopes
@@ -35,17 +37,18 @@ DKPerms is a reliable permission system and has been optimized and improved over
         * Per server groups
         * Per server group groups
 * **Integrations**
+    * Tablist & Chat integration (live update)
     * Placeholders for PlaceholderAPI
     * Vault permission and chat support
     * CloudNet V2 & V3 support (Multi proxy)
 * **Additional features**
     * Simplified ```/rank``` command for assigning groups
     * ```/team``` command for listing your team members.
-    * Tablist & Chat (live update)
     * Offline player support
     * Tree based structure
+    * Change logging
     * Migration functionality
-    * Big developer api
+    * Large developer api
 
 
 ## Support

@@ -46,7 +46,6 @@ edit_uri: https://github.com/dkproject/DKPlugins-Documentation/edit/master/proje
 disableRepo: true
 
 nav:
-  - Overview: index.md
   - DKPerms:
       - Introduction: dkperms/index.md
       - Support: dkperms/support.md
@@ -54,6 +53,8 @@ nav:
       - FAQ: dkperms/frequently-asked-questions.md
       - Plugin Setup:
           - Installation: dkperms/plugin-setup/installation.md
+          - Configuration: dkperms/plugin-setup/configuration.md
+          - Storage: dkperms/plugin-setup/storage.md
       - Plugin Usage:
         - Commands:
           - Overview: dkperms/plugin-usage/commands/index.md
