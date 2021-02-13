@@ -86,24 +86,34 @@ Sub commands to set meta values to users and groups.
 
 ## Track commands
 
+These commands are for manging group tracks.
+
+* [```/perms track <name> create```](track-commands.md#perms-track-name-create)
+* [```/perms track <name> delete```](track-commands.md#perms-track-name-delete)
+* [```/perms track <name> rename <newName>```](track-commands.md#perms-track-name-rename-newname)
+* [```/perms track <name> add <group>```](track-commands.md#perms-track-name-add-group)
+* [```/perms track <name> insert <group> <position>```](track-commands.md#perms-track-name-insert-group-position)
+* [```/perms track <name> remove <group>```](track-commands.md#perms-track-name-remove-group)
+* [```/perms track <name> list```](track-commands.md#perms-track-name-list)
 
 ## Rank commands
 
 Simplified commands to assign groups / ranks to players. You can permit your staff team to use these commands.
 
-* ```/rank list```
-* ```/rank set```
-* ```/rank add```
-* ```/rank remove```
-* ```/rank promote```
-* ```/rank demote```
+* [```/rank```](rank-commands.md#rank)
+* [```/rank <player> list```](rank-commands.md#rank-player-list)
+* [```/rank <player> add <group> [action] [duration] [scope] [modifier]```](rank-commands.md#rank-player-add-group-action-duration-scope-modifier)
+* [```/rank <player> set <group> [action] [duration] [scope] [modifier]```](rank-commands.md#rank-player-set-group-action-duration-scope-modifier)
+* [```/rank <player> remove <group> [scope]```](rank-commands.md#rank-player-remove-group-scope)
+* [```/rank <player> promote [track]```](rank-commands.md#rank-player-promote-track)
+* [```/rank <player> demote [track]```](rank-commands.md#rank-player-demote-track)
 
 
 ## Additional commands
 
 Additional commands provided by DKPerms.
 
-* ```/team```
+* ```/team``` Used to list all team members
 
 
 

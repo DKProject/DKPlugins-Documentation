@@ -54,6 +54,7 @@ nav:
       - FAQ: dkcoins/frequently-asked-questions.md
       - Plugin Setup:
           - Installation: dkcoins/plugin-setup/installation.md
+          - Migration: dkcoins/plugin-setup/migration.md
           - Configuration: dkcoins/plugin-setup/configuration.md
           - Storage: dkcoins/plugin-setup/storage.md
       - Plugin Usage:
