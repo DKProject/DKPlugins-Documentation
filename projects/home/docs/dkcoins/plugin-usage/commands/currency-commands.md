@@ -4,7 +4,8 @@ title: Currency Commands
 
 # Currency Commands
 
-This page describes the usage and permissions of the Currency commands. The currency command always starts with `/currency <name>`, while `<name>` is the name of the currency.
+This page describes the usage and permissions of the currency commands. 
+The currency command always starts with `/currency <name>`, while `<name>` is the name of the currency.
 
 Important things to remember:
 * Required arguments are declared with ```<example>```
@@ -20,6 +21,7 @@ Important things to remember:
 * [```/currency <name> edit symbol <symbol>```](#currency-name-edit-symbol-symbol)
 * [```/currency <name> edit exchangeRate <target> <amount>```](#currency-name-edit-exchangerate-target-amount)
 * [```/currency <name> edit exchangeRate <target> disable```](#currency-name-edit-exchangerate-target-disable)
+
 ***
 
 ## **```/currency [list]```**
@@ -85,7 +87,7 @@ This command changes the symbol of the currency.
 **Permission:** dkcoins.command.currency<br />
 **Arguments:**
 
-* `<target>` The target currency
+* `<target>` The target currency (to exchange)
 * `<amount>` The change amount as double, for example 1.2 or 2
 
 This command changes the exchange rate to the specified currency. 
@@ -98,8 +100,6 @@ The amount means how much an amount of the currency is in the target currency.
 **Permission:** dkcoins.command.currency<br />
 **Arguments:**
 
-* `<target>` The target currency
+* `<target>` The target currency (to exchange)
 
 This command disables the exchange into the target currency.
-
-***

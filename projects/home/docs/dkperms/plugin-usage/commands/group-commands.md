@@ -7,6 +7,7 @@ title: Group Commands
 This page describes the usage of DKPerms group commands. The group command always starts with `/perms group <group>`, while `<group>` is the name of the group.
 
 Important things to remember:
+
 * Required arguments are declared with ```<example>```
 * Optional arguments are declared with ```[example]```
 

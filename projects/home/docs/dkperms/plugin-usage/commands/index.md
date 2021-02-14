@@ -7,6 +7,7 @@ title: Commands
 This page describes all available commands to operate DKPerms from the player chat and console.
 
 Important things to remember about commands:
+
 * Required arguments are declared with ```<example>```
 * Optional arguments are declared with ```[example]```
 * Sub commands documented on another page are declared with ```...```

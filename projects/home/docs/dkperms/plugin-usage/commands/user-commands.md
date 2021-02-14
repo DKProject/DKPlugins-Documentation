@@ -7,6 +7,7 @@ title: User Commands
 This page describes the usage of DKPerms user commands. The user command always starts with `/perms user <player>`, while `<player>` is the name of the player.
 
 Important things to remember:
+
 * Required arguments are declared with ```<example>```
 * Optional arguments are declared with ```[example]```
 

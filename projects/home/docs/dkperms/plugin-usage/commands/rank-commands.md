@@ -7,6 +7,7 @@ title: Rank Commands
 DKPerms provides a simplified rank command to assign groups to players.
 
 Important things to remember:
+
 * Required arguments are declared with ```<example>```
 * Optional arguments are declared with ```[example]```
 

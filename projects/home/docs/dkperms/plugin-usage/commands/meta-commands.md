@@ -8,6 +8,7 @@ This page describes the usage of DKPerms **meta-commands**. Those commands are s
 [group](group-commands.md) commands.
 
 Important things to remember:
+
 * Required arguments are declared with ```<example>```
 * Optional arguments are declared with ```[example]```
 

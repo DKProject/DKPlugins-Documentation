@@ -14,8 +14,8 @@ Important things to remember:
 
 * [```/dkcoins```](#dkcoins)
 * [```/dkcoins info```](#dkcoins-info)
-* [```/dkcoins admin```](#dkcoins-admin)
-* [```/dkcoins migrate```](#dkcoins-migrate)
+* [```/dkcoins migrate <system>```](#dkcoins-migrate-system)
+* [```/dkcoins admin <player/bank> <action> <amount> [currency]```](#dkcoins-admin-playerbank-action-amount-currency)
 
 ***
 
@@ -35,22 +35,35 @@ Shows information about the current installed plugin, like the version and autho
 
 ***
 
-## **```/dkcoins admin```**
-
-**Permission:** dkcoins.admin<br />
-
-Controls the user bank accounts of your server to change the money of specific currencies.
-
-***
-
-## **```/dkcoins migrate```**
+## **```/dkcoins migrate <system>```**
 
 **Permission:** dkcoins.admin<br/>
 **Alias:** migration, m<br/>
 **Arguments:**
 
-* `<system>` The system to migrate (DKCoinsLegacy, EssentialsX, etc.)
+* `<system>` The name of the system to migrate (DKCoinsLegacy, EssentialsX, etc.)
 
 Import coins from another coin system to DKCoins
 
 ***
+
+## **```/dkcoins admin <player/bank> <action> <amount> [currency]```**
+
+**Permission:** dkcoins.admin<br/>
+**Alias:** bankAdmin<br/>
+**Arguments:**
+
+  * `<player/bank>` The player or name of the bank
+  * `<action>` The action to perform
+  * `<amount>` The amount
+  * `[currency]` The name of the currency
+
+Administration commands to manipulate bank and player account balances.
+
+**Available actions:**
+
+* `set` Set the amount to the account
+* `add` Add the amount to the account
+* `remove` Remove the amount to the account
+
+
