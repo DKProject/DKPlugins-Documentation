@@ -72,7 +72,7 @@ nav:
       - Plugin Setup:
           - Installation: dkcoins/plugin-setup/installation.md
           - Configuration: dkcoins/plugin-setup/configuration.md
-          - Migration: dkperms/plugin-setup/migration.md
+          - Migration: dkcoins/plugin-setup/migration.md
           - Storage: dkcoins/plugin-setup/storage.md
       - Plugin Usage:
           - Commands:
