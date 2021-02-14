@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+     <loc>http://dkplugins.pretronic.net/dkbans/</loc>
+     <lastmod>2021-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkbans/support/</loc>
+     <lastmod>2021-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkbans/defintions/</loc>
+     <lastmod>2021-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkbans/license/</loc>
+     <lastmod>2021-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkbans/frequently-asked-questions/</loc>
+     <lastmod>2021-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkbans/plugin-setup/installation/</loc>
+     <lastmod>2021-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkbans/plugin-setup/configuration/</loc>
+     <lastmod>2021-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkbans/plugin-setup/migration/</loc>
+     <lastmod>2021-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkbans/plugin-setup/storage/</loc>
+     <lastmod>2021-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://dkplugins.pretronic.net/dkbans/developer/</loc>
+     <lastmod>2021-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
      <loc>http://dkplugins.pretronic.net/dkcoins/</loc>
      <lastmod>2021-02-14</lastmod>
      <changefreq>daily</changefreq>
