@@ -44,7 +44,7 @@ If the currency does not exist, it will be shown in the chat.
 **Permission:** dkcoins.command.currency<br />
 **Arguments:**
 
-* `<symbol>` The symbol of the bank to be created
+* `<symbol>` The symbol of the currency (e.g. $)
 
 This command creates a currency with the specific symbol.
 
@@ -88,8 +88,8 @@ This command changes the symbol of the currency.
 * `<target>` The target currency
 * `<amount>` The change amount as double, for example 1.2 or 2
 
-This command changes the exchange rate to the specified currency. The amount means, how much one amount of the currency 
-into the target currency is. 
+This command changes the exchange rate to the specified currency. 
+The amount means how much an amount of the currency is in the target currency.
 
 ***
 

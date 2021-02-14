@@ -62,7 +62,7 @@ Restart your server, if everything worked correctly a folder named `DKPerms` sho
 After the installation you can optionally set up a storage solution like MySQL. Read more about storages [here](storage.md)
 
 !!! note ""
-    If you are using a network with multiple servers, cou must connect to the same remote database.
+    If you are using a network with multiple servers, you must connect to the same remote database.
 
 ### **5. - Grant administrator rights to your account**
 

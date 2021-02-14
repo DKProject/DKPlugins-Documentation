@@ -4,7 +4,7 @@ title: Storage
 
 # Storage setup
 
-DKPerms uses the McNative storage technology and supports all storage types supported by McNative. McNative storage technology 
+DKCoins uses the McNative storage technology and supports all storage types supported by McNative. McNative storage technology 
 is centralized storage integration for all supported plugins, it brings various performance and time benefits. Read more about it [here]()
 
 **Location:** ``./plugins/McNative/storage.yml``
@@ -42,24 +42,24 @@ drivers:
 
 ### **Database settings**
 
-After the driver configuration, you have to set up a database for DKPerms in the `databases` section.
+After the driver configuration, you have to set up a database for DKCoins in the `databases` section.
 
-* ``pluginName`` The plugin name, use `DKPerms`
+* ``pluginName`` The plugin name, use `DKCoins`
 * ``name`` The internal database name, use `default`
-* ``database`` The name of your database (e.g. `DKPerms`)
+* ``database`` The name of your database (e.g. `DKCoins`)
 * ``driverName`` The above configured driver to use
 
 **Example:**
 ```
 databases: 
-  - pluginName: 'DKPerms'
+  - pluginName: 'DKCoins'
     name: 'default'
-    database: 'DKPerms'
+    database: 'DKCoins'
     driverName: 'default'
 ```
 
 ### **Database settings**
-A complete configuration may look something like this (Only DKPerms):
+A complete configuration may look something like this (Only DKCoins):
 
 ```
 drivers: 
@@ -72,8 +72,8 @@ drivers:
     dialectName: 'MySQL'
     useSSL: false
 databases: 
-  - pluginName: 'DKPerms'
+  - pluginName: 'DKCoins'
     name: 'default'
-    database: 'DKPerms'
+    database: 'DKCoins'
     driverName: 'mysql'
 ```

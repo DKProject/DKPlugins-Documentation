@@ -51,10 +51,10 @@ scope:
 
 These settings define how the McNative permission api should integrate with DKPerms.
 
-* ``managementScope`` The scopes to be taken by the McNative api
-  * ``group`` To which scope the McNative api should check and assign groups
-  * ``permission`` To which scope the McNative api should check and assign permission
-  * ``operator`` To which scope the McNative api should check and assign operator privileges (When /op is used)
+* ``managementScope`` The scopes to be taken by the McNative api.
+  * ``group`` To which scope the McNative api should check and assign groups.
+  * ``permission`` To which scope the McNative api should check and assign permission.
+  * ``operator`` To which scope the McNative api should check and assign operator privileges (When /op is used).
 
 **Example:**
 ```
@@ -72,12 +72,12 @@ mcnative:
 DKPerms uses different objects to store permissions (e.g. group and player). 
 With this setting you can change the location of the storage scope.
 
-* ``player`` The player object type
-  * ``scope`` The default scope to create and load players
-* ``group`` The group object type
-  * ``scope`` The default scope to create and load groups
-* ``track`` Permission group tracks
-  * ``scope`` The default scope to create and load tracks
+* ``player`` The player object type.
+  * ``scope`` The default scope to create and load players.
+* ``group`` The group object type.
+  * ``scope`` The default scope to create and load groups.
+* ``track`` Permission group tracks.
+  * ``scope`` The default scope to create and load tracks.
 
 **Example:**
 ```
@@ -94,16 +94,16 @@ object:
 
 ## **Security settings**
 
-To keep DKPerms secure
+Settings to keep DKPerms secure.
 
-* ``logging`` Change logging
-  * ``enabled`` If `True` changes are logged into the database
-* ``commands`` DKPerms commands
-  * ``enabled`` If `True` commands are enabled (console and chat)
-* ``operator`` Default Minecraft operation privileges (When /op is used)
-  * ``enabled`` If `True` operators are allowed and /op can be used
-* ``restricted`` Command restricted to certain users
-  * ``enabled`` If `True` only the configured users can execute DKPerms commands (except /rank)
+* ``logging`` Change logging.
+  * ``enabled`` If `True` changes are logged into the database.
+* ``commands`` DKPerms commands.
+  * ``enabled`` If `True` commands are enabled (console and chat).
+* ``operator`` Default Minecraft operation privileges (When /op is used).
+  * ``enabled`` If `True` operators are allowed and /op can be used.
+* ``restricted`` Command restricted to certain users.
+  * ``enabled`` If `True` only the configured users can execute DKPerms commands (except /rank).
   * ``users`` The uuid or name of the players in an array that are allowed to execute DKPerms commands.
 
 **Example:**
@@ -127,8 +127,8 @@ security:
 To clean your database from expired permissions, groups or properties, DKPerms uses a simple task. 
 (Note, if the permission has expired before the task is executed, the permission is already not valid and visible).
 
-* ``deleteTimedOutEntries`` Database cleanup 
-  * ``enabled`` If `True` the task will be executed
+* ``deleteTimedOutEntries`` Database cleanup task. 
+  * ``enabled`` If `True` the task will be executed.
   * ``interval`` How often to run the task to delete unused entries (Use McNative duration format).
 
 **Example:**
@@ -144,10 +144,10 @@ deleteTimedOutEntries:
 
 Display format options
 
-* ``format`` General formatting settings
-  * ``date`` Date formatting settings
-    * ``pattern`` Java date time patterns (https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
-    * ``endlessly`` The symbol used for permanent things
+* ``format`` General formatting settings.
+  * ``date`` Date formatting settings.
+    * ``pattern`` Java date time patterns (https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html).
+    * ``endlessly`` The symbol used for permanent things.
 
 **Example:**
 ```
@@ -163,16 +163,16 @@ format:
 
 DKPerms commands settings
 
-* ``command`` General formatting settings
-  * ``permission`` The DKPerms admin permission command
-    * ``enabled`` If `True` the command is enabled and can be used
-    * ``name`` The name of the command
-    * ``permission`` The required permission to use this command
-    * ``aliases`` Aliases to execute this command
-  * ``rank`` The DKPerms simplified rank command
-    * ``...``
-  * ``team`` The DKPerms team info command
-    * ``...``
+
+* ``permission`` The DKPerms admin permission command.
+  * ``enabled`` If `True` the command is enabled and can be used.
+  * ``name`` The name of the command.
+  * ``permission`` The required permission to use this command.
+  * ``aliases`` Aliases to execute this command.
+* ``rank`` The DKPerms simplified rank command.
+  * ``...``
+* ``team`` The DKPerms team info command.
+   * ``...``
 
 **Example:**
 ```

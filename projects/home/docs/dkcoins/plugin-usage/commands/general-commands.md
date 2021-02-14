@@ -51,6 +51,6 @@ Controls the user bank accounts of your server to change the money of specific c
 
 * `<system>` The system to migrate (DKCoinsLegacy, EssentialsX, etc.)
 
-Import coins from older dkcoins version or other economy systems.
+Import coins from another coin system to DKCoins
 
 ***

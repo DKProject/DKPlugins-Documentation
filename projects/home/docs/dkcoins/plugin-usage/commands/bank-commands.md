@@ -4,7 +4,8 @@ title: Bank Commands
 
 # Bank Commands
 
-This page describes the usage and permissions of the Bank commands. The bank command always starts with `/bank <name>`, while `<name>` is the name of the bank.
+This page describes the usage and permissions of the Bank commands. The bank command always 
+starts with `/bank <name>`, while `<name>` is the name of the bank.
 
 Important things to remember:
 * Required arguments are declared with ```<example>```
@@ -69,7 +70,7 @@ This command deletes a bank of you. You need to be the owner of the specified ba
 * `<setting>` The setting type
 * `<value>` The value to be changed
 
-This command change settings of a bank.
+This command changes settings of a bank.
 
 Settings:
 * receivenotifications, boolean value

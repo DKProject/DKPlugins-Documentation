@@ -21,7 +21,7 @@ DKPerms V5 supports a simple migration mechanism to transfer DKPerms V1 data to 
     Before you start the migration, create a backup of your entire network or server
 
 Before you can start setting up the new DKPerms, you need to remove the old dkperms.jar in all your plugin folders 
-(remove only the jar, do not delete the any configuration files). After that you can start setting up the new DKPerms, 
+(remove only the jar, do not delete any configuration files). After that you can start setting up the new DKPerms, 
 use [this guide](installation.md).
 
 ### **1. - Migration**
@@ -37,7 +37,7 @@ from your plugins folder and restart your entire network.
 
 ## **Migrate from another plugin**
 
-DKPerms supports different plugins two migrate from 
+DKPerms supports different plugins to migrate from. Create a [Suggestion](../support.md#suggestions) if your plugin is missing.
 
 
 **Supported Migrations:**
