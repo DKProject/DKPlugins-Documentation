@@ -47,3 +47,4 @@ If you have a great idea that should be implemented in DKBans. Feel free to crea
 We use the Feedbacky platform to collect and vote for suggestions.
 
 [Create a new Idea](https://feedbacky.pretronic.net/b/dkbans)
+
