@@ -101,7 +101,7 @@ account:
 
 ***
 
-## *Economy provider settings**
+## **Economy provider settings**
 
 With this setting you can configure how DKCoins should hook into third party economy providers (e.g. Vault).
 
