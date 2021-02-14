@@ -826,15 +826,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dkcoins-admin" class="md-nav__link">
-    /dkcoins admin
+  <a href="#dkcoins-migrate-system" class="md-nav__link">
+    /dkcoins migrate &lt;system&gt;
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#dkcoins-migrate" class="md-nav__link">
-    /dkcoins migrate
+  <a href="#dkcoins-admin-playerbank-action-amount-currency" class="md-nav__link">
+    /dkcoins admin &lt;player/bank&gt; &lt;action&gt; &lt;amount&gt; [currency]
   </a>
   
 </li>
@@ -1337,15 +1337,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dkcoins-admin" class="md-nav__link">
-    /dkcoins admin
+  <a href="#dkcoins-migrate-system" class="md-nav__link">
+    /dkcoins migrate &lt;system&gt;
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#dkcoins-migrate" class="md-nav__link">
-    /dkcoins migrate
+  <a href="#dkcoins-admin-playerbank-action-amount-currency" class="md-nav__link">
+    /dkcoins admin &lt;player/bank&gt; &lt;action&gt; &lt;amount&gt; [currency]
   </a>
   
 </li>
@@ -1376,8 +1376,8 @@
 <ul>
 <li><a href="#dkcoins"><code>/dkcoins</code></a></li>
 <li><a href="#dkcoins-info"><code>/dkcoins info</code></a></li>
-<li><a href="#dkcoins-admin"><code>/dkcoins admin</code></a></li>
-<li><a href="#dkcoins-migrate"><code>/dkcoins migrate</code></a></li>
+<li><a href="#dkcoins-migrate-system"><code>/dkcoins migrate &lt;system&gt;</code></a></li>
+<li><a href="#dkcoins-admin-playerbank-action-amount-currency"><code>/dkcoins admin &lt;player/bank&gt; &lt;action&gt; &lt;amount&gt; [currency]</code></a></li>
 </ul>
 <hr />
 <h2 id="dkcoins"><strong><code>/dkcoins</code></strong><a class="headerlink" href="#dkcoins" title="Permanent link">&para;</a></h2>
@@ -1389,19 +1389,32 @@ If you don't have access to this command, the plugin version and author is displ
 <p><strong>Alias:</strong> information, i, version, v<br/>
 Shows information about the current installed plugin, like the version and author.</p>
 <hr />
-<h2 id="dkcoins-admin"><strong><code>/dkcoins admin</code></strong><a class="headerlink" href="#dkcoins-admin" title="Permanent link">&para;</a></h2>
-<p><strong>Permission:</strong> dkcoins.admin<br /></p>
-<p>Controls the user bank accounts of your server to change the money of specific currencies.</p>
-<hr />
-<h2 id="dkcoins-migrate"><strong><code>/dkcoins migrate</code></strong><a class="headerlink" href="#dkcoins-migrate" title="Permanent link">&para;</a></h2>
+<h2 id="dkcoins-migrate-system"><strong><code>/dkcoins migrate &lt;system&gt;</code></strong><a class="headerlink" href="#dkcoins-migrate-system" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkcoins.admin<br/>
 <strong>Alias:</strong> migration, m<br/>
 <strong>Arguments:</strong></p>
 <ul>
-<li><code>&lt;system&gt;</code> The system to migrate (DKCoinsLegacy, EssentialsX, etc.)</li>
+<li><code>&lt;system&gt;</code> The name of the system to migrate (DKCoinsLegacy, EssentialsX, etc.)</li>
 </ul>
 <p>Import coins from another coin system to DKCoins</p>
 <hr />
+<h2 id="dkcoins-admin-playerbank-action-amount-currency"><strong><code>/dkcoins admin &lt;player/bank&gt; &lt;action&gt; &lt;amount&gt; [currency]</code></strong><a class="headerlink" href="#dkcoins-admin-playerbank-action-amount-currency" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkcoins.admin<br/>
+<strong>Alias:</strong> bankAdmin<br/>
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;player/bank&gt;</code> The player or name of the bank</li>
+<li><code>&lt;action&gt;</code> The action to perform</li>
+<li><code>&lt;amount&gt;</code> The amount</li>
+<li><code>[currency]</code> The name of the currency</li>
+</ul>
+<p>Administration commands to manipulate bank and player account balances.</p>
+<p><strong>Available actions:</strong></p>
+<ul>
+<li><code>set</code> Set the amount to the account</li>
+<li><code>add</code> Add the amount to the account</li>
+<li><code>remove</code> Remove the amount to the account</li>
+</ul>
                 
                   
                     
