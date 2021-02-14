@@ -8,6 +8,7 @@ This page describes the usage and permissions of the Bank commands. The bank com
 starts with `/bank <name>`, while `<name>` is the name of the bank.
 
 Important things to remember:
+
 * Required arguments are declared with ```<example>```
 * Optional arguments are declared with ```[example]```
 

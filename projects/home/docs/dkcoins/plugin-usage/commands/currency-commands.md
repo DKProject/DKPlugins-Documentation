@@ -8,6 +8,7 @@ This page describes the usage and permissions of the currency commands.
 The currency command always starts with `/currency <name>`, while `<name>` is the name of the currency.
 
 Important things to remember:
+
 * Required arguments are declared with ```<example>```
 * Optional arguments are declared with ```[example]```
 
