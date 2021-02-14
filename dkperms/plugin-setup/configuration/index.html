@@ -400,7 +400,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../dkcoins/plugin-setup/configuration.md" class="md-nav__link">
+    <a href="../../../dkcoins/plugin-setup/configuration/" class="md-nav__link">
       Configuration
     </a>
   </li>
@@ -412,7 +412,19 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../dkcoins/plugin-setup/storage.md" class="md-nav__link">
+    <a href="../migration/" class="md-nav__link">
+      Migration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../dkcoins/plugin-setup/storage/" class="md-nav__link">
       Storage
     </a>
   </li>
@@ -1155,10 +1167,10 @@ tree structure and can be configured individually for each server.</p>
 <h2 id="mcnative-settings"><strong>McNative settings</strong><a class="headerlink" href="#mcnative-settings" title="Permanent link">&para;</a></h2>
 <p>These settings define how the McNative permission api should integrate with DKPerms.</p>
 <ul>
-<li><code>managementScope</code> The scopes to be taken by the McNative api</li>
-<li><code>group</code> To which scope the McNative api should check and assign groups</li>
-<li><code>permission</code> To which scope the McNative api should check and assign permission</li>
-<li><code>operator</code> To which scope the McNative api should check and assign operator privileges (When /op is used)</li>
+<li><code>managementScope</code> The scopes to be taken by the McNative api.</li>
+<li><code>group</code> To which scope the McNative api should check and assign groups.</li>
+<li><code>permission</code> To which scope the McNative api should check and assign permission.</li>
+<li><code>operator</code> To which scope the McNative api should check and assign operator privileges (When /op is used).</li>
 </ul>
 <p><strong>Example:</strong>
 <div class="highlight"><pre><span></span><code>mcnative: 
@@ -1172,12 +1184,12 @@ tree structure and can be configured individually for each server.</p>
 <p>DKPerms uses different objects to store permissions (e.g. group and player). 
 With this setting you can change the location of the storage scope.</p>
 <ul>
-<li><code>player</code> The player object type</li>
-<li><code>scope</code> The default scope to create and load players</li>
-<li><code>group</code> The group object type</li>
-<li><code>scope</code> The default scope to create and load groups</li>
-<li><code>track</code> Permission group tracks</li>
-<li><code>scope</code> The default scope to create and load tracks</li>
+<li><code>player</code> The player object type.</li>
+<li><code>scope</code> The default scope to create and load players.</li>
+<li><code>group</code> The group object type.</li>
+<li><code>scope</code> The default scope to create and load groups.</li>
+<li><code>track</code> Permission group tracks.</li>
+<li><code>scope</code> The default scope to create and load tracks.</li>
 </ul>
 <p><strong>Example:</strong>
 <div class="highlight"><pre><span></span><code>object: 
@@ -1190,16 +1202,16 @@ With this setting you can change the location of the storage scope.</p>
 </code></pre></div></p>
 <hr />
 <h2 id="security-settings"><strong>Security settings</strong><a class="headerlink" href="#security-settings" title="Permanent link">&para;</a></h2>
-<p>To keep DKPerms secure</p>
+<p>Settings to keep DKPerms secure.</p>
 <ul>
-<li><code>logging</code> Change logging</li>
-<li><code>enabled</code> If <code>True</code> changes are logged into the database</li>
-<li><code>commands</code> DKPerms commands</li>
-<li><code>enabled</code> If <code>True</code> commands are enabled (console and chat)</li>
-<li><code>operator</code> Default Minecraft operation privileges (When /op is used)</li>
-<li><code>enabled</code> If <code>True</code> operators are allowed and /op can be used</li>
-<li><code>restricted</code> Command restricted to certain users</li>
-<li><code>enabled</code> If <code>True</code> only the configured users can execute DKPerms commands (except /rank)</li>
+<li><code>logging</code> Change logging.</li>
+<li><code>enabled</code> If <code>True</code> changes are logged into the database.</li>
+<li><code>commands</code> DKPerms commands.</li>
+<li><code>enabled</code> If <code>True</code> commands are enabled (console and chat).</li>
+<li><code>operator</code> Default Minecraft operation privileges (When /op is used).</li>
+<li><code>enabled</code> If <code>True</code> operators are allowed and /op can be used.</li>
+<li><code>restricted</code> Command restricted to certain users.</li>
+<li><code>enabled</code> If <code>True</code> only the configured users can execute DKPerms commands (except /rank).</li>
 <li><code>users</code> The uuid or name of the players in an array that are allowed to execute DKPerms commands.</li>
 </ul>
 <p><strong>Example:</strong>
@@ -1219,8 +1231,8 @@ With this setting you can change the location of the storage scope.</p>
 <p>To clean your database from expired permissions, groups or properties, DKPerms uses a simple task. 
 (Note, if the permission has expired before the task is executed, the permission is already not valid and visible).</p>
 <ul>
-<li><code>deleteTimedOutEntries</code> Database cleanup </li>
-<li><code>enabled</code> If <code>True</code> the task will be executed</li>
+<li><code>deleteTimedOutEntries</code> Database cleanup task. </li>
+<li><code>enabled</code> If <code>True</code> the task will be executed.</li>
 <li><code>interval</code> How often to run the task to delete unused entries (Use McNative duration format).</li>
 </ul>
 <p><strong>Example:</strong>
@@ -1232,10 +1244,10 @@ With this setting you can change the location of the storage scope.</p>
 <h2 id="format-timeout-settings"><strong>Format timeout settings</strong><a class="headerlink" href="#format-timeout-settings" title="Permanent link">&para;</a></h2>
 <p>Display format options</p>
 <ul>
-<li><code>format</code> General formatting settings</li>
-<li><code>date</code> Date formatting settings<ul>
-<li><code>pattern</code> Java date time patterns (https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)</li>
-<li><code>endlessly</code> The symbol used for permanent things</li>
+<li><code>format</code> General formatting settings.</li>
+<li><code>date</code> Date formatting settings.<ul>
+<li><code>pattern</code> Java date time patterns (https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html).</li>
+<li><code>endlessly</code> The symbol used for permanent things.</li>
 </ul>
 </li>
 </ul>
@@ -1249,22 +1261,15 @@ With this setting you can change the location of the storage scope.</p>
 <h2 id="commands-settings"><strong>Commands settings</strong><a class="headerlink" href="#commands-settings" title="Permanent link">&para;</a></h2>
 <p>DKPerms commands settings</p>
 <ul>
-<li><code>command</code> General formatting settings</li>
-<li><code>permission</code> The DKPerms admin permission command<ul>
-<li><code>enabled</code> If <code>True</code> the command is enabled and can be used</li>
-<li><code>name</code> The name of the command</li>
-<li><code>permission</code> The required permission to use this command</li>
-<li><code>aliases</code> Aliases to execute this command</li>
-</ul>
-</li>
-<li><code>rank</code> The DKPerms simplified rank command<ul>
+<li><code>permission</code> The DKPerms admin permission command.</li>
+<li><code>enabled</code> If <code>True</code> the command is enabled and can be used.</li>
+<li><code>name</code> The name of the command.</li>
+<li><code>permission</code> The required permission to use this command.</li>
+<li><code>aliases</code> Aliases to execute this command.</li>
+<li><code>rank</code> The DKPerms simplified rank command.</li>
 <li><code>...</code></li>
-</ul>
-</li>
-<li><code>team</code> The DKPerms team info command<ul>
+<li><code>team</code> The DKPerms team info command.</li>
 <li><code>...</code></li>
-</ul>
-</li>
 </ul>
 <p><strong>Example:</strong>
 <div class="highlight"><pre><span></span><code>command: 
@@ -1292,7 +1297,7 @@ With this setting you can change the location of the storage scope.</p>
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-02-13
+      Last update: 2021-02-14
     
   </small>
 </div>
