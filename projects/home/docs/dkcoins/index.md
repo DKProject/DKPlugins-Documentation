@@ -7,7 +7,7 @@ title: Introduction
 DKCoins is a high configurable Minecraft currency system with a lot of features and this is the official wiki of the DKCoins project.
 Here you will find a complete documentation how to administrate, install and setup DKCoins.
 
-DKCoins is maintained by [Pretronic](https://pretronic.net/) and was first released in July 2017.
+DKCoins is maintained by [Pretronic](https://pretronic.net/) and was first released in April 2017.
 DKCoins is a reliable currency system and has been optimized and improved over time.
 
 ## Features
@@ -44,7 +44,7 @@ DKCoins is a reliable currency system and has been optimized and improved over t
 
 
 ## Support
-DKCoins support is offered by our team and community via Discord to all DKCoins buyers. All supporters do this voluntarily and answer as soon as possible.
+DKCoins support is offered by our team and community via Discord. All supporters do this voluntarily and answer as soon as possible.
 
 Before you ask, please try to solve the problem by yourself with the help of this wiki.
 <br/> **-> Checkout the [FAQ](frequently-asked-questions.md)**

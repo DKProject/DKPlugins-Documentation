@@ -5,12 +5,12 @@ title: Developer Getting Started
 # Getting Started
 
 DKCoins contains a large and powerful API that is easy to use. The api is very flexible and gives you the 
-possibility to fully interact with DKCoins. You don't need to worry about anything else, the DKPerms api 
+possibility to fully interact with DKCoins. You don't need to worry about anything else, the DKCoins api 
 interface will handle everything for you.
 
 !!! note ""
-    **As soon as McNative is available for developers, we will document exactly how to use and integrate with DKPerms.
-    If you already want to use the DKPerms api, use the development channel on our Discord to get help from us and our community.**
+    **As soon as McNative is available for developers, we will document exactly how to use and integrate with DKCoins.
+    If you already want to use the DKCoins api, use the development channel on our Discord to get help from us and our community.**
 
 **Thread safety**
 
@@ -19,7 +19,7 @@ All operations in DKCoins are totally thread safety and designed for asynchronou
 **Storage & Synchronisation operations**
 
 DKCoins offers you a simple api to create, modify, update and delete currency and bank account and other things. 
-You have not to deal with saving or synchronizing data, DKPerms is automatically handling those things in the background.
+You have not to deal with saving or synchronizing data, DKCoins is automatically handling those things in the background.
 
 
 ## Javadocs

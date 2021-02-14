@@ -46,6 +46,23 @@ edit_uri: https://github.com/dkproject/DKPlugins-Documentation/edit/master/proje
 disableRepo: true
 
 nav:
+  - DKBans:
+      - Introduction: dkbans/index.md
+      - Support: dkbans/support.md
+      - Defintions: dkbans/defintions.md
+      - License: dkbans/license.md
+      - FAQ: dkbans/frequently-asked-questions.md
+      - Plugin Setup:
+          - Installation: dkbans/plugin-setup/installation.md
+          - Configuration: dkbans/plugin-setup/configuration.md
+          - Migration: dkbans/plugin-setup/migration.md
+          - Storage: dkbans/plugin-setup/storage.md
+      - Plugin Usage:
+          - Commands:
+              - Overview: dkbans/plugin-usage/commands/index.md
+          - Placeholders: dkbans/plugin-usage/placeholders.md
+      - Developer API:
+          - Getting Started: dkbans/developer/index.md
   - DKCoins:
       - Introduction: dkcoins/index.md
       - Support: dkcoins/support.md

@@ -4,7 +4,7 @@ title: Support
 
 # Support
 
-DKCoins support is offered by our team and community via Discord. All supporters do this voluntarily and answer as soon as possible.
+DKBans support is offered by our team and community via Discord. All supporters do this voluntarily and answer as soon as possible.
 
 Before you ask, please try to solve the problem by yourself with the help of this wiki.
 <br/> **-> Checkout the [FAQ](frequently-asked-questions.md)**
@@ -43,7 +43,7 @@ What we have to do, to trigger the bug.
 ```
 
 ## Suggestions
-If you have a great idea that should be implemented in DKCoins. Feel free to create a suggestion.
+If you have a great idea that should be implemented in DKBans. Feel free to create a suggestion.
 We use the Feedbacky platform to collect and vote for suggestions.
 
-[Create a new Idea](https://feedbacky.pretronic.net/b/dkcoins)
+[Create a new Idea](https://feedbacky.pretronic.net/b/dkbans)
