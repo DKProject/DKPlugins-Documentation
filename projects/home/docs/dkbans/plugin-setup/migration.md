@@ -8,7 +8,7 @@ DKBans supports different migration technologies to migrate another punishment s
 
 ***
 
-## **DKBans V3 Migration**
+## **DKBans V2 Migration**
 DKBans V5 supports a simple migration mechanism to transfer DKBans V2 data to the new generation.
 
 !!! note ""
