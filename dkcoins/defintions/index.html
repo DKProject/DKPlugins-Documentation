@@ -1380,11 +1380,36 @@
                 <h1 id="definitions">Definitions<a class="headerlink" href="#definitions" title="Permanent link">&para;</a></h1>
 <p>This page describes the key definitions and the structure of DKCoins. It is very important that you understand these things before you start using DKCoins.</p>
 <h2 id="bank-account">Bank Account<a class="headerlink" href="#bank-account" title="Permanent link">&para;</a></h2>
+<p>A bank account is a user or joint account that holds money/coins of different currencies on a credit. A bank 
+account is the highest object to which access can be controlled. Bank accounts can have members with 
+different roles and withdrawal limitations and restrictions. Bank accounts can be hierarchical
+and depend on each other or work completely independent.</p>
 <h2 id="currency">Currency<a class="headerlink" href="#currency" title="Permanent link">&para;</a></h2>
-<p>A Currency is a type of coins </p>
+<p>A currency is a type of money that is stored in a bank account. Currencies can function completely isolated and 
+independent of each other, or can have a dependence, and the possibility of converting money into other currencies.</p>
+<p><strong>Example 1</strong></p>
+<p>For example, you have a network with global coins and a city build currency. To achieve this, you can create 
+two different independent currencies.</p>
+<ul>
+<li>Coins     | Global coins, which you can get by playing games</li>
+<li>CityCoins | Only available on city build</li>
+</ul>
+<p><strong>Example 2</strong></p>
+<p>Another example would be an advanced multi-currency game mode, for 
+which you can create different currencies that can be exchanged.</p>
+<ul>
+<li>Dollar| Currency 1</li>
+<li>Euro | Currency 2</li>
+</ul>
 <h2 id="bank-credit">Bank Credit<a class="headerlink" href="#bank-credit" title="Permanent link">&para;</a></h2>
+<p>In order to store money in different currencies in a bank account, DKCoins uses a bank credit that indicates the amount of 
+certain currencies in a bank account. Each bank account can have a maximum one credit of each currency.</p>
 <h2 id="exchange-rate">Exchange rate<a class="headerlink" href="#exchange-rate" title="Permanent link">&para;</a></h2>
+<p>Exchange rates are values that defines how much one currency is worth in another currency. The exchange rate can be defined
+for each currency and is used to convert the money into another currency.</p>
 <h2 id="transaction">Transaction<a class="headerlink" href="#transaction" title="Permanent link">&para;</a></h2>
+<p>Every action that a user performs on a bank account is called a transaction. DKCoins logs every 
+money change and creates clear bank statements.</p>
                 
                   
                     
@@ -1393,7 +1418,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-02-13
+      Last update: 2021-02-16
     
   </small>
 </div>
