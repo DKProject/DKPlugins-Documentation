@@ -448,8 +448,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#currency-settings" class="md-nav__link">
-    Currency settings
+  <a href="#date-format-settings" class="md-nav__link">
+    Date format settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#player-settings" class="md-nav__link">
+    Player settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chat-settings" class="md-nav__link">
+    Chat settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#joinme-settings" class="md-nav__link">
+    Joinme settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ip-address-settings" class="md-nav__link">
+    Ip address settings
   </a>
   
 </li>
@@ -1300,8 +1328,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#currency-settings" class="md-nav__link">
-    Currency settings
+  <a href="#date-format-settings" class="md-nav__link">
+    Date format settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#player-settings" class="md-nav__link">
+    Player settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chat-settings" class="md-nav__link">
+    Chat settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#joinme-settings" class="md-nav__link">
+    Joinme settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ip-address-settings" class="md-nav__link">
+    Ip address settings
   </a>
   
 </li>
@@ -1328,34 +1384,105 @@
 <p><strong>Location:</strong> <code>./plugins/DKCoins/config.yml</code></p>
 <h4>Index</h4>
 <ul>
-<li><a href="#currency-settings">Currency settings</a></li>
 <li><a href="#date-format-settings">Date format settings</a></li>
-<li><a href="#bank-account-settings">Bank account settings</a></li>
-<li><a href="#economy-provider-settings">Economy provider settings</a></li>
-<li><a href="#payment-settings">Payment settings</a></li>
-<li><a href="#commands-settings">Commands settings</a></li>
+<li><a href="#player-settings">Player settings</a></li>
+<li><a href="#chat-settings">Chat settings</a></li>
+<li><a href="#joinme-settings">Joinme settings</a></li>
+<li><a href="#ip-address-settings">Ip address settings</a></li>
 </ul>
 <hr />
-<h2 id="currency-settings"><strong>Currency settings</strong><a class="headerlink" href="#currency-settings" title="Permanent link">&para;</a></h2>
-<p>DKCoins currency settings.</p>
+<h2 id="date-format-settings"><strong>Date format settings</strong><a class="headerlink" href="#date-format-settings" title="Permanent link">&para;</a></h2>
+<p>Display format settings.</p>
 <ul>
-<li><code>default</code> The name of the default currency (Make sure that the configured currency exist, otherwise this can cause issues). </li>
-<li><code>format</code> Coin formatting options.<ul>
-<li><code>pattern</code> The java number format patterns (https://docs.oracle.com/javase/7/docs/api/java/text/DecimalFormat.html).</li>
-<li><code>separator</code> </li>
-<li><code>grouping</code> The 1000 delimiter.</li>
-<li><code>decimal</code> The decimal delimiter.</li>
+<li><code>format</code> General formatting settings.<ul>
+<li><code>date</code> Date formatting settings.<ul>
+<li><code>pattern</code> Java date time patterns (https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html).</li>
+<li><code>endlessly</code> The symbol used for permanent things.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <p><strong>Example:</strong>
-<div class="highlight"><pre><span></span><code>currency: 
-  default: &#39;Coins&#39;
-  format: 
-    pattern: &#39;###,###.##&#39;
-    separator: 
-      grouping: &#39;&#39;&#39;&#39;
-      decimal: &#39;.&#39;
+<div class="highlight"><pre><span></span><code>format: 
+  date: 
+    pattern: &#39;dd-MM-yyyy HH:mm&#39;
+    endlessly: &#39;-&#39;
+</code></pre></div></p>
+<hr />
+<h2 id="player-settings"><strong>Player settings</strong><a class="headerlink" href="#player-settings" title="Permanent link">&para;</a></h2>
+<p>DKBans player settings.</p>
+<ul>
+<li><code>onJoin</code> Settings when a player joins the server.<ul>
+<li><code>clearChat</code> If <code>True</code> the chat of the player will be cleared.<ul>
+<li><code>info</code> Player login information messages</li>
+<li><code>teamChat</code> If <code>True</code> the team chat login status will be showed to the player (if he has permission).</li>
+<li><code>punishNotify</code> If <code>True</code> the notification login status will be showed to the player (if he has permission).</li>
+<li><code>report</code> If <code>True</code> the report login status will be showed to the player (if he has permission).</li>
+<li><code>listReports</code> If <code>True</code> the amount of open reports will be showed to the player.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>session</code> If <code>True</code> the chat of the player will be cleared.<ul>
+<li><code>logging</code> If <code>True</code> player login sessions are recorded.</li>
+<li><code>retention</code> The duration. how long logging sessions are kept (be careful with this value, it can significantly increase the amount of data).</li>
+</ul>
+</li>
+</ul>
+<p><strong>Example:</strong>
+<div class="highlight"><pre><span></span><code>player: 
+  onJoin: 
+    clearChat: true
+    info: 
+      teamChat: true
+      punishNotify: true
+      report: true
+    listReports: true
+  session: 
+    logging: true
+    retention: &#39;180d&#39;
+</code></pre></div></p>
+<h2 id="chat-settings"><strong>Chat settings</strong><a class="headerlink" href="#chat-settings" title="Permanent link">&para;</a></h2>
+<p>Chat settings.</p>
+<ul>
+<li><code>filter</code> Chat filter options.<ul>
+<li><code>enabled</code> If <code>True</code> chat filters are enabled and will block certain messages (As configured with ./filter).</li>
+<li><code>repeatDelay</code> How fast players can send messages (In milliseconds).</li>
+</ul>
+</li>
+</ul>
+<p><strong>Example:</strong>
+<div class="highlight"><pre><span></span><code>chat: 
+  filter: 
+    enabled: true
+    repeatDelay: 1000
+</code></pre></div></p>
+<h2 id="joinme-settings"><strong>Joinme settings</strong><a class="headerlink" href="#joinme-settings" title="Permanent link">&para;</a></h2>
+<p>Joinme settings (./joinme).</p>
+<ul>
+<li><code>headEnabled</code> If <code>True</code> the player head is shown before the text message.</li>
+<li><code>multipleLines</code>If <code>True</code> multiple lines are used, otherwise only the first line is displayed.</li>
+<li><code>disabledScopes</code> Specific servers or worlds where the joinme is disabled.</li>
+<li><code>cooldown</code> How fast in succession a player can use the joinme.</li>
+</ul>
+<p><strong>Example:</strong>
+<div class="highlight"><pre><span></span><code>joinme: 
+  headEnabled: true
+  multipleLines: true
+  disabledScopes: []
+  cooldown: &#39;15m&#39;
+</code></pre></div></p>
+<h2 id="ip-address-settings"><strong>Ip address settings</strong><a class="headerlink" href="#ip-address-settings" title="Permanent link">&para;</a></h2>
+<p>Settings about ip address blocking</p>
+<ul>
+<li><code>blockAltMinPlaytime</code> The maximum amount of game time a player needs to not be recognized as an alt account.</li>
+<li><code>historyType</code> The used history to ban an alt account.</li>
+</ul>
+<p><strong>Example:</strong>
+<div class="highlight"><pre><span></span><code>ipAddress: 
+  blockAltMinPlaytime: &#39;3m&#39;
+  historyType: &#39;NETWORK&#39;
 </code></pre></div></p>
                 
                   
@@ -1365,7 +1492,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-02-14
+      Last update: 2021-02-16
     
   </small>
 </div>
