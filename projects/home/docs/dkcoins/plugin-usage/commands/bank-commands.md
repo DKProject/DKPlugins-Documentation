@@ -54,7 +54,7 @@ If the bank does not exist, it will be shown in the chat.
 **Permission:** dkcoins.command.bank<br />
 **Arguments:**
 
-* `<accountType>` The account type
+* `<accountType>` The account type (e.g. user, bank)
 
 This command creates a bank with the specific name and account type.
 Default there are two account types, `bank` and `user`, but a user account can't be created manually.
@@ -65,7 +65,7 @@ Default there are two account types, `bank` and `user`, but a user account can't
 
 **Permission:** dkcoins.command.bank<br />
 
-This command deletes a bank of you. You need to be the owner of the specified bank.
+This command deletes an existing bank account and all credits. You need to be the owner of the specified bank.
 
 ***
 

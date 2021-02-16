@@ -15,7 +15,7 @@ This page describes all configuration possibilities in the DKPerms config.yml.
 * [Object settings](#object-settings)
 * [Security settings](#security-settings)
 * [Delete timeout settings](#delete-timeout-settings)
-* [Format timeout settings](#format-timeout-settings)
+* [Date format settings](#date-format-settings)
 * [Commands settings](#commands-settings)
 
 ***
@@ -140,7 +140,7 @@ deleteTimedOutEntries:
 
 ***
 
-## **Format timeout settings**
+## **Date format settings**
 
 Display format options
 
