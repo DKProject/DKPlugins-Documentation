@@ -35,6 +35,7 @@ DKCoins is a reliable currency system and has been optimized and improved over t
     * Placeholders for PlaceholderAPI
     * Vault coins support
     * CloudNet V2 & V3 support (Multi proxy)
+    * LabyMod economy integration
 * **Additional features**
     * Administration commands
     * Offline player support
