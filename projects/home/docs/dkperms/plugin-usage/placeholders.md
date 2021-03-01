@@ -9,7 +9,7 @@ DKPerms placeholders are available in all McNative supported placeholder sources
 
 ***
 
-## %dkperms_name%F
+## %dkperms_name%
 
 This placeholder shows the name of the player. 
 
@@ -86,7 +86,7 @@ Returns `true` if the player is in a group marked as `team` (set via the group m
 
 ***
 
-## %dkperms_property_\<KeyName>%
+## %dkperms_property_&lt;<KeyName>&gt;%
 
 This placeholder returns a custom meta value set on a DKPerms object or an assigned group.
 Replace `<KeyName>` with the name of your meta key.
