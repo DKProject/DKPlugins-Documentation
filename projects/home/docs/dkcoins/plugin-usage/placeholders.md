@@ -4,7 +4,7 @@ title: Placeholders
 
 # Placeholders
 
-DKCoin offers many placeholders which can be used in other plugins to display data provided by DKCoin.
+DKCoins offers many placeholders which can be used in other plugins to display data provided by DKCoins.
 DKCoins placeholders are available in all McNative supported placeholder sources (PlaceholderAPI).
 
 Important things to remember:
