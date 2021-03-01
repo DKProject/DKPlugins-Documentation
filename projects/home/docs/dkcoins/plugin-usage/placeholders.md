@@ -20,21 +20,21 @@ given, the default currency will be used.
 
 ***
 
-## %dkcoins_player_\<player>\_balance_[currency]%
+## %dkcoins_player_&lt;player&gt;_balance_[currency]%
 
 This placeholder shows the balance of the specified player bank account for the specified currency. 
 If the `currency` is not given, the default currency will be used.
 
 ***
 
-## %dkcoins_top_\<rank>\_name_[currency]%
+## %dkcoins_top_&lt;rank&gt;_name_[currency]%
 
 This placeholder shows the name of the bank account at the specified ``rank`` position.
 If the `currency` is not given, the default currency will be used.
 
 ***
 
-## %dkcoins_top_\<rank>\_balance_[currency]%
+## %dkcoins_top_&lt;rank&gt;_balance_[currency]%
 
 This placeholder shows the balance of the bank account at the specified ``rank`` position.
 If the `currency` is not given, the default currency will be used.
@@ -48,7 +48,7 @@ If the `currency` is not given, the default currency will be used.
 
 ***
 
-## %dkcoins_bank_\<bank>\_balance_[currency]%
+## %dkcoins_bank_&lt;bank&gt;_balance_[currency]%
 
 This placeholder shows the balance of the specified ``bank`` account for the specified currency.
 If the `currency` is not given, the default currency will be used.

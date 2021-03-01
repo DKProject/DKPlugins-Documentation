@@ -93,7 +93,7 @@ Replace `<KeyName>` with the name of your meta key.
 
 ***
 
-## %dkperms_boolProperty_\<KeyName>%
+## %dkperms_boolProperty_&lt;KeyName&gt;%
 
 This placeholder returns a custom meta value set on a DKPerms object or an assigned group.
 Replace `<KeyName>` with the name of your meta key.
@@ -101,7 +101,7 @@ In addition to the normal property, it returns `true` if the value matches `true
 
 ***
 
-## %dkperms_numberProperty_\<KeyName>%
+## %dkperms_numberProperty_&lt;KeyName&gt;%
 
 This placeholder returns a custom meta value set on a DKPerms object or an assigned group. 
 Replace `<KeyName>` with the name of your meta key. 
