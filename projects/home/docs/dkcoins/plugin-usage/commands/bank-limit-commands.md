@@ -1,5 +1,5 @@
 ---
-title: Bank member Commands
+title: Bank Limit Commands
 ---
 
 # Bank Limit Commands
