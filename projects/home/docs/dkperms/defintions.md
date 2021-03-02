@@ -47,13 +47,13 @@ DKPerms is based on a tree structure, everything in DKPerms (Objects, permission
 
 This example shows how a tree can look like:
 
-* ```Nemspace=Minecraft```
+* ```Namespace=Minecraft```
     * ```ServerGroup=Lobby```
         * ```Server=Lobby-1```
             * ```World=World-1```
         * ```Server=Lobby-2```
 
-If the permission `dkbans.ban` is assigned to a player on the scope `Nemspace=Minecraft\\ServerGroup=Lobby` the permission is valid on `Lobby-1` and `Lobby-2`.
+If the permission `dkbans.ban` is assigned to a player on the scope `Namespace=Minecraft\\ServerGroup=Lobby` the permission is valid on `Lobby-1` and `Lobby-2`.
 
 ## Permission Object
 
