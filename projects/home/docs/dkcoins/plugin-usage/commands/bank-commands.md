@@ -18,18 +18,13 @@ Important things to remember:
 * [```/bank <name>```](#bank-name)
 * [```/bank <name> create <accountType>```](#bank-name-create-accounttype)
 * [```/bank <name> delete```](#bank-name-delete)
-* [```/bank <name> settings <setting> <value>```](#bank)
-* [```/bank <name> transfer <receiver> <amount> [currency]```](#bank)
-* [```/bank <name> exchange <source> <target> <amount>```](#bank)
-* [```/bank <name> member [list]```](#bank)
-* [```/bank <name> member <member> [info]```](#bank)
-* [```/bank <name> member <member> add```](#bank)
-* [```/bank <name> member <member> remove```](#bank)
-* [```/bank <name> member <member> role```](#bank)
-* [```/bank <name> member <member> limit```](#bank)
-* [```/bank <name> role limit```](#bank)
-* [```/bank <name> limit```](#bank)
-* [```/bank <name> statement```](#bank)
+* [```/bank <name> settings <setting> <value>```](#bank-name-settings-setting-value)
+* [```/bank <name> transfer <receiver> <amount> [currency]```](#bank-name-transfer-receiver-amount-currency)
+* [```/bank <name> exchange <source> <target> <amount>```](#bank-name-exchange-source-target-amount)
+* [```/bank <name> member```](#bank-name-member)
+* [```/bank <name> role```](#bank)
+* [```/bank <name> limit```](#bank-name-limit)
+* [```/bank <name> statement```](#bank-name-statement)
 ***
 
 ## **```/bank [list]```**
@@ -115,7 +110,8 @@ This command exchanges a specified amount of money from a currency to another sp
 
 **Permission:** dkcoins.command.bank<br />
 
-This command controls the member management of the bank.
+This command controls the member management of the bank. 
+For more information about the member commands, [click here](bank-member-commands.md).
 
 ***
 
@@ -124,6 +120,7 @@ This command controls the member management of the bank.
 **Permission:** dkcoins.command.bank<br />
 
 This command controls all global bank limits of the bank.
+For more information about the limit commands, [click here](bank-limit-commands.md).
 
 ***
 
@@ -132,5 +129,14 @@ This command controls all global bank limits of the bank.
 **Permission:** dkcoins.command.bank<br />
 
 This command shows you all your bank transfers and exchanges.
+
+***
+
+## **```/bank <name> role <role>```**
+
+**Permission:** dkcoins.command.bank<br />
+
+This command controls the role of the bank. This sub commands are not available for user bank accounts.
+For more information about the role commands, [click here](bank-role-commands.md)
 
 ***
