@@ -83,6 +83,7 @@ nav:
               - Bank Role Commands: dkcoins/plugin-usage/commands/bank-role-commands.md
               - Bank Limit Commands: dkcoins/plugin-usage/commands/bank-limit-commands.md
               - Currency Commands: dkcoins/plugin-usage/commands/currency-commands.md
+              - User Bank Command: dkcoins/plugin-usage/commands/user-bank-commands.md
           - Placeholders: dkcoins/plugin-usage/placeholders.md
       - Developer API:
           - Getting Started: dkcoins/developer/index.md
