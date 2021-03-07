@@ -24,13 +24,13 @@ Legend:<br/>
 
 #### Index
 
-* [```/<command>```](#bank-list)
-* [```/<command> <target>```](#bank-list)
-* [```/<command> transfer <receiver> <amount>```](#bank-list)
-* [```/<command> top [page]```](#bank-list)
+* [```/<command>```](#command)
+* [```/<command> <target>```](#command-target)
+* [```/<command> transfer <receiver> <amount>```](#command-transfer-receiver-amount)
+* [```/<command> top [page]```](#command-top-page)
 ***
 
-## **```/<currency>```**
+## **```/<command>```**
 
 **Permission:** Configured permission ``permission`` [For more information](#Configuration)<br/>
 
@@ -38,7 +38,7 @@ This is the base command for the user bank command. This commands shows your bal
 
 ***
 
-## **```/<currency> <target>```**
+## **```/<command> <target>```**
 
 **Permission:** Configured permission ``otherPermission`` [For more information](#Configuration)<br/>
 **Arguments:**
@@ -48,7 +48,7 @@ This command shows the balance of ``target`` for the configured currency.
 
 ***
 
-## **```/<currency> transfer <receiver> <amount>```**
+## **```/<command> transfer <receiver> <amount>```**
 
 **Permission:** Configured permission ``otherPermission`` [For more information](#Configuration)<br/>
 **Arguments:**

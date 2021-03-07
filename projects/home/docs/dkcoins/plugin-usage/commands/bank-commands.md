@@ -22,7 +22,7 @@ Important things to remember:
 * [```/bank <name> transfer <receiver> <amount> [currency]```](#bank-name-transfer-receiver-amount-currency)
 * [```/bank <name> exchange <source> <target> <amount>```](#bank-name-exchange-source-target-amount)
 * [```/bank <name> member```](#bank-name-member)
-* [```/bank <name> role```](#bank)
+* [```/bank <name> role```](#bank-name-role-role)
 * [```/bank <name> limit```](#bank-name-limit)
 * [```/bank <name> statement```](#bank-name-statement)
 ***

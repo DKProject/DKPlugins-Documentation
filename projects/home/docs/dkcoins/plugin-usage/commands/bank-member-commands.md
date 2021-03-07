@@ -14,12 +14,12 @@ Important things to remember:
 
 #### Index
 
-* [```[list]```](#bank)
-* [```<member> [info]```](#bank)
-* [```<member> add```](#bank)
-* [```<member> remove```](#bank)
-* [```<member> role <role>```](#bank)
-* [```<member> limit```](#bank)
+* [```[list]```](#list)
+* [```<member> [info]```](#member-info)
+* [```<member> add```](#member-add)
+* [```<member> remove```](#member-remove)
+* [```<member> role <role>```](#member-role-role)
+* [```<member> limit```](#member-limit)
 
 
 ***

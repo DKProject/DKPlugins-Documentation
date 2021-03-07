@@ -16,7 +16,7 @@ Important things to remember:
 
 * [```[list]```](#list)
 * [```set <interval> <amount> <calculationType> <currency>```](#set-interval-amount-calculationtype-currency)
-* [```remove <interval> <amount> <calculationType> <currency>```](#bank)
+* [```remove <interval> <amount> <calculationType> <currency>```](#remove-interval-amount-calculationtype-currency)
 
 ***
 
