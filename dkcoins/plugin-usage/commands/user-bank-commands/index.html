@@ -884,22 +884,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#currency" class="md-nav__link">
-    /&lt;currency&gt;
+  <a href="#command" class="md-nav__link">
+    /&lt;command&gt;
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#currency-target" class="md-nav__link">
-    /&lt;currency&gt; &lt;target&gt;
+  <a href="#command-target" class="md-nav__link">
+    /&lt;command&gt; &lt;target&gt;
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#currency-transfer-receiver-amount" class="md-nav__link">
-    /&lt;currency&gt; transfer &lt;receiver&gt; &lt;amount&gt;
+  <a href="#command-transfer-receiver-amount" class="md-nav__link">
+    /&lt;command&gt; transfer &lt;receiver&gt; &lt;amount&gt;
   </a>
   
 </li>
@@ -1371,22 +1371,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#currency" class="md-nav__link">
-    /&lt;currency&gt;
+  <a href="#command" class="md-nav__link">
+    /&lt;command&gt;
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#currency-target" class="md-nav__link">
-    /&lt;currency&gt; &lt;target&gt;
+  <a href="#command-target" class="md-nav__link">
+    /&lt;command&gt; &lt;target&gt;
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#currency-transfer-receiver-amount" class="md-nav__link">
-    /&lt;currency&gt; transfer &lt;receiver&gt; &lt;amount&gt;
+  <a href="#command-transfer-receiver-amount" class="md-nav__link">
+    /&lt;command&gt; transfer &lt;receiver&gt; &lt;amount&gt;
   </a>
   
 </li>
@@ -1433,23 +1433,23 @@ starts with the configured currency in config <code>/&lt;currency&gt;</code>.</p
 5: The worlds, where the command should not work. This is only available on service level (Bukkit, Spigot, etc.)<br/></p>
 <h4>Index</h4>
 <ul>
-<li><a href="#bank-list"><code>/&lt;command&gt;</code></a></li>
-<li><a href="#bank-list"><code>/&lt;command&gt; &lt;target&gt;</code></a></li>
-<li><a href="#bank-list"><code>/&lt;command&gt; transfer &lt;receiver&gt; &lt;amount&gt;</code></a></li>
-<li><a href="#bank-list"><code>/&lt;command&gt; top [page]</code></a></li>
+<li><a href="#command"><code>/&lt;command&gt;</code></a></li>
+<li><a href="#command-target"><code>/&lt;command&gt; &lt;target&gt;</code></a></li>
+<li><a href="#command-transfer-receiver-amount"><code>/&lt;command&gt; transfer &lt;receiver&gt; &lt;amount&gt;</code></a></li>
+<li><a href="#command-top-page"><code>/&lt;command&gt; top [page]</code></a></li>
 </ul>
 <hr />
-<h2 id="currency"><strong><code>/&lt;currency&gt;</code></strong><a class="headerlink" href="#currency" title="Permanent link">&para;</a></h2>
+<h2 id="command"><strong><code>/&lt;command&gt;</code></strong><a class="headerlink" href="#command" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> Configured permission <code>permission</code> <a href="#Configuration">For more information</a><br/></p>
 <p>This is the base command for the user bank command. This commands shows your balance for the configured currency.</p>
 <hr />
-<h2 id="currency-target"><strong><code>/&lt;currency&gt; &lt;target&gt;</code></strong><a class="headerlink" href="#currency-target" title="Permanent link">&para;</a></h2>
+<h2 id="command-target"><strong><code>/&lt;command&gt; &lt;target&gt;</code></strong><a class="headerlink" href="#command-target" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> Configured permission <code>otherPermission</code> <a href="#Configuration">For more information</a><br/>
 <strong>Arguments:</strong>
 * <code>target</code> the target name of a player</p>
 <p>This command shows the balance of <code>target</code> for the configured currency.</p>
 <hr />
-<h2 id="currency-transfer-receiver-amount"><strong><code>/&lt;currency&gt; transfer &lt;receiver&gt; &lt;amount&gt;</code></strong><a class="headerlink" href="#currency-transfer-receiver-amount" title="Permanent link">&para;</a></h2>
+<h2 id="command-transfer-receiver-amount"><strong><code>/&lt;command&gt; transfer &lt;receiver&gt; &lt;amount&gt;</code></strong><a class="headerlink" href="#command-transfer-receiver-amount" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> Configured permission <code>otherPermission</code> <a href="#Configuration">For more information</a><br/>
 <strong>Arguments:</strong>
 * <code>&lt;receiver&gt;</code> The receiver bank
@@ -1471,7 +1471,7 @@ page are defined in the dkcoins config in the section<code>`command.top.entriesP
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-03-06
+      Last update: 2021-03-07
     
   </small>
 </div>

@@ -813,6 +813,41 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#bank-commands" class="md-nav__link">
+    Bank commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bank-limit-commands" class="md-nav__link">
+    Bank limit commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bank-member-commands" class="md-nav__link">
+    Bank member commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bank-role-commands" class="md-nav__link">
+    Bank role commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-bank-commands" class="md-nav__link">
+    User bank commands
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1370,6 +1405,41 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#bank-commands" class="md-nav__link">
+    Bank commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bank-limit-commands" class="md-nav__link">
+    Bank limit commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bank-member-commands" class="md-nav__link">
+    Bank member commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bank-role-commands" class="md-nav__link">
+    Bank role commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-bank-commands" class="md-nav__link">
+    User bank commands
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1415,6 +1485,51 @@
 <li><a href="currency-commands/#currency-name-edit-exchangerate-target-amount"><code>/currency &lt;name&gt; edit exchangeRate &lt;target&gt; &lt;amount&gt;</code></a></li>
 <li><a href="currency-commands/#currency-name-edit-exchangerate-target-disable"><code>/currency &lt;name&gt; edit exchangeRate &lt;target&gt; disable</code></a></li>
 </ul>
+<h2 id="bank-commands">Bank commands<a class="headerlink" href="#bank-commands" title="Permanent link">&para;</a></h2>
+<p>These commands are used to manage all bank accounts in DKCoins</p>
+<ul>
+<li><a href="bank-commands/#bank-list"><code>/bank [list]</code></a></li>
+<li><a href="bank-commands/#bank-name"><code>/bank &lt;name&gt;</code></a></li>
+<li><a href="bank-commands/#bank-name-create-accounttype"><code>/bank &lt;name&gt; create &lt;accountType&gt;</code></a></li>
+<li><a href="bank-commands/#bank-name-delete"><code>/bank &lt;name&gt; delete</code></a></li>
+<li><a href="bank-commands/#bank-name-settings-setting-value"><code>/bank &lt;name&gt; settings &lt;setting&gt; &lt;value&gt;</code></a></li>
+<li><a href="bank-commands/#bank-name-transfer-receiver-amount-currency"><code>/bank &lt;name&gt; transfer &lt;receiver&gt; &lt;amount&gt; [currency]</code></a></li>
+<li><a href="bank-commands/#bank-name-exchange-source-target-amount"><code>/bank &lt;name&gt; exchange &lt;source&gt; &lt;target&gt; &lt;amount&gt;</code></a></li>
+<li><a href="bank-commands/#bank-name-member"><code>/bank &lt;name&gt; member</code></a></li>
+<li><a href="bank-commands/#bank-name-role-role"><code>/bank &lt;name&gt; role</code></a></li>
+<li><a href="bank-commands/#bank-name-limit"><code>/bank &lt;name&gt; limit</code></a></li>
+<li><a href="bank-commands/#bank-name-statement"><code>/bank &lt;name&gt; statement</code></a></li>
+</ul>
+<h2 id="bank-limit-commands">Bank limit commands<a class="headerlink" href="#bank-limit-commands" title="Permanent link">&para;</a></h2>
+<p>These commands are used for managing the limitation for roles, bank and users for a specified bank.</p>
+<ul>
+<li><a href="bank-limit-commands/#list"><code>[list]</code></a></li>
+<li><a href="bank-limit-commands/#set-interval-amount-calculationtype-currency"><code>set &lt;interval&gt; &lt;amount&gt; &lt;calculationType&gt; &lt;currency&gt;</code></a></li>
+<li><a href="bank-limit-commands/#remove-interval-amount-calculationtype-currency"><code>remove &lt;interval&gt; &lt;amount&gt; &lt;calculationType&gt; &lt;currency&gt;</code></a></li>
+</ul>
+<h2 id="bank-member-commands">Bank member commands<a class="headerlink" href="#bank-member-commands" title="Permanent link">&para;</a></h2>
+<p>These commands are used for managing the members for a specified bank. It can not be used on user accounts.</p>
+<ul>
+<li><a href="bank-member-commands/#list"><code>[list]</code></a></li>
+<li><a href="bank-member-commands/#member-info"><code>&lt;member&gt; [info]</code></a></li>
+<li><a href="bank-member-commands/#member-add"><code>&lt;member&gt; add</code></a></li>
+<li><a href="bank-member-commands/#member-remove"><code>&lt;member&gt; remove</code></a></li>
+<li><a href="bank-member-commands/#member-role-role"><code>&lt;member&gt; role &lt;role&gt;</code></a></li>
+<li><a href="bank-member-commands/#member-limit"><code>&lt;member&gt; limit</code></a></li>
+</ul>
+<h2 id="bank-role-commands">Bank role commands<a class="headerlink" href="#bank-role-commands" title="Permanent link">&para;</a></h2>
+<p>These commands are used for controlling a specified role in a specified bank.</p>
+<ul>
+<li><a href="bank-role-commands/#limit"><code>limit</code></a></li>
+</ul>
+<h2 id="user-bank-commands">User bank commands<a class="headerlink" href="#user-bank-commands" title="Permanent link">&para;</a></h2>
+<p>These commands are used for simplifier controlling the user bank account with the specified currency.</p>
+<ul>
+<li><a href="user-bank-commands/#command"><code>/&lt;command&gt;</code></a></li>
+<li><a href="user-bank-commands/#command-target"><code>/&lt;command&gt; &lt;target&gt;</code></a></li>
+<li><a href="user-bank-commands/#command-transfer-receiver-amount"><code>/&lt;command&gt; transfer &lt;receiver&gt; &lt;amount&gt;</code></a></li>
+<li><a href="user-bank-commands/#command-top-page"><code>/&lt;command&gt; top [page]</code></a></li>
+</ul>
                 
                   
                     
@@ -1423,7 +1538,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-02-14
+      Last update: 2021-03-07
     
   </small>
 </div>
