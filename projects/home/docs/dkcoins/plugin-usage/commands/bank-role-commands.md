@@ -13,11 +13,29 @@ Important things to remember:
 
 #### Index
 
-* [```limit```](#limit)
+* [```[list]```](#list)
+* [```<role> [info]```]()
+* [```<role> limit```](#role-limit)
 
 ***
 
-## **```limit```**
+## **```[list]```**
+
+**Permission:** dkcoins.command.bank<br/>
+
+This command lists all member roles of this bank.
+
+***
+
+## **```<role> [info]```**
+
+**Permission:** dkcoins.command.bank<br/>
+
+This command shows all information, like access rights, parent- and child roles of the specified role.
+
+***
+
+## **```<role> limit```**
 
 **Permission:** dkcoins.command.bank<br/>
 
