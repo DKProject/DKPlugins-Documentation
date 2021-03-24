@@ -16,7 +16,7 @@ Important things to remember:
 
 * [```/bank [list]```](#bank-list)
 * [```/bank <name>```](#bank-name)
-* [```/bank <name> create <accountType>```](#bank-name-create-accounttype)
+* [```/bank <name> create [accountType]```](#bank-name-create-accounttype)
 * [```/bank <name> delete```](#bank-name-delete)
 * [```/bank <name> settings <setting> <value>```](#bank-name-settings-setting-value)
 * [```/bank <name> transfer <receiver> <amount> [currency]```](#bank-name-transfer-receiver-amount-currency)
@@ -44,7 +44,7 @@ If the bank does not exist, it will be shown in the chat.
 
 ***
 
-## **```/bank <name> create <accountType>```**
+## **```/bank <name> create [accountType]```**
 
 **Permission:** dkcoins.command.bank<br />
 **Arguments:**
