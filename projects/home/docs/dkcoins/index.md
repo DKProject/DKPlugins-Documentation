@@ -41,6 +41,7 @@ DKCoins is a reliable currency system and has been optimized and improved over t
     * Offline player support
     * Default amounts
     * Migration functionality
+    * Tab completion in all commands
     * Large developer api
 
 
