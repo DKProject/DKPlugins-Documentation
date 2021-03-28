@@ -40,16 +40,18 @@ DKPerms is a reliable permission system and has been optimized and improved over
     * Tablist & Chat integration (live update)
     * Placeholders for PlaceholderAPI
     * Vault permission and chat support
-    * CloudNet V2 & V3 support (Multi proxy)
+    * CloudNet V2 & V3 support (multi proxy)
 * **Additional features**
     * Simplified ```/rank``` command for assigning groups
     * ```/team``` command for listing your team members.
     * Offline player support
+    * Tab completion in all commands
     * Tree based structure
     * Change logging
     * Migration functionality
     * Large developer api
-
+    * Server join permission & power
+    * Full server join with priority kick 
 
 ## Support
 DKPerms support is offered by our Team and community via Discord to all DKPerms buyers. All supporters do this voluntarily and answer as soon as possible.
