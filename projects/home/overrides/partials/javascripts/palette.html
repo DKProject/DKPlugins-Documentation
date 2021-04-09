@@ -1,4 +1,6 @@
 <script >
+    document.body.setAttribute("data-md-color-scheme" ,"slate")
+
 
     function __prefix(e){
         return new URL("/",window.location).pathname+"."+e
@@ -12,7 +14,13 @@
 
     let palette = __get("__palette")
     console.log(palette);
-    if (palette !== null && typeof palette.color === "object")
-        for (let key in palette.color)
+    console.log("OK: "+(palette !== null && typeof palette.color === "object"));
+    if (palette !== null && typeof palette.color === "object"){
+        for (let key in palette.color){
+            console.log(key+" | "+palette.color[key])
             document.body.setAttribute("data-md-color-" + key, palette.color[key])
+        }
+    }
+
+
 </script>
