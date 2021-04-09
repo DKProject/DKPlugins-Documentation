@@ -59,8 +59,8 @@
     
     <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
-      <script >
-    alert("hey")
+      <script rel="preload">
+    alert("test")
     var palette = __get("__palette")
     if (palette !== null && typeof palette.color === "object")
         for (var key in palette.color)
