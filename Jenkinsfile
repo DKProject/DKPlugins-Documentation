@@ -23,9 +23,9 @@ pipeline {
                 script {
                     sh """
                     pip3 install --upgrade pip
-                    pip3 install mkdocs-material
-                    pip install mkdocs-git-revision-date-plugin
-                    pip install mkdocs-git-committers-plugin-2
+                    pip3 install -U mkdocs-material
+                    pip install -U mkdocs-git-revision-date-plugin
+                    pip install -U mkdocs-git-committers-plugin-2
                     """
                 }
             }
