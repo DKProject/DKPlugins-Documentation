@@ -51,10 +51,6 @@ plugins:
   - search
   - git-revision-date
 
-extra_css:
-  - stylesheets/bootstrap-grid.min.css
-  - stylesheets/style.css
-
 edit_uri: https://github.com/dkproject/DKPlugins-Documentation/edit/master/projects/home/docs/
 disableRepo: true
 
