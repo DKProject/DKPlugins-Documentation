@@ -1,0 +1,7 @@
+<script >
+    alert("hey")
+    var palette = __get("__palette")
+    if (palette !== null && typeof palette.color === "object")
+        for (var key in palette.color)
+            document.body.setAttribute("data-md-color-" + key, palette.color[key])
+</script>
