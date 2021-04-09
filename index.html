@@ -46,44 +46,6 @@
       
     
     
-
-<!-- Determine title -->
-
-
-
-<!-- The image needs to have an absolute URL -->
-
-
-<!-- Open graph meta tags -->
-<meta property="og:type" content="website" />
-<meta property="og:title" content="DKPlugins Documentation" />
-<meta property="og:description" content="None" />
-<meta property="og:url" content="http://dkplugins.pretronic.net/" />
-<meta property="og:image" content="http://dkplugins.pretronic.net/assets/images/banner.png" />
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image:width" content="1080" />
-<meta property="og:image:height" content="568" />
-
-<!-- Twitter meta tags -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@squidfunk" />
-<meta name="twitter:creator" content="@squidfunk" />
-<meta name="twitter:title" content="DKPlugins Documentation" />
-<meta name="twitter:description" content="None" />
-<meta name="twitter:image" content="http://dkplugins.pretronic.net/assets/images/banner.png" />
-
-<style>
-    .md-sidebar__scrollwrap {
-        visibility: hidden;
-    }
-</style>
-
-<!-- Extra stylesheets -->
-<link
-        rel="stylesheet"
-        href="overrides/assets/stylesheets/main.css"
-/>
-
   </head>
   
   
@@ -99,7 +61,13 @@
     
     <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
-      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+      <script >
+    alert("hey")
+    var palette = __get("__palette")
+    if (palette !== null && typeof palette.color === "object")
+        for (var key in palette.color)
+            document.body.setAttribute("data-md-color-" + key, palette.color[key])
+</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -107,7 +75,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-the-dkplugins-documentation" class="md-skip">
+        <a href="#template-nosidebarhtml" class="md-skip">
           Skip to content
         </a>
       
@@ -1430,28 +1398,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#support" class="md-nav__link">
-    Support
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contribution" class="md-nav__link">
-    Contribution
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1461,14 +1407,14 @@
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
-
                 
                   <a href="https://github.com/dkproject/DKPlugins-Documentation/edit/master/projects/home/docs/index.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="welcome-to-the-dkplugins-documentation">Welcome to the DKPlugins documentation<a class="headerlink" href="#welcome-to-the-dkplugins-documentation" title="Permanent link">&para;</a></h1>
+                <h1 id="template-nosidebarhtml">template: noSidebar.html<a class="headerlink" href="#template-nosidebarhtml" title="Permanent link">&para;</a></h1>
+<h1 id="welcome-to-the-dkplugins-documentation">Welcome to the DKPlugins documentation<a class="headerlink" href="#welcome-to-the-dkplugins-documentation" title="Permanent link">&para;</a></h1>
 <p>DKPlugins is the network utility plugin series developed and mentioned by <a href="https://pretronic.net">Pretronic</a>. 
 These plugins bring essential tools for punishing, managing permissions, dealing with players and creating in-game 
 currencies to your network. The plugins are designed with highly scalable network synchronization and caching 
@@ -1489,15 +1435,13 @@ written in .md files and can be easily modified in the <a href="https://github.c
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-02-14
+      Last update: 2021-04-09
     
   </small>
 </div>
                   
                 
               
-
-
               
                 
 
@@ -1572,14 +1516,8 @@ written in .md files and can be easily modified in the <a href="https://github.c
     <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
     
     
-
       <script src="assets/javascripts/bundle.d892486b.min.js"></script>
       
     
-
-<!-- Extra JavaScript -->
-<script src="overrides/assets/javascripts/vendor.js"></script>
-<script src="overrides/assets/javascripts/bundle.js"></script>
-
   </body>
 </html>
