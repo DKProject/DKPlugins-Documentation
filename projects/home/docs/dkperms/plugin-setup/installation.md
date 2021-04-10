@@ -12,8 +12,9 @@ exactly and contact our support if you have any questions or problems.
 ## **Compatibility**
 DKPerms supports minecraft 1.8 and later and runs on all McNative supported platforms:
 
- * Bukkit, Spigot, PaperSpigot
+ * Bukkit, Spigot, PaperSpigot, Yatopia
  * BungeeCord, Waterfall, Travertine, FlameCord
+ * McNative
 
 DKPerms is designed for running on multiple servers and supports all McNative messaging technologies:
 
