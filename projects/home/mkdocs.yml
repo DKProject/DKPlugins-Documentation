@@ -125,4 +125,5 @@ nav:
           - Placeholders: dkperms/plugin-usage/placeholders.md
       - Developer API:
           - Getting Started: dkperms/developer/index.md
+          - Scopes: dkperms/developer/scopes.md
 

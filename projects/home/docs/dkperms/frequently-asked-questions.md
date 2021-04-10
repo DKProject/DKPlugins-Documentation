@@ -37,12 +37,12 @@ The Tablist/Chat is provided by McNative and must be enabled in the McNative con
 provide all colors and information to McNative.
 
 ***
-## Why do I not have permission on BungeeCord?
+## Why do I not have permissions on BungeeCord?
 DKPerms must be installed on all servers and your proxy (BungeeCord). In order that DKPerms can correctly synchronize the permission, make sure that DKPerms
 is connected to the same database on all servers and `bungeecord` is set to `true` in the `spigot.yml`.
 
 ***
-## Why do I not have permission on Spigot?
+## Why do I not have permissions on Spigot?
 DKPerms must be installed on all servers and your proxy (BungeeCord). In order that DKPerms can correctly synchronize the permission, make sure that DKPerms
 is connected to the same database on all servers and `bungeecord` is set to `true` in the `spigot.yml`.
 
