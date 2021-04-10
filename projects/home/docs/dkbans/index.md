@@ -64,6 +64,7 @@ DKBans is a reliable currency system and has been optimized and improved over ti
     * Team chat functionality
     * Many other commands (e.g. /ping, /joinme)
     * Migration functionality
+    * Tab completion in all commands
     * Large developer api
 
 

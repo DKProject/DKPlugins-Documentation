@@ -13,10 +13,25 @@ theme:
   logo: https://content.pretronic.net/brand/dkplugins-logo.png
   favicon: https://content.pretronic.net/brand/dkplugins-logo.png
   palette:
-    scheme: preference
-    primary: 'green'
-    accent: 'green'
-
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
@@ -37,8 +52,6 @@ plugins:
   - git-revision-date
 
 extra_css:
-  - stylesheets/dark_theme.css
-  - stylesheets/codehilite.css
   - stylesheets/bootstrap-grid.min.css
   - stylesheets/style.css
 
@@ -99,16 +112,20 @@ nav:
           - Configuration: dkperms/plugin-setup/configuration.md
           - Storage: dkperms/plugin-setup/storage.md
       - Plugin Usage:
-        - Commands:
-          - Overview: dkperms/plugin-usage/commands/index.md
-          - General Commands: dkperms/plugin-usage/commands/general-commands.md
-          - User Commands: dkperms/plugin-usage/commands/user-commands.md
-          - Group Commands: dkperms/plugin-usage/commands/group-commands.md
-          - Permission Commands: dkperms/plugin-usage/commands/permission-commands.md
-          - Parent Commands: dkperms/plugin-usage/commands/parent-commands.md
-          - Meta Commands: dkperms/plugin-usage/commands/meta-commands.md
-          - Track Commands: dkperms/plugin-usage/commands/track-commands.md
-          - Rank Commands: dkperms/plugin-usage/commands/rank-commands.md
-        - Placeholders: dkperms/plugin-usage/placeholders.md
+          - Commands:
+              - Overview: dkperms/plugin-usage/commands/index.md
+              - General Commands: dkperms/plugin-usage/commands/general-commands.md
+              - User Commands: dkperms/plugin-usage/commands/user-commands.md
+              - Group Commands: dkperms/plugin-usage/commands/group-commands.md
+              - Permission Commands: dkperms/plugin-usage/commands/permission-commands.md
+              - Parent Commands: dkperms/plugin-usage/commands/parent-commands.md
+              - Meta Commands: dkperms/plugin-usage/commands/meta-commands.md
+              - Track Commands: dkperms/plugin-usage/commands/track-commands.md
+              - Rank Commands: dkperms/plugin-usage/commands/rank-commands.md
+          - Placeholders: dkperms/plugin-usage/placeholders.md
       - Developer API:
-        - Getting Started: dkperms/developer/index.md
+          - Getting Started: dkperms/developer/index.md
+          - DKPerms Scopes: dkperms/developer/scopes.md
+          - Permission objects: dkperms/developer/objects.md
+          - DKPerms Events: dkperms/developer/events.md
+

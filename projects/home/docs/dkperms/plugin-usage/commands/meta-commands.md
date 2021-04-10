@@ -22,14 +22,15 @@ Important things to remember:
 * ```chat <string>``` The chat format of the group.
 * ```prefix <string>``` The tablist prefix of the group. The prefix is shown in front of the player name. This cannot be longer than 16 characters.
 * ```suffix <string>``` The tablist suffix of the group. The suffix is displayed after the player name. This cannot be longer than 16 characters.
+* ```joinpower <integer>``` The joinpower can be used to control access to servers
 
 **Default keys for user**
 
 * ```color <string>``` The color of the player.  (Normally taken from the group)
-* ```chat <string>`` The chat format of the player (Normally taken from the group).
+* ```chat <string>``` The chat format of the player (Normally taken from the group).
 * ```prefix <string>``` The tablist prefix of the user. The prefix is shown in front of the player name. This cannot be longer than 16 characters (Normally taken from the group)
 * ```suffix <string>``` The tablist suffix of the user. The suffix is displayed after the player name. This cannot be longer than 16 characters (Normally taken from the group)
-
+* ```joinpower <integer>``` The joinpower can be used to control access to servers
 
 #### Index
 

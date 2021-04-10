@@ -92,6 +92,41 @@ object:
 
 ***
 
+## **Server settings**
+
+This section allows you to configure server access privileges.
+
+* ``join`` 
+  * ``required`` Essential conditions that players must fulfill in order to join the server.
+    * ``joinpower`` If `>0`, players need a meta entry `joinpower` with a higher or equal value.
+    * ``permission`` Control the access with permissions.
+      * ``enabled`` If `true`, players need the configured permission to join the server.
+      * ``permission`` The required permissions.
+  * ``full`` Date formatting settings.
+    * ``enabled`` If `true`, players with this permission can also join when the server is full.
+    * ``permission`` The required permission to join a full server.
+    * ``priorityKick`` If `true`, when a player with full joining privileges joins your server, the player with the lowest priority will get kicked.
+
+!!! note ""
+    The joinpower can be configured to groups or players. Use `./perms <user/group> <name> meta set joinpower <value>` to set the joinpower.
+
+**Example:**
+```
+server: 
+  join: 
+    required: 
+      joinpower: 0
+      permission: 
+        enabled: false
+        permission: 'dkperms.server.join'
+    full: 
+      enabled: false
+      permission: 'dkperms.server.join.full'
+      priorityKick: true
+```
+
+***
+
 ## **Security settings**
 
 Settings to keep DKPerms secure.
