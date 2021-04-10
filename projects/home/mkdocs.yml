@@ -125,5 +125,7 @@ nav:
           - Placeholders: dkperms/plugin-usage/placeholders.md
       - Developer API:
           - Getting Started: dkperms/developer/index.md
-          - Scopes: dkperms/developer/scopes.md
+          - DKPerms Scopes: dkperms/developer/scopes.md
+          - Permission objects: dkperms/developer/object.md
+          - Events: dkperms/developer/events.md
 
