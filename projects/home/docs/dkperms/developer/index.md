@@ -82,16 +82,16 @@ DKPerms is built with the Maven build tool and has its own repository (Public av
 You can obtain the DKPerms instance through the McNative service registry or use the direct instance.
 
 **Direct access:**
-```
+```java
 DKPerms dkperms = DKPerms.getInstance();
 ```
 
 **Over McNative service registry:**
-```
+```java
 DKPerms dkperms = McNative.getInstance().getRegistry().getService(DKPerms.class);
 ```
 
 If you are in a McNative plugin class, you can also use the `getRuntime` method.
-```
+```java
 DKPerms dkperms = getRuntime().getService(DKPerms.class);
 ```
