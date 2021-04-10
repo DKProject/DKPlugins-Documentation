@@ -1369,45 +1369,9 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Getting Started
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         Getting Started
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#javadocs" class="md-nav__link">
-    Javadocs
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dependency" class="md-nav__link">
-    Dependency
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -1419,7 +1383,31 @@
   
     <li class="md-nav__item">
       <a href="scopes/" class="md-nav__link">
-        Scopes
+        DKPerms Scopes
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="object.md" class="md-nav__link">
+        Permission objects
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="events/" class="md-nav__link">
+        Events
       </a>
     </li>
   
@@ -1455,28 +1443,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#javadocs" class="md-nav__link">
-    Javadocs
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dependency" class="md-nav__link">
-    Dependency
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1501,10 +1467,10 @@ interface will handle everything for you.</p>
 <p><strong>Storage &amp; Synchronisation operations</strong></p>
 <p>DKPerms offers you a simple api to create, modify, update and delete objects scopes and other stuff. You have not to deal 
 with saving or synchronizing data, DKPerms is automatically handling those things in the background.</p>
-<h2 id="javadocs">Javadocs<a class="headerlink" href="#javadocs" title="Permanent link">&para;</a></h2>
+<h1 id="javadocs">Javadocs<a class="headerlink" href="#javadocs" title="Permanent link">&para;</a></h1>
 <p>The full Api documentation is available as Javadocs <a href="https://javadocs.pretronic.net/dkperms">here</a>. 
 This wiki covers only basic examples, the api is much bigger and offers many more possibilities.</p>
-<h2 id="dependency">Dependency<a class="headerlink" href="#dependency" title="Permanent link">&para;</a></h2>
+<h1 id="dependency">Dependency<a class="headerlink" href="#dependency" title="Permanent link">&para;</a></h1>
 <p>DKPerms is built with the Maven build tool and has its own repository (Public available).</p>
 <p><strong>Repository</strong></p>
 <div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Maven</label><div class="tabbed-content">
@@ -1540,7 +1506,7 @@ This wiki covers only basic examples, the api is much bigger and offers many mor
 </code></pre></div>
 </div>
 </div>
-<p><strong>Get the DKPerms instance</strong></p>
+<h1 id="get-the-dkperms-instance">Get the DKPerms instance<a class="headerlink" href="#get-the-dkperms-instance" title="Permanent link">&para;</a></h1>
 <p>You can obtain the DKPerms instance through the McNative service registry or use the direct instance.</p>
 <p><strong>Direct access:</strong>
 <div class="highlight"><pre><span></span><code><span class="n">DKPerms</span> <span class="n">dkperms</span> <span class="o">=</span> <span class="n">DKPerms</span><span class="p">.</span><span class="na">getInstance</span><span class="p">();</span>
