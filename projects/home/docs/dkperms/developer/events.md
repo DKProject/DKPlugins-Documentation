@@ -17,7 +17,7 @@ The usage for all
 
 On Bukkit and BungeeCord, you can use the normal `@EventHandler` in a listener to subscribe to a DKPerms event
 
-```
+```java
 @EventHandler
 public void onPermissionCalculate(DKPermsPermissionCalculationEvent event){
     if(event.getObject().getName().equals("Dkrieger")){
@@ -31,7 +31,7 @@ public void onPermissionCalculate(DKPermsPermissionCalculationEvent event){
 
 In a McNative plugin, you can use the `@Listener` annotation or subscribe directly to the local event bus.
 
-```
+```java
 @Listener
 public void onPermissionCalculate(DKPermsPermissionCalculationEvent event){
     if(event.getObject().getName().equals("Dkrieger")){
@@ -45,7 +45,7 @@ public void onPermissionCalculate(DKPermsPermissionCalculationEvent event){
 
 ## Available events
 
-You can use all events listed here.
+You can use all events listed here, you will find more information about the available methods in the Javadocs [here](https://javadocs.pretronic.net/dkperms).
 
 ### DKPermsPermissionObjectCreateEvent
 
