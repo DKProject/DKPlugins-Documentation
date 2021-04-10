@@ -1484,10 +1484,6 @@
 <p>DKPerms contains a large and powerful API that is easy to use. The api is very flexible and gives you the 
 possibility to fully interact with DKPerms. You don't need to worry about anything else, the DKPerms api 
 interface will handle everything for you.</p>
-<div class="admonition note">
-<p><strong>As soon as McNative is available for developers, we will document exactly how to use and integrate with DKPerms.
-If you already want to use the DKPerms api, use the development channel on our Discord to get help from us and our community.</strong></p>
-</div>
 <p><strong>Thread safety</strong></p>
 <p>All operations in DKPerms are totally thread safety and designed for asynchronously usage.</p>
 <p><strong>Storage &amp; Synchronisation operations</strong></p>
@@ -1532,6 +1528,17 @@ This wiki covers only basic examples, the api is much bigger and offers many mor
 </code></pre></div>
 </div>
 </div>
+<p><strong>Get the DKPerms instance</strong></p>
+<p>You can obtain the DKPerms instance through the McNative service registry or use the direct instance.</p>
+<p><strong>Direct access:</strong>
+<div class="highlight"><pre><span></span><code>DKPerms dkperms = DKPerms.getInstance();
+</code></pre></div></p>
+<p><strong>Over McNative service registry:</strong>
+<div class="highlight"><pre><span></span><code>DKPerms dkperms = McNative.getInstance().getRegistry().getService(DKPerms.class);
+</code></pre></div></p>
+<p>If you are in a McNative plugin class, you can also use the <code>getRuntime</code> method.
+<div class="highlight"><pre><span></span><code>DKPerms dkperms = getRuntime().getService(DKPerms.class);
+</code></pre></div></p>
                 
                   
                     
@@ -1540,7 +1547,7 @@ This wiki covers only basic examples, the api is much bigger and offers many mor
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-02-13
+      Last update: 2021-04-10
     
   </small>
 </div>
