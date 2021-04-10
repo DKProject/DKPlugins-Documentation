@@ -56,10 +56,10 @@ After DKPerms has started you will see an error in your console (`Missing or wro
 To license DKPerms to your server you have to enter your network credentials in the McNative config (You will find the credentials in the McNative console) 
 or use your personal license key.
 
-**Key Licensing (SpigotMc)**
+**Key Licensing (SpigotMc)** <br />
 If you want to continue with your personal `license.key` you just have to put it in the folder `plugins/DKPerms`.
 
-**McNative Licensing**
+**McNative Licensing** <br />
 If you want to work with McNative and is capabilities, enter your console credentials in the Mcnative configuration (`plugins/McNative/config.yml`).
 
 
