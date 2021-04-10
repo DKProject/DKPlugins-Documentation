@@ -8,9 +8,6 @@ DKPerms contains a large and powerful API that is easy to use. The api is very f
 possibility to fully interact with DKPerms. You don't need to worry about anything else, the DKPerms api 
 interface will handle everything for you.
 
-!!! note ""
-    **As soon as McNative is available for developers, we will document exactly how to use and integrate with DKPerms.
-    If you already want to use the DKPerms api, use the development channel on our Discord to get help from us and our community.**
 
 **Thread safety**
 
@@ -80,3 +77,21 @@ DKPerms is built with the Maven build tool and has its own repository (Public av
     ```
 
 
+**Get the DKPerms instance**
+
+You can obtain the DKPerms instance through the McNative service registry or use the direct instance.
+
+**Direct access:**
+```
+DKPerms dkperms = DKPerms.getInstance();
+```
+
+**Over McNative service registry:**
+```
+DKPerms dkperms = McNative.getInstance().getRegistry().getService(DKPerms.class);
+```
+
+If you are in a McNative plugin class, you can also use the `getRuntime` method.
+```
+DKPerms dkperms = getRuntime().getService(DKPerms.class);
+```
