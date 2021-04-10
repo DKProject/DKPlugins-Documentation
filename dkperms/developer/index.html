@@ -1531,13 +1531,13 @@ This wiki covers only basic examples, the api is much bigger and offers many mor
 <p><strong>Get the DKPerms instance</strong></p>
 <p>You can obtain the DKPerms instance through the McNative service registry or use the direct instance.</p>
 <p><strong>Direct access:</strong>
-<div class="highlight"><pre><span></span><code>DKPerms dkperms = DKPerms.getInstance();
+<div class="highlight"><pre><span></span><code><span class="n">DKPerms</span> <span class="n">dkperms</span> <span class="o">=</span> <span class="n">DKPerms</span><span class="p">.</span><span class="na">getInstance</span><span class="p">();</span>
 </code></pre></div></p>
 <p><strong>Over McNative service registry:</strong>
-<div class="highlight"><pre><span></span><code>DKPerms dkperms = McNative.getInstance().getRegistry().getService(DKPerms.class);
+<div class="highlight"><pre><span></span><code><span class="n">DKPerms</span> <span class="n">dkperms</span> <span class="o">=</span> <span class="n">McNative</span><span class="p">.</span><span class="na">getInstance</span><span class="p">().</span><span class="na">getRegistry</span><span class="p">().</span><span class="na">getService</span><span class="p">(</span><span class="n">DKPerms</span><span class="p">.</span><span class="na">class</span><span class="p">);</span>
 </code></pre></div></p>
 <p>If you are in a McNative plugin class, you can also use the <code>getRuntime</code> method.
-<div class="highlight"><pre><span></span><code>DKPerms dkperms = getRuntime().getService(DKPerms.class);
+<div class="highlight"><pre><span></span><code><span class="n">DKPerms</span> <span class="n">dkperms</span> <span class="o">=</span> <span class="n">getRuntime</span><span class="p">().</span><span class="na">getService</span><span class="p">(</span><span class="n">DKPerms</span><span class="p">.</span><span class="na">class</span><span class="p">);</span>
 </code></pre></div></p>
                 
                   
