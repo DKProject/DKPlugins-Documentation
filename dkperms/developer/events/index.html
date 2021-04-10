@@ -12,7 +12,7 @@
         <link rel="canonical" href="http://dkplugins.pretronic.net/dkperms/developer/events/">
       
       <link rel="icon" href="https://content.pretronic.net/brand/dkplugins-logo.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.1">
     
     
       
@@ -20,7 +20,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.33e2939f.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.9299cb39.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.ef6f36e2.min.css">
@@ -1406,12 +1406,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Events
+          DKPerms Events
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Events
+        DKPerms Events
       </a>
       
         
@@ -1428,30 +1428,70 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    Usage
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bukkit-bungeecord" class="md-nav__link">
+    Bukkit / BungeeCord
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcnative" class="md-nav__link">
+    McNative
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#available-events" class="md-nav__link">
+    Available events
+  </a>
+  
+    <nav class="md-nav" aria-label="Available events">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#dkpermspermissionobjectcreateevent" class="md-nav__link">
     DKPermsPermissionObjectCreateEvent
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#dkpermspermissionobjectdeleteevent" class="md-nav__link">
     DKPermsPermissionObjectDeleteEvent
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#dkpermspermissioncalculationevent" class="md-nav__link">
     DKPermsPermissionCalculationEvent
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#dkpermsscopechangeevent" class="md-nav__link">
     DKPermsScopeChangeEvent
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1500,30 +1540,70 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    Usage
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bukkit-bungeecord" class="md-nav__link">
+    Bukkit / BungeeCord
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcnative" class="md-nav__link">
+    McNative
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#available-events" class="md-nav__link">
+    Available events
+  </a>
+  
+    <nav class="md-nav" aria-label="Available events">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#dkpermspermissionobjectcreateevent" class="md-nav__link">
     DKPermsPermissionObjectCreateEvent
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#dkpermspermissionobjectdeleteevent" class="md-nav__link">
     DKPermsPermissionObjectDeleteEvent
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#dkpermspermissioncalculationevent" class="md-nav__link">
     DKPermsPermissionCalculationEvent
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#dkpermsscopechangeevent" class="md-nav__link">
     DKPermsScopeChangeEvent
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1548,10 +1628,37 @@
 <p>DKPerms provides several events for better interaction with the plugin. You can use events in a 
 normal Bukkit/BungeeCord listener with <code>@EventHandler</code> or subscribe to the McNative event bus.
 If you need other events, create a <a href="../../support/#suggestions">suggestion</a>.</p>
-<h2 id="dkpermspermissionobjectcreateevent">DKPermsPermissionObjectCreateEvent<a class="headerlink" href="#dkpermspermissionobjectcreateevent" title="Permanent link">&para;</a></h2>
-<h2 id="dkpermspermissionobjectdeleteevent">DKPermsPermissionObjectDeleteEvent<a class="headerlink" href="#dkpermspermissionobjectdeleteevent" title="Permanent link">&para;</a></h2>
-<h2 id="dkpermspermissioncalculationevent">DKPermsPermissionCalculationEvent<a class="headerlink" href="#dkpermspermissioncalculationevent" title="Permanent link">&para;</a></h2>
-<h2 id="dkpermsscopechangeevent">DKPermsScopeChangeEvent<a class="headerlink" href="#dkpermsscopechangeevent" title="Permanent link">&para;</a></h2>
+<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
+<p>The usage for all</p>
+<h3 id="bukkit-bungeecord">Bukkit / BungeeCord<a class="headerlink" href="#bukkit-bungeecord" title="Permanent link">&para;</a></h3>
+<p>On Bukkit and BungeeCord, you can use the normal <code>@EventHandler</code> in a listener to subscribe to a DKPerms event</p>
+<div class="highlight"><pre><span></span><code>@EventHandler
+public void onPermissionCalculate(DKPermsPermissionCalculationEvent event){
+    if(event.getObject().getName().equals(&quot;Dkrieger&quot;)){
+        event.setAction(PermissionAction.ALLOW);
+    }
+}
+</code></pre></div>
+<h3 id="mcnative">McNative<a class="headerlink" href="#mcnative" title="Permanent link">&para;</a></h3>
+<p>In a McNative plugin, you can use the <code>@Listener</code> annotation or subscribe directly to the local event bus.</p>
+<div class="highlight"><pre><span></span><code>@Listener
+public void onPermissionCalculate(DKPermsPermissionCalculationEvent event){
+    if(event.getObject().getName().equals(&quot;Dkrieger&quot;)){
+        event.setAction(PermissionAction.ALLOW);
+    }
+}
+</code></pre></div>
+<hr />
+<h2 id="available-events">Available events<a class="headerlink" href="#available-events" title="Permanent link">&para;</a></h2>
+<p>You can use all events listed here.</p>
+<h3 id="dkpermspermissionobjectcreateevent">DKPermsPermissionObjectCreateEvent<a class="headerlink" href="#dkpermspermissionobjectcreateevent" title="Permanent link">&para;</a></h3>
+<p>This event is fired, when a new permission object (e.g. player, group) is created. </p>
+<h3 id="dkpermspermissionobjectdeleteevent">DKPermsPermissionObjectDeleteEvent<a class="headerlink" href="#dkpermspermissionobjectdeleteevent" title="Permanent link">&para;</a></h3>
+<p>This event is fired, when a new permission object (e.g. player, group) is deleted.</p>
+<h3 id="dkpermspermissioncalculationevent">DKPermsPermissionCalculationEvent<a class="headerlink" href="#dkpermspermissioncalculationevent" title="Permanent link">&para;</a></h3>
+<p>This event is fired when a permission of an object is checked. You can change the permission result with this event.</p>
+<h3 id="dkpermsscopechangeevent">DKPermsScopeChangeEvent<a class="headerlink" href="#dkpermsscopechangeevent" title="Permanent link">&para;</a></h3>
+<p>This event is fired when a player switches to a new scope (e.g. from World-1 to World-2).</p>
                 
                   
                     
@@ -1641,7 +1748,7 @@ If you need other events, create a <a href="../../support/#suggestions">suggesti
     <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.d892486b.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.7353b375.min.js"></script>
       
     
   </body>
