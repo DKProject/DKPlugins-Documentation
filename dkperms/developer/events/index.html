@@ -1632,25 +1632,25 @@ If you need other events, create a <a href="../../support/#suggestions">suggesti
 <p>The usage for all</p>
 <h3 id="bukkit-bungeecord">Bukkit / BungeeCord<a class="headerlink" href="#bukkit-bungeecord" title="Permanent link">&para;</a></h3>
 <p>On Bukkit and BungeeCord, you can use the normal <code>@EventHandler</code> in a listener to subscribe to a DKPerms event</p>
-<div class="highlight"><pre><span></span><code>@EventHandler
-public void onPermissionCalculate(DKPermsPermissionCalculationEvent event){
-    if(event.getObject().getName().equals(&quot;Dkrieger&quot;)){
-        event.setAction(PermissionAction.ALLOW);
-    }
-}
+<div class="highlight"><pre><span></span><code><span class="nd">@EventHandler</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">onPermissionCalculate</span><span class="p">(</span><span class="n">DKPermsPermissionCalculationEvent</span> <span class="n">event</span><span class="p">){</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">event</span><span class="p">.</span><span class="na">getObject</span><span class="p">().</span><span class="na">getName</span><span class="p">().</span><span class="na">equals</span><span class="p">(</span><span class="s">&quot;Dkrieger&quot;</span><span class="p">)){</span>
+        <span class="n">event</span><span class="p">.</span><span class="na">setAction</span><span class="p">(</span><span class="n">PermissionAction</span><span class="p">.</span><span class="na">ALLOW</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
 </code></pre></div>
 <h3 id="mcnative">McNative<a class="headerlink" href="#mcnative" title="Permanent link">&para;</a></h3>
 <p>In a McNative plugin, you can use the <code>@Listener</code> annotation or subscribe directly to the local event bus.</p>
-<div class="highlight"><pre><span></span><code>@Listener
-public void onPermissionCalculate(DKPermsPermissionCalculationEvent event){
-    if(event.getObject().getName().equals(&quot;Dkrieger&quot;)){
-        event.setAction(PermissionAction.ALLOW);
-    }
-}
+<div class="highlight"><pre><span></span><code><span class="nd">@Listener</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">onPermissionCalculate</span><span class="p">(</span><span class="n">DKPermsPermissionCalculationEvent</span> <span class="n">event</span><span class="p">){</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">event</span><span class="p">.</span><span class="na">getObject</span><span class="p">().</span><span class="na">getName</span><span class="p">().</span><span class="na">equals</span><span class="p">(</span><span class="s">&quot;Dkrieger&quot;</span><span class="p">)){</span>
+        <span class="n">event</span><span class="p">.</span><span class="na">setAction</span><span class="p">(</span><span class="n">PermissionAction</span><span class="p">.</span><span class="na">ALLOW</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
 </code></pre></div>
 <hr />
 <h2 id="available-events">Available events<a class="headerlink" href="#available-events" title="Permanent link">&para;</a></h2>
-<p>You can use all events listed here.</p>
+<p>You can use all events listed here, you will find more information about the available methods in the Javadocs <a href="https://javadocs.pretronic.net/dkperms">here</a>.</p>
 <h3 id="dkpermspermissionobjectcreateevent">DKPermsPermissionObjectCreateEvent<a class="headerlink" href="#dkpermspermissionobjectcreateevent" title="Permanent link">&para;</a></h3>
 <p>This event is fired, when a new permission object (e.g. player, group) is created. </p>
 <h3 id="dkpermspermissionobjectdeleteevent">DKPermsPermissionObjectDeleteEvent<a class="headerlink" href="#dkpermspermissionobjectdeleteevent" title="Permanent link">&para;</a></h3>
