@@ -36,6 +36,7 @@ DKPerms is a reliable permission system and has been optimized and improved over
         * Per world groups
         * Per server groups
         * Per server group groups
+        * Per custom implementation (e.g. region)
 * **Integrations**
     * Tablist & Chat integration (live update)
     * Placeholders for PlaceholderAPI
@@ -48,10 +49,10 @@ DKPerms is a reliable permission system and has been optimized and improved over
     * Tab completion in all commands
     * Tree based structure
     * Change logging
-    * Migration functionality
+    * Migration functionalities
     * Large developer api
     * Server join permission & power
-    * Full server join with priority kick 
+    * Full server join permission with priority kick 
 
 ## Support
 DKPerms support is offered by our Team and community via Discord to all DKPerms buyers. All supporters do this voluntarily and answer as soon as possible.
