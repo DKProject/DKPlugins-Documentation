@@ -10,7 +10,7 @@ If you need other events, create a [suggestion](../support.md#suggestions).
 
 ## Usage
 
-The usage for all
+The usage for all is the same, see al available events below.
 
 
 ### Bukkit / BungeeCord
