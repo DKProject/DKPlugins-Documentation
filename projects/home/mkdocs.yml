@@ -127,5 +127,5 @@ nav:
           - Getting Started: dkperms/developer/index.md
           - DKPerms Scopes: dkperms/developer/scopes.md
           - Permission objects: dkperms/developer/objects.md
-          - Events: dkperms/developer/events.md
+          - DKPerms Events: dkperms/developer/events.md
 

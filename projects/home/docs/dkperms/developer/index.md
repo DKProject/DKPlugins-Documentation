@@ -19,12 +19,16 @@ DKPerms offers you a simple api to create, modify, update and delete objects sco
 with saving or synchronizing data, DKPerms is automatically handling those things in the background.
 
 
-# Javadocs
+****
+
+## Javadocs
 
 The full Api documentation is available as Javadocs [here](https://javadocs.pretronic.net/dkperms). 
 This wiki covers only basic examples, the api is much bigger and offers many more possibilities.
 
-# Dependency
+****
+
+## Dependency
 
 DKPerms is built with the Maven build tool and has its own repository (Public available).
 
@@ -77,7 +81,10 @@ DKPerms is built with the Maven build tool and has its own repository (Public av
     ```
 
 
-# Get the DKPerms instance
+****
+
+
+## Get the DKPerms instance
 
 You can obtain the DKPerms instance through the McNative service registry or use the direct instance.
 
