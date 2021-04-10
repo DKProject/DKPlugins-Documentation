@@ -3,23 +3,17 @@
 <html lang="en" class="no-js">
   <head>
     
-<script>
-    function __prefix(e){
-        return new URL("../../..",window.location).pathname+"."+e
-    }
-
-    function __get(e,t=localStorage){
-        return JSON.parse(t.getItem(__prefix(e)))
-    }
-
-    let palette = __get("__palette")
-    if (palette !== null && typeof palette.color === "object"){
-        for (let key in palette.color){
-            document.documentElement.setAttribute("data-md-color-" + key, palette.color[key])
-        }
-    }
-</script>
-
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="http://dkplugins.pretronic.net/dkperms/frequently-asked-questions/">
+      
+      <link rel="icon" href="https://content.pretronic.net/brand/dkplugins-logo.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
+    
     
       
         <title>Frequently Asked Questions - DKPlugins Documentation</title>
@@ -1120,6 +1114,27 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#how-can-i-use-the-tablist-and-chat" class="md-nav__link">
+    How can I use the Tablist and Chat?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-do-i-not-have-permission-on-bungeecord" class="md-nav__link">
+    Why do I not have permission on BungeeCord?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-do-i-not-have-permission-on-spigot" class="md-nav__link">
+    Why do I not have permission on Spigot?
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1453,6 +1468,27 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#how-can-i-use-the-tablist-and-chat" class="md-nav__link">
+    How can I use the Tablist and Chat?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-do-i-not-have-permission-on-bungeecord" class="md-nav__link">
+    Why do I not have permission on BungeeCord?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-do-i-not-have-permission-on-spigot" class="md-nav__link">
+    Why do I not have permission on Spigot?
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1473,6 +1509,13 @@
                 <h1 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Permanent link">&para;</a></h1>
 <p>this page contains some questions which are frequently asked about DKPerms.
 Before you ask a question in our support, please check this page and make sure that the question is not already answered.</p>
+<h4>Index</h4>
+<ul>
+<li><a href="#how-can-i-create-a-default-group">How can I create a default group?</a></li>
+<li><a href="#how-can-i-use-the-tablist-and-chat">How can I use the Tablist and Chat?</a></li>
+<li><a href="#why-do-i-not-have-permission-on-bungeecord">Why do I not have permission on BungeeCord?</a></li>
+<li><a href="#why-do-i-not-have-permission-on-spigot">Why do I not have permission on Spigot?</a></li>
+</ul>
 <hr />
 <h2 id="how-can-i-create-a-default-group">How can I create a default group?<a class="headerlink" href="#how-can-i-create-a-default-group" title="Permanent link">&para;</a></h2>
 <p>DKPerms handles default groups in its meta. You can set a group as default on the whole network or on a specified server.</p>
@@ -1484,6 +1527,18 @@ joined the server, you can set the meta ``defaultAssign<code>to</code>true```, s
 <p><code>/perms group &lt;group&gt; meta set defaultAsign true</code></p>
 <p><code>/perms group &lt;group&gt; meta set default true world=world-1</code>
 In this case the group is only default on world-1</p>
+<hr />
+<h2 id="how-can-i-use-the-tablist-and-chat">How can I use the Tablist and Chat?<a class="headerlink" href="#how-can-i-use-the-tablist-and-chat" title="Permanent link">&para;</a></h2>
+<p>The Tablist/Chat is provided by McNative and must be enabled in the McNative configuration <code>plugins/McNative/config.yml</code>. DKPerms will then
+provide all colors and information to McNative.</p>
+<hr />
+<h2 id="why-do-i-not-have-permission-on-bungeecord">Why do I not have permission on BungeeCord?<a class="headerlink" href="#why-do-i-not-have-permission-on-bungeecord" title="Permanent link">&para;</a></h2>
+<p>DKPerms must be installed on all servers and your proxy (BungeeCord). In order that DKPerms can correctly synchronize the permission, make sure that DKPerms
+is connected to the same database on all servers and <code>bungeecord</code> is set to <code>true</code> in the <code>spigot.yml</code>.</p>
+<hr />
+<h2 id="why-do-i-not-have-permission-on-spigot">Why do I not have permission on Spigot?<a class="headerlink" href="#why-do-i-not-have-permission-on-spigot" title="Permanent link">&para;</a></h2>
+<p>DKPerms must be installed on all servers and your proxy (BungeeCord). In order that DKPerms can correctly synchronize the permission, make sure that DKPerms
+is connected to the same database on all servers and <code>bungeecord</code> is set to <code>true</code> in the <code>spigot.yml</code>.</p>
                 
                   
                     
@@ -1492,7 +1547,7 @@ In this case the group is only default on world-1</p>
 <div class="md-source-date">
   <small>
     
-      Last update: 2020-12-14
+      Last update: 2021-04-10
     
   </small>
 </div>
