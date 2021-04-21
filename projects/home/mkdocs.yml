@@ -75,6 +75,7 @@ nav:
           - Commands:
               - Overview: dkbans/plugin-usage/commands/index.md
           - Placeholders: dkbans/plugin-usage/placeholders.md
+          - Filter: dkbans/plugin-usage/filter.md
       - Developer API:
           - Getting Started: dkbans/developer/index.md
   - DKCoins:

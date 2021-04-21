@@ -83,6 +83,8 @@ Add this section with the name of the command and template group to your `comman
   aliases: ['mute']
 ```
 
+***
+
 ## Configure a template
 
 Each template group contains one to infinite number of templates. The template format looks different for the three template types.
