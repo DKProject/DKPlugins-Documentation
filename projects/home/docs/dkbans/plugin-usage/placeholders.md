@@ -13,19 +13,19 @@ Important things to remember:
 
 ***
 
-## %player_name%
+## %dkbans_player_name%
 
 This placeholder shows the name of the player.
 
 ***
 
-## %player_uniqueId%
+## %dkbans_player_uniqueId%
 
 This placeholder shows the uniqueId of the player.
 
 ***
 
-## %player_online-time-long%
+## %dkbans_player_online-time-long%
 
 This placeholder shows the online time of the player in the long duration format.
 
@@ -33,67 +33,67 @@ Example: 10 days 5 hours 4 minutes
 
 ***
 
-## %player_online-time-short%
+## %dkbans_player_online-time-short%
 
 This placeholder shows the online time of the player in the long duration format.
 
 Example: 10d 5h 4m
 ***
 
-## %player_online-time-h%
+## %dkbans_player_online-time-h%
 
 This placeholder shows the online time of the player in hours (rounded).
 
 ***
 
-## %player_online-time-d%
+## %dkbans_player_online-time-d%
 
 This placeholder shows the online time of the player in days (rounded).
 
 ***
 
-## %player_country%
+## %dkbans_player_country%
 
 This placeholder shows the country of the player.
 
 ***
 
-## %player_ip%
+## %dkbans_player_ip%
 
 This placeholder shows the ip address of the player.
 
 ***
 
-## %player_region%
+## %dkbans_player_region%
 
 This placeholder shows the region of the player (e.g. Berlin / California).
 
 ***
 
-## %player_version%
+## %dkbans_player_version%
 
 This placeholder shows the Minecraft version (e.g. 1.8, 1.16.4) that the player is using.
 
 ***
 
-## %player_teamChatLogin%
+## %dkbans_player_teamChatLogin%
 
 This placeholder shows if the player is logged in to the team chat.
 
 ***
 
-## %player_notifyLogin%
+## %dkbans_player_notifyLogin%
 
 This placeholder shows if the player receives punish notification.
 
 ***
 
-## %player_reportLogin%
+## %dkbans_player_reportLogin%
 
 This placeholder shows if the player receives report notification.
 
 ***
 
-## %openReports%
+## %dkbans_openReports%
 
 This placeholder shows the amount of open reports.
