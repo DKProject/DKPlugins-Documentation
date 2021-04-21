@@ -111,6 +111,7 @@ nav:
           - Migration: dkperms/plugin-setup/migration.md
           - Configuration: dkperms/plugin-setup/configuration.md
           - Storage: dkperms/plugin-setup/storage.md
+          - Punishment templates: dkperms/plugin-setup/punishment-templates.md
       - Plugin Usage:
           - Commands:
               - Overview: dkperms/plugin-usage/commands/index.md
