@@ -70,6 +70,7 @@ nav:
           - Configuration: dkbans/plugin-setup/configuration.md
           - Migration: dkbans/plugin-setup/migration.md
           - Storage: dkbans/plugin-setup/storage.md
+          - Punishment templates: dkbans/plugin-setup/punishment-templates.md
       - Plugin Usage:
           - Commands:
               - Overview: dkbans/plugin-usage/commands/index.md
@@ -111,7 +112,6 @@ nav:
           - Migration: dkperms/plugin-setup/migration.md
           - Configuration: dkperms/plugin-setup/configuration.md
           - Storage: dkperms/plugin-setup/storage.md
-          - Punishment templates: dkperms/plugin-setup/punishment-templates.md
       - Plugin Usage:
           - Commands:
               - Overview: dkperms/plugin-usage/commands/index.md
