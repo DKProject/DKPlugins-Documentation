@@ -75,6 +75,7 @@ nav:
           - Commands:
               - Overview: dkbans/plugin-usage/commands/index.md
               - Broadcast: dkbans/plugin-usage/commands/broadcast-commands.md
+              - Broadcastgroup: dkbans/plugin-usage/commands/broadcast-group-commands.md
           - Placeholders: dkbans/plugin-usage/placeholders.md
           - Filter: dkbans/plugin-usage/filter.md
       - Developer API:
