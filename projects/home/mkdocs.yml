@@ -71,6 +71,7 @@ nav:
           - Migration: dkbans/plugin-setup/migration.md
           - Storage: dkbans/plugin-setup/storage.md
           - Punishment templates: dkbans/plugin-setup/punishment-templates.md
+          - Broadcast: dkbans/plugin-setup/broadcast.md
       - Plugin Usage:
           - Commands:
               - Overview: dkbans/plugin-usage/commands/index.md
