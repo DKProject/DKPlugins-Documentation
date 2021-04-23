@@ -166,3 +166,10 @@ templates:
 Required template group type: `UNPUNISHMENT` (see above)
 
 **Work in progress**
+
+
+## Import
+
+After you have configured the templates, you need to import them into your database using the following command:
+
+`./dkbans template import`
