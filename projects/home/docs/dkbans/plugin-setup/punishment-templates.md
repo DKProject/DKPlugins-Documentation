@@ -99,6 +99,7 @@ Required template group type: `PUNISHMENT` (see above)
     * ``aliases`` Alternative names to use in commands 
     * ``hidden`` If `True`, the template will not be displayed in commands
     * ``historyType`` The name of the history type to use for this template (See above for more information)
+    * ``messageKey`` An optional paramter for per reason punishment messages/screens (The name of the message key)
     * ``<amount/points>`` The amount of punishments or points (depending on the selected calculation)
         * ``type`` The punishment type (See above for more information)
         * ``duration`` The duration of the punishment (not all punishment types have a duration)
