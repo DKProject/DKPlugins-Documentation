@@ -15,7 +15,7 @@ visualization types (e.g. boss bar, chat, action bar) available and can schedule
 A broadcast is something like a preconfigured template with all information about your broadcast, you can
 send these broadcasts manually or assign them to a broadcast group. The broadcast systems supports all RGB colors and placeholders.
 
-**Visibility types**
+**Visibility types** <br />
 DKBans supports four different visibility types by default.
 
  * **CHAT**
@@ -23,7 +23,7 @@ DKBans supports four different visibility types by default.
  * **ACTIONBAR**
  * **BOSSBAR**
 
-**Properties**
+**Properties** <br />
 Additional properties are available for each broadcast, allowing you to add functionality to each broadcast.
 
 * **text** The content of the broadcast (color and placeholders supported)
@@ -39,7 +39,7 @@ Additional properties are available for each broadcast, allowing you to add func
 A broadcast group is a list of broadcasts that can be used to automatically send broadcasts or limit 
 to a specific region (for example, server).
 
-**Available settings**
+**Available settings** <br />
 
 * **enable** If the group is activated
 * **permissions** Only players with this permissions will receive this message
