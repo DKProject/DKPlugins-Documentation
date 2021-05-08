@@ -614,6 +614,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#punishment-commands" class="md-nav__link">
+    Punishment commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#report-commands" class="md-nav__link">
+    Report commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ip-commands" class="md-nav__link">
     Ip commands
   </a>
@@ -637,6 +651,13 @@
         <li class="md-nav__item">
   <a href="#filter-commands" class="md-nav__link">
     Filter commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broadcast-commands" class="md-nav__link">
+    Broadcast commands
   </a>
   
 </li>
@@ -1586,6 +1607,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#punishment-commands" class="md-nav__link">
+    Punishment commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#report-commands" class="md-nav__link">
+    Report commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ip-commands" class="md-nav__link">
     Ip commands
   </a>
@@ -1609,6 +1644,13 @@
         <li class="md-nav__item">
   <a href="#filter-commands" class="md-nav__link">
     Filter commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broadcast-commands" class="md-nav__link">
+    Broadcast commands
   </a>
   
 </li>
@@ -1645,11 +1687,54 @@
 <li>Optional arguments are declared with <code>[example]</code></li>
 <li>Sub commands documented on another page are declared with <code>...</code></li>
 </ul>
+<div class="admonition note"></div>
+<p>All commands are customizable in commands.yml, therefore the commands may vary depending on your configuration.</p>
 <h2 id="general-commands">General commands<a class="headerlink" href="#general-commands" title="Permanent link">&para;</a></h2>
 <p>These commands are used to operate DKBans on your network or server.</p>
 <ul>
 <li><a href=""><code>/dkbans</code></a></li>
 <li><a href=""><code>/dkbans info</code></a></li>
+<li><a href=""><code>/dkbans template</code></a></li>
+</ul>
+<h2 id="punishment-commands">Punishment commands<a class="headerlink" href="#punishment-commands" title="Permanent link">&para;</a></h2>
+<p>Default punishment commands available by DKBans (You can completely change them with your templates and the command config)</p>
+<ul>
+<li><a href=""><code>/ban &lt;player&gt; &lt;template&gt;</code></a></li>
+<li><a href=""><code>/tempban &lt;player&gt; &lt;duration&gt; &lt;reason&gt;</code></a></li>
+<li>
+<p><a href=""><code>/permaban &lt;player&gt; &lt;reason&gt;</code></a>
+  Mute commands are similar!</p>
+</li>
+<li>
+<p><a href=""><code>/warn &lt;player&gt; &lt;reason&gt;</code></a></p>
+</li>
+<li><a href=""><code>/kick &lt;player&gt; &lt;reason&gt;</code></a></li>
+</ul>
+<p>Optionally, you can also configure templates for warning and kick.</p>
+<ul>
+<li><a href=""><code>/punishInfo &lt;player&gt; &lt;reason&gt;</code></a></li>
+<li>
+<p><a href=""><code>/banInfo &lt;player&gt; &lt;reason&gt;</code></a></p>
+</li>
+<li>
+<p><a href=""><code>/unpunish &lt;player&gt;</code></a></p>
+</li>
+<li>
+<p><a href=""><code>/unban &lt;player&gt;</code></a></p>
+</li>
+<li>
+<p><a href=""><code>/bans &lt;player&gt; &lt;reason&gt;</code></a></p>
+</li>
+<li><a href=""><code>/mutes &lt;player&gt; &lt;reason&gt;</code></a></li>
+</ul>
+<h2 id="report-commands">Report commands<a class="headerlink" href="#report-commands" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href=""><code>/report &lt;player&gt; &lt;template&gt;</code></a></li>
+<li><a href=""><code>/report take &lt;player&gt;</code></a></li>
+<li><a href=""><code>/report decline &lt;player&gt;</code></a></li>
+<li><a href=""><code>/report accept &lt;player&gt;</code></a></li>
+<li><a href=""><code>/report list</code></a></li>
+<li><a href=""><code>/dkbans login/logout</code></a></li>
 <li><a href=""><code>/dkbans template</code></a></li>
 </ul>
 <h2 id="ip-commands">Ip commands<a class="headerlink" href="#ip-commands" title="Permanent link">&para;</a></h2>
@@ -1699,6 +1784,7 @@
 <li><a href=""><code>/ping [player]</code></a></li>
 <li><a href=""><code>/playerNotes &lt;player&gt; [list]</code></a></li>
 <li><a href=""><code>/playerNotes &lt;player&gt; add &lt;test&gt;</code></a></li>
+<li><a href=""><code>/playerNotes &lt;player&gt; clear</code></a></li>
 </ul>
 <h2 id="filter-commands">Filter commands<a class="headerlink" href="#filter-commands" title="Permanent link">&para;</a></h2>
 <ul>
@@ -1706,11 +1792,16 @@
 <li><a href=""><code>/filter add &lt;area&gt; &lt;value&gt; [operation]</code></a></li>
 <li><a href=""><code>/filter remove &lt;id&gt;</code></a></li>
 </ul>
+<h2 id="broadcast-commands">Broadcast commands<a class="headerlink" href="#broadcast-commands" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="broadcast-commands/"><code>/broadcast ...</code></a></li>
+<li><a href="broadcast-group-commands/"><code>/broadcastGroup ...</code></a></li>
+</ul>
 <h2 id="additional-commands">Additional commands<a class="headerlink" href="#additional-commands" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href=""><code>/joinme</code></a></li>
 <li><a href=""><code>/chatClear [local/global]</code></a></li>
-<li><a href=""><code>/teamChat &lt;message&gt;</code></a></li>
+<li><a href=""><code>/teamChat &lt;login/logout/toggle/message&gt;</code></a></li>
 <li><a href=""><code>/chatlog player &lt;player&gt;</code></a></li>
 <li><a href=""><code>/chatlog server &lt;server&gt;</code></a></li>
 <li><a href=""><code>/help</code></a></li>
@@ -1725,7 +1816,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-03-28
+      Last update: 2021-05-08
     
   </small>
 </div>
