@@ -71,13 +71,13 @@ nav:
           - Migration: dkbans/plugin-setup/migration.md
           - Storage: dkbans/plugin-setup/storage.md
           - Punishment templates: dkbans/plugin-setup/punishment-templates.md
-          - Broadcast: dkbans/plugin-setup/broadcast.md
       - Plugin Usage:
           - Commands:
               - Overview: dkbans/plugin-usage/commands/index.md
               - Broadcast: dkbans/plugin-usage/commands/broadcast-commands.md
               - Broadcastgroup: dkbans/plugin-usage/commands/broadcast-group-commands.md
           - Placeholders: dkbans/plugin-usage/placeholders.md
+          - Broadcast: dkbans/plugin-usage/broadcast.md
           - Filter: dkbans/plugin-usage/filter.md
       - Developer API:
           - Getting Started: dkbans/developer/index.md
