@@ -107,12 +107,12 @@ These commands are used to operate DKBans on your network or server.
 
 ## Additional commands
 
-* [```/joinme```]()
-* [```/chatClear [local/global]```]()
-* [```/teamChat <login/logout/toggle/message>```]()
-* [```/chatlog player <player>```]()
-* [```/chatlog server <server>```]()
-* [```/help```]()
-* [```/notify <login/logout/toggle>```]()
-* [```/punishNotify <login/logout/toggle>```]()
+* [```/joinme```](additional-commands.md#joinme)
+* [```/chatClear [local/global]```](additional-commands.md#chatclear-localglobal)
+* [```/teamChat <login/logout/toggle/message>```](additional-commands.md#teamchat-loginlogouttogglemessage)
+* [```/chatlog player <player>```](additional-commands.md#chatlog-player-player)
+* [```/chatlog server <server>```](additional-commands.md#chatlog-server-server)
+* [```/notify <login/logout/toggle>```](additional-commands.md#notify-loginlogouttoggle)
+* [```/punishNotify <login/logout/toggle>```](additional-commands.md#punishnotify-loginlogouttoggle)
+* [```/help```](additional-commands.md#help)
 

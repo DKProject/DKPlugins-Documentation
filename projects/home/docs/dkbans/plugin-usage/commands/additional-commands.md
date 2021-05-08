@@ -13,45 +13,101 @@ Important things to remember:
 
 #### Index
 
-* [```/dkcoins```](#dkcoins)
-* [```/dkcoins info```](#dkcoins-info)
-* [```/dkcoins admin```](#dkcoins-admin)
-* [```/dkcoins migrate```](#dkcoins-migrate)
+* [```/joinme```](#joinme)
+* [```/chatClear [local/global]```](#chatclear-localglobal)
+* [```/teamChat <login/logout/toggle/message>```](#teamchat-loginlogouttogglemessage)
+* [```/chatlog player <player>```](#chatlog-player-player)
+* [```/chatlog server <server>```](#chatlog-server-server)
+* [```/notify <login/logout/toggle>```](#notify-loginlogouttoggle)
+* [```/punishNotify <login/logout/toggle>```](#punishnotify-loginlogouttoggle)
+* [```/help```](#help)
 
 ***
 
-## **```/dkcoins```**
+## **```/joinme```**
 
-**Permission:** dkcoins.admin<br />
+**Permission:** dkbans.joinme<br />
 
-This is the base command of DKCoins. It is use for administrating the whole DKCoins economy system on your network.
-If you don't have access to this command, the plugin version and author is displayed.
-
-***
-
-## **```/dkcoins info```**
-
-**Alias:** information, i, version, v<br/>
-Shows information about the current installed plugin, like the version and author.
+Send a global joinme message to all online players. Other players can then connect to the same server.
 
 ***
 
-## **```/dkcoins admin```**
+## **```/chatClear [local/global]```**
 
-**Permission:** dkcoins.admin<br />
-
-Controls the user bank accounts of your server to change the money of specific currencies.
-
-***
-
-## **```/dkcoins migrate```**
-
-**Permission:** dkcoins.admin<br/>
-**Alias:** migration, m<br/>
+**Alias:** ccheat, cc <br/>
+**Permission:** 
+  * dkbans.command.chatclear (Allows to clear the own chat)
+  * dkbans.chatClear.all (Allows to clear global and local chat)
 **Arguments:**
+* `local` Clear the chat for all players on the current server
+* `global` Clear the chat for all players on the entire network
 
-* `<system>` The system to migrate (DKCoinsLegacy, EssentialsX, etc.)
+Clear the own, local or global chat.
 
-Import coins from another coin system to DKCoins
+***
+
+## **```/teamChat <login/logout/toggle/message>```**
+
+**Alias:** tchat, tc <br/>
+**Permission:**
+  * dkbans.teamchat.receive (Receive team chat messages)
+  * dkbans.teamchat.send (Send team chat messages)
+**Arguments:**
+* `login` Login to the team chat
+* `logout` Logout from the team chat
+* `toggle` Toggle the login/logout status
+* `<message>` Send a message to the team chat
+
+Used to communicate in game with all team members.
+
+***
+
+## **```/chatlog player <player>```**
+
+**Permission:** dkbans.command.chatlog<br/>
+**Arguments:**
+* `player <player>` The name of the player
+
+Get the chat log of a player.
+
+***
+
+## **```/chatlog server <server>```**
+
+**Permission:** dkbans.command.chatlog<br/>
+**Arguments:**
+* `server <server>` The name of the server
+
+Get the chat log of a server.
+
+***
+
+## **```/punishNotify <login/logout/toggle>```**
+
+**Permission:** dkbans.punish.notify<br/>
+**Arguments:**
+* `login` Login to the receive messages
+* `logout` Logout to ignore messages
+* `toggle` Toggle the login/logout status
+
+Login to receive punishment notifications.
+
+***
+
+## **```/notify <login/logout/toggle>```**
+
+**Permission:** dkbans.punish.notify<br/>
+**Arguments:**
+* `login` Login to the receive messages
+* `logout` Logout to ignore messages
+* `toggle` Toggle the login/logout status
+
+Logout/Login from all channels (report, punishments, team chat).
+
+***
+
+## **```/help```**
+
+A global help message for your players (configurable in the messages).
 
 ***
