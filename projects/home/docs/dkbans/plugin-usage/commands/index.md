@@ -48,13 +48,13 @@ Default punishment commands available by DKBans (You can completely change them 
 
 ## Report commands
 
-* [```/report <player> <template>```]()
-* [```/report take <player>```]()
-* [```/report decline <player>```]()
-* [```/report accept <player>```]()
-* [```/report list```]()
-* [```/dkbans login/logout```]()
-* [```/dkbans template```]()
+* [```/report <player> <template>```](report-commands.md#report-player-template)
+* [```/report <player> <reason>```](report-commands.md#report-player-reason)
+* [```/report accept <player>```](report-commands.md#report-accept-player)
+* [```/report decline <player>```](report-commands.md#report-decline-player)
+* [```/report take <player>```](report-commands.md#report-take-player)
+* [```/report list```](report-commands.md#report-list)
+* [```/report login/logout/toggle```](report-commands.md#report-loginlogouttoggle)
 
 ## Ip commands
 These commands are used to operate DKBans on your network or server.
