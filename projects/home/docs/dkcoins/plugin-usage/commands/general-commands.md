@@ -54,7 +54,7 @@ Import coins from another coin system to DKCoins
 **Alias:** bankAdmin<br/>
 **Arguments:**
 
-  * `<player/bank>` The player or name of the bank
+  * `<player/bank>` The player or name of the bank, `*` to interact with all online player banks (configurable in config.yml `payment.all.aliase`)
   * `<action>` The action to perform
   * `<amount>` The amount
   * `[currency]` The name of the currency
