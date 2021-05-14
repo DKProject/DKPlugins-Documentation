@@ -23,28 +23,31 @@ These commands are used to operate DKBans on your network or server.
 * [```/dkbans template```]()
 
 ## Punishment commands
-Default punishment commands available by DKBans (You can completely change them with your templates and the command config)
+Default punishment commands available by DKBans.
+You can completely change them with your templates and the command config, so command may vary
+based on your configuration
 
-* [```/ban <player> <template>```]()
-* [```/tempban <player> <duration> <reason>```]()
-* [```/permaban <player> <reason>```]()
+
+* [```/ban <player> <template>```](punishment-commands.md#ban-player-template)
+* [```/tempban <player> <duration> <reason>```](punishment-commands.md#tempban-player-duration-reason)
+* [```/permaban <player> <reason>```](punishment-commands.md#permaban-player-reason)
   Mute commands are similar!
-  
 
-* [```/warn <player> <reason>```]()
-* [```/kick <player> <reason>```]()
+
+* [```/warn <player> <reason>```](punishment-commands.md#warn-player-reason)
+* [```/kick <player> <reason>```](punishment-commands.md#kick-player-reason)
 
   Optionally, you can also configure templates for warning and kick.
 
 
-* [```/punishInfo <player> <reason>```]()
-* [```/banInfo <player> <reason>```]()
+* [```/punishInfo <player/id>```](punishment-commands.md#punishinfo-playerid)
+* [```/banInfo <player/id>```](punishment-commands.md#punishinfo-playerid)
 
-* [```/unpunish <player>```]()
-* [```/unban <player>```]()
+* [```/unban <player>```](punishment-commands.md#unban-player)
+  Mute commands are similar!
 
-* [```/bans <player> <reason>```]()
-* [```/mutes <player> <reason>```]()
+* [```/bans <player> <page>```](punishment-commands.md#bans-player-page)
+* [```/mutes <player> <page>```](punishment-commands.md#mutes-player-page)
 
 ## Report commands
 Commands for players to report other players.
