@@ -30,8 +30,8 @@ based on your configuration
 
 * [```/ban <player> <template>```](punishment-commands.md#ban-player-template)
 * [```/tempban <player> <duration> <reason>```](punishment-commands.md#tempban-player-duration-reason)
-* [```/permaban <player> <reason>```](punishment-commands.md#permaban-player-reason)
-  Mute commands are similar!
+* [```/permaban <player> <reason>```](punishment-commands.md#permaban-player-reason) <br />
+  Mute commands are similar! <br />
 
 
 * [```/warn <player> <reason>```](punishment-commands.md#warn-player-reason)
@@ -43,8 +43,8 @@ based on your configuration
 * [```/punishInfo <player/id>```](punishment-commands.md#punishinfo-playerid)
 * [```/banInfo <player/id>```](punishment-commands.md#punishinfo-playerid)
 
-* [```/unban <player>```](punishment-commands.md#unban-player)
-  Mute commands are similar!
+* [```/unban <player>```](punishment-commands.md#unban-player) <br />
+  Mute commands are similar! <br />
 
 * [```/bans <player> <page>```](punishment-commands.md#bans-player-page)
 * [```/mutes <player> <page>```](punishment-commands.md#mutes-player-page)

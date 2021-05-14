@@ -19,8 +19,8 @@ based on your configuration
 
 * [```/ban <player> <template>```](#ban-player-template)
 * [```/tempban <player> <duration> <reason>```](#tempban-player-duration-reason)
-* [```/permaban <player> <reason>```](#permaban-player-reason)
-  Mute commands are similar!
+* [```/permaban <player> <reason>```](#permaban-player-reason) <br />
+  Mute commands are similar! <br />
 
 
 * [```/warn <player> <reason>```](#warn-player-reason)
@@ -32,8 +32,8 @@ based on your configuration
 * [```/punishInfo <player/id>```](#punishinfo-playerid)
 * [```/banInfo <player/id>```](#punishinfo-playerid)
 
-* [```/unban <player>```](#unban-player)
-  Mute commands are similar!
+* [```/unban <player>```](#unban-player) <br />
+  Mute commands are similar! <br />
 
 * [```/bans <player> <page>```](#bans-player-page)
 * [```/mutes <player> <page>```](#mutes-player-page)
