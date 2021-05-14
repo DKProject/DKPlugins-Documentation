@@ -1711,8 +1711,9 @@
 <li>Optional arguments are declared with <code>[example]</code></li>
 <li>Sub commands documented on another page are declared with <code>...</code></li>
 </ul>
-<div class="admonition note"></div>
+<div class="admonition note">
 <p>All commands are customizable in commands.yml, therefore the commands may vary depending on your configuration.</p>
+</div>
 <h2 id="general-commands">General commands<a class="headerlink" href="#general-commands" title="Permanent link">&para;</a></h2>
 <p>These commands are used to operate DKBans on your network or server.</p>
 <ul>
@@ -1752,6 +1753,7 @@
 <li><a href=""><code>/mutes &lt;player&gt; &lt;reason&gt;</code></a></li>
 </ul>
 <h2 id="report-commands">Report commands<a class="headerlink" href="#report-commands" title="Permanent link">&para;</a></h2>
+<p>Commands for players to report other players.</p>
 <ul>
 <li><a href="report-commands/#report-player-template"><code>/report &lt;player&gt; &lt;template&gt;</code></a></li>
 <li><a href="report-commands/#report-player-reason"><code>/report &lt;player&gt; &lt;reason&gt;</code></a></li>
@@ -1762,7 +1764,7 @@
 <li><a href="report-commands/#report-loginlogouttoggle"><code>/report login/logout/toggle</code></a></li>
 </ul>
 <h2 id="ip-commands">Ip commands<a class="headerlink" href="#ip-commands" title="Permanent link">&para;</a></h2>
-<p>These commands are used to operate DKBans on your network or server.</p>
+<p>Commands to view ip information of the player</p>
 <ul>
 <li><a href=""><code>/ipInfo &lt;player&gt;</code></a></li>
 <li><a href=""><code>/ipInfo &lt;address&gt;</code></a></li>
@@ -1777,51 +1779,56 @@
 <p><a href=""><code>/ipblock &lt;address&gt; &lt;reason&gt; permanently</code></a></p>
 </li>
 <li>
-<p><a href=""><code>/ipUnblock &lt;address&gt;</code></a></p>
+<p><a href=""><code>/ipunblock &lt;address&gt;</code></a></p>
 </li>
 </ul>
 <h2 id="history-commands">History commands<a class="headerlink" href="#history-commands" title="Permanent link">&para;</a></h2>
+<p>Commands to view the player history.</p>
 <ul>
-<li><a href=""><code>/history &lt;player&gt;</code></a></li>
-<li><a href=""><code>/history &lt;player&gt; &lt;entryId&gt;</code></a></li>
-<li><a href=""><code>/history &lt;player&gt; &lt;entryId&gt; changes</code></a></li>
+<li><a href="history-commands/#history-player"><code>/history &lt;player&gt;</code></a></li>
+<li><a href="history-commands/#history-player-entryid"><code>/history &lt;player&gt; &lt;entryId&gt;</code></a></li>
+<li><a href="history-commands/#history-player-entryid-changes"><code>/history &lt;player&gt; &lt;entryId&gt; changes</code></a></li>
 <li>
-<p><a href=""><code>/history &lt;player&gt; &lt;entryId&gt; &lt;versionId&gt;</code></a></p>
+<p><a href="history-commands/#history-player-entryid-versionid"><code>/history &lt;player&gt; &lt;entryId&gt; &lt;versionId&gt;</code></a></p>
 </li>
 <li>
-<p><a href=""><code>/resetHistory &lt;player&gt;</code></a></p>
+<p><a href="history-commands/#resethistory-player"><code>/resetHistory &lt;player&gt;</code></a></p>
 </li>
-<li><a href=""><code>/resetHistory &lt;player&gt; last &lt;amount/duration&gt;</code></a></li>
+<li><a href="history-commands/#resethistory-player-last-amountduration"><code>/resetHistory &lt;player&gt; last &lt;amount/duration&gt;</code></a></li>
 <li>
-<p><a href=""><code>/resetHistory &lt;player&gt; by &lt;staff&gt;</code></a></p>
+<p><a href="history-commands/#resethistory-player-by-staff"><code>/resetHistory &lt;player&gt; by &lt;staff&gt;</code></a></p>
 </li>
 <li>
-<p><a href=""><code>/MyHistoryPoints</code></a></p>
+<p><a href="history-commands.mdUp#myhistorypoints"><code>/MyHistoryPoints</code></a></p>
 </li>
 </ul>
 <h2 id="player-commands">Player commands<a class="headerlink" href="#player-commands" title="Permanent link">&para;</a></h2>
+<p>Player management commands.</p>
 <ul>
-<li><a href=""><code>/playerInfo &lt;player&gt;</code></a></li>
-<li><a href=""><code>/playerSessions &lt;player&gt;</code></a></li>
-<li><a href=""><code>/onlineTime [player]</code></a></li>
-<li><a href=""><code>/jumpto &lt;player&gt;</code></a></li>
-<li><a href=""><code>/ping [player]</code></a></li>
-<li><a href=""><code>/playerNotes &lt;player&gt; [list]</code></a></li>
-<li><a href=""><code>/playerNotes &lt;player&gt; add &lt;test&gt;</code></a></li>
-<li><a href=""><code>/playerNotes &lt;player&gt; clear</code></a></li>
+<li><a href="player-commands/#playerinfo-player"><code>/playerInfo &lt;player&gt;</code></a></li>
+<li><a href="player-commands/#playersessions-player"><code>/playerSessions &lt;player&gt;</code></a></li>
+<li><a href="player-commands/#onlinetime-player"><code>/onlineTime [player]</code></a></li>
+<li><a href="player-commands/#jumpto-player"><code>/jumpto &lt;player&gt;</code></a></li>
+<li><a href="player-commands/#ping-player"><code>/ping [player]</code></a></li>
+<li><a href="player-commands/#playernotes-player-list"><code>/playerNotes &lt;player&gt; [list]</code></a></li>
+<li><a href="player-commands/#playernotes-player-add-message"><code>/playerNotes &lt;player&gt; add &lt;message&gt;</code></a></li>
+<li><a href="player-commands/#playernotes-player-clear"><code>/playerNotes &lt;player&gt; clear</code></a></li>
 </ul>
 <h2 id="filter-commands">Filter commands<a class="headerlink" href="#filter-commands" title="Permanent link">&para;</a></h2>
+<p>Commands to operate the filter system.</p>
 <ul>
 <li><a href=""><code>/filter list</code></a></li>
 <li><a href=""><code>/filter add &lt;area&gt; &lt;value&gt; [operation]</code></a></li>
 <li><a href=""><code>/filter remove &lt;id&gt;</code></a></li>
 </ul>
 <h2 id="broadcast-commands">Broadcast commands<a class="headerlink" href="#broadcast-commands" title="Permanent link">&para;</a></h2>
+<p>Commands to operate the broadcast system.</p>
 <ul>
 <li><a href="broadcast-commands/"><code>/broadcast ...</code></a></li>
 <li><a href="broadcast-group-commands/"><code>/broadcastGroup ...</code></a></li>
 </ul>
 <h2 id="additional-commands">Additional commands<a class="headerlink" href="#additional-commands" title="Permanent link">&para;</a></h2>
+<p>Additional commands provided by DKBans.</p>
 <ul>
 <li><a href="additional-commands/#joinme"><code>/joinme</code></a></li>
 <li><a href="additional-commands/#chatclear-localglobal"><code>/chatClear [local/global]</code></a></li>
@@ -1840,7 +1847,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-05-11
+      Last update: 2021-05-14
     
   </small>
 </div>
