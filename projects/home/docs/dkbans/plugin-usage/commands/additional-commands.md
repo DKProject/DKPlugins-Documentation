@@ -4,7 +4,7 @@ title: Additional Commands
 
 # Additional Commands
 
-This page describes the usage and permissions of the DKCoins general commands.
+This page describes the usage and permissions of the DKBans general commands.
 
 Important things to remember:
 

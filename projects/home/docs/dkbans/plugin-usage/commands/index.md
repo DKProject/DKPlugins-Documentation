@@ -13,7 +13,7 @@ Important things to remember about commands:
 * Sub commands documented on another page are declared with ```...```
 
 !!! note ""
-All commands are customizable in commands.yml, therefore the commands may vary depending on your configuration.
+    All commands are customizable in commands.yml, therefore the commands may vary depending on your configuration.
 
 ## General commands
 These commands are used to operate DKBans on your network or server.
@@ -47,6 +47,7 @@ Default punishment commands available by DKBans (You can completely change them 
 * [```/mutes <player> <reason>```]()
 
 ## Report commands
+Commands for players to report other players.
 
 * [```/report <player> <template>```](report-commands.md#report-player-template)
 * [```/report <player> <reason>```](report-commands.md#report-player-reason)
@@ -57,7 +58,7 @@ Default punishment commands available by DKBans (You can completely change them 
 * [```/report login/logout/toggle```](report-commands.md#report-loginlogouttoggle)
 
 ## Ip commands
-These commands are used to operate DKBans on your network or server.
+Commands to view ip information of the player
 
 * [```/ipInfo <player>```]()
 * [```/ipInfo <address>```]()
@@ -67,45 +68,51 @@ These commands are used to operate DKBans on your network or server.
 * [```/ipblock <address> <reason> temporary  ```]()
 * [```/ipblock <address> <reason> permanently ```]()
 
-* [```/ipUnblock <address> ```]()
+* [```/ipunblock <address> ```]()
 
 ## History commands
-* [```/history <player>```]()
-* [```/history <player> <entryId>```]()
-* [```/history <player> <entryId> changes```]()
-* [```/history <player> <entryId> <versionId>```]()
+Commands to view the player history.
 
-* [```/resetHistory <player>```]()
-* [```/resetHistory <player> last <amount/duration>```]()
-* [```/resetHistory <player> by <staff>```]()
-    
-* [```/MyHistoryPoints```]()
+* [```/history <player>```](history-commands.md#history-player)
+* [```/history <player> <entryId>```](history-commands.md#history-player-entryid)
+* [```/history <player> <entryId> changes```](history-commands.md#history-player-entryid-changes)
+* [```/history <player> <entryId> <versionId>```](history-commands.md#history-player-entryid-versionid)
+
+* [```/resetHistory <player>```](history-commands.md#resethistory-player)
+* [```/resetHistory <player> last <amount/duration>```](history-commands.md#resethistory-player-last-amountduration)
+* [```/resetHistory <player> by <staff>```](history-commands.md#resethistory-player-by-staff)
+
+* [```/MyHistoryPoints```](history-commands.mdUp#myhistorypoints)
 
 
 ## Player commands
+Player management commands.
 
-* [```/playerInfo <player>```]()
-* [```/playerSessions <player>```]()
-* [```/onlineTime [player]```]()
-* [```/jumpto <player>```]()
-* [```/ping [player]```]()
-* [```/playerNotes <player> [list]```]()
-* [```/playerNotes <player> add <test>```]()
-* [```/playerNotes <player> clear```]()
+* [```/playerInfo <player>```](player-commands.md#playerinfo-player)
+* [```/playerSessions <player>```](player-commands.md#playersessions-player)
+* [```/onlineTime [player]```](player-commands.md#onlinetime-player)
+* [```/jumpto <player>```](player-commands.md#jumpto-player)
+* [```/ping [player]```](player-commands.md#ping-player)
+* [```/playerNotes <player> [list]```](player-commands.md#playernotes-player-list)
+* [```/playerNotes <player> add <message>```](player-commands.md#playernotes-player-add-message)
+* [```/playerNotes <player> clear```](player-commands.md#playernotes-player-clear)
 
 
 ## Filter commands
+Commands to operate the filter system.
 
 * [```/filter list```]()
 * [```/filter add <area> <value> [operation]```]()
 * [```/filter remove <id>```]()
 
 ## Broadcast commands
+Commands to operate the broadcast system.
 
 * [```/broadcast ...```](broadcast-commands.md)
 * [```/broadcastGroup ...```](broadcast-group-commands.md)
 
 ## Additional commands
+Additional commands provided by DKBans.
 
 * [```/joinme```](additional-commands.md#joinme)
 * [```/chatClear [local/global]```](additional-commands.md#chatclear-localglobal)
