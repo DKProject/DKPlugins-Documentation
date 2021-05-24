@@ -80,6 +80,8 @@ nav:
               - History: dkbans/plugin-usage/commands/history-commands.md
               - Player: dkbans/plugin-usage/commands/player-commands.md
               - Punishment: dkbans/plugin-usage/commands/punishment-commands.md
+              - Filter: dkbans/plugin-usage/commands/filter-commands.md
+              - IP-Address: dkbans/plugin-usage/commands/ip-commands.md
               - Additional: dkbans/plugin-usage/commands/additional-commands.md
           - Placeholders: dkbans/plugin-usage/placeholders.md
           - Broadcast: dkbans/plugin-usage/broadcast.md

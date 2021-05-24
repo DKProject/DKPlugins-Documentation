@@ -63,15 +63,15 @@ Commands for players to report other players.
 ## Ip commands
 Commands to view ip information of the player
 
-* [```/ipInfo <player>```]()
-* [```/ipInfo <address>```]()
-* [```/ipInfo <address> details```]()
-  
-* [```/ipblock <address> <reason> template <template> ```]()
-* [```/ipblock <address> <reason> temporary  ```]()
-* [```/ipblock <address> <reason> permanently ```]()
+* [```/ipInfo <player>```](ip-commands.md#ipinfo-player)
+* [```/ipInfo <address>```](ip-commands.md#ipinfo-address)
+* [```/ipInfo <address> details```](ip-commands.md#ipinfo-address-details)
 
-* [```/ipunblock <address> ```]()
+* [```/ipblock <address> <reason> template <template>```](ip-commands.md#ipblock-address-reason-template-template)
+* [```/ipblock <address> <reason> temporary ```](ip-commands.md#ipblock-address-reason-temporary-duration-ban-reason)
+* [```/ipblock <address> <reason> permanently```](ip-commands.md#ipblock-address-reason-permanently-ban-reason)
+
+* [```/ipunblock <address> ```](ip-commands.md#ipunblock-address)
 
 ## History commands
 Commands to view the player history.
@@ -104,9 +104,9 @@ Player management commands.
 ## Filter commands
 Commands to operate the filter system.
 
-* [```/filter list```]()
-* [```/filter add <area> <value> [operation]```]()
-* [```/filter remove <id>```]()
+* [```/filter list```](filter-commands.md#filter-list)
+* [```/filter add <area> <value> [operation]```](filter-commands.md#filter-add-area-value-operation)
+* [```/filter remove <id>```](filter-commands.md#filter-remove-id)
 
 ## Broadcast commands
 Commands to operate the broadcast system.
