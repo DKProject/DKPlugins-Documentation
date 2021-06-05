@@ -10,7 +10,7 @@ exactly and contact our support if you have any questions or problems.
 ***
 
 ## **Compatibility**
-DKBans supports minecraft 1.8 and later and runs on all McNative supported platforms:
+DKBans supports minecraft 1.8 - 1.16.4 and runs on all McNative supported platforms:
 
 * Bukkit, Spigot, PaperSpigot, Yatopia, Tunity, Purpur
 * BungeeCord, Waterfall, Travertine, FlameCord
@@ -26,7 +26,7 @@ DKBans is designed for running on multiple servers and supports all McNative mes
 
 ## **Requirements**
 
-DKBans requires java 8 or higher and a stable internet connection (DKBans downloads all necessary libraries dynamically). 
+DKBans supports java 8 - 15 and requires a stable internet connection (DKBans downloads all necessary libraries dynamically). 
 If you are using DKBans on multiple servers, you also need a supported remote database (MySQL, PostgreSQL, MS-SQL, MongoDB et.c).
 
 ***
