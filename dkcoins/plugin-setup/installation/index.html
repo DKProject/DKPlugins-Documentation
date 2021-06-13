@@ -12,7 +12,7 @@
         <link rel="canonical" href="http://dkplugins.pretronic.net/dkcoins/plugin-setup/installation/">
       
       <link rel="icon" href="https://content.pretronic.net/brand/dkplugins-logo.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.6">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.8">
     
     
       
@@ -20,7 +20,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.875de78c.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ca7ac06f.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.f1a3b89f.min.css">
@@ -44,6 +44,31 @@
     
     
       
+
+ <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', '');
+     
+  document.addEventListener("DOMContentLoaded", function() {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+         window.dataLayer = window.dataLayer || [];
+         window.dataLayer.push({
+          'event' : 'search',
+          'searchTerm' : this.value
+         });
+        }
+      })
+    }
+  })
+     
+    </script>
     
     
   </head>
@@ -1736,7 +1761,7 @@
 exactly and contact our support if you have any questions or problems.</p>
 <hr />
 <h2 id="compatibility"><strong>Compatibility</strong><a class="headerlink" href="#compatibility" title="Permanent link">&para;</a></h2>
-<p>DKCoins supports minecraft 1.8 - 1.16.4 and later and runs on all McNative supported platforms:</p>
+<p>DKCoins supports minecraft 1.8 - 1.17 and later and runs on all McNative supported platforms:</p>
 <ul>
 <li>Bukkit, Spigot, PaperSpigot, Yatopia, Tunity, Purpur</li>
 <li>BungeeCord, Waterfall, Travertine, FlameCord</li>
@@ -1750,7 +1775,7 @@ exactly and contact our support if you have any questions or problems.</p>
 </ul>
 <hr />
 <h2 id="requirements"><strong>Requirements</strong><a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
-<p>DKCoins supports java 8 - 15 and requires a stabl internet connection (DKCoins downloads all necessary libraries dynamically). 
+<p>DKCoins supports java 8 - 16 and requires a stabl internet connection (DKCoins downloads all necessary libraries dynamically). 
 If you are using DKCoins on multiple servers, you also need a supported remote database (MySQL, PostgreSQL, MS-SQL, MongoDB et.c).</p>
 <hr />
 <h2 id="installation"><strong>Installation</strong><a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
@@ -1781,7 +1806,7 @@ following command to set your coin amount (Replace <code>&lt;player&gt;</code> w
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-06-05
+      Last update: 2021-06-13
     
   </small>
 </div>
@@ -1859,10 +1884,10 @@ following command to set your coin amount (Replace <code>&lt;player&gt;</code> w
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.d351de03.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.34eae1b6.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.76f349be.min.js"></script>
       
     
   </body>
