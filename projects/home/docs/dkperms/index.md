@@ -13,7 +13,7 @@ DKPerms is a reliable permission system and has been optimized and improved over
 ## Features
 * **Platform & Environment**
     * Running on Spigot and BungeeCord
-    * Minecraft 1.8 - 1.16 support
+    * Minecraft 1.8 - 1.17.1 support
     * H2 (SQLite), MySQL, MariaDB, PostgreSQL, MS-SQL and MongoDB support
     * Everything is configurable and customizable
     * Live update over network
@@ -37,7 +37,7 @@ DKPerms is a reliable permission system and has been optimized and improved over
         * Per server groups
         * Per server group groups
         * Per custom implementation (e.g. region)
-* **Integrations**
+* **Third party integrations**
     * Tablist & Chat integration (live update)
     * Placeholders for PlaceholderAPI
     * Vault permission and chat support

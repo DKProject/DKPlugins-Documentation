@@ -13,7 +13,7 @@ DKBans is a reliable currency system and has been optimized and improved over ti
 ## Features
 * **Platform & Environment**
     * Running on Spigot and BungeeCord
-    * Minecraft 1.8 - 1.16 support
+    * Minecraft 1.8 - 1.17.1 support
     * H2 (SQLite), MySQL, MariaDB, PostgreSQL, MS-SQL and MongoDB support
     * Everything is configurable and customizable
     * Live update over network
@@ -54,7 +54,7 @@ DKBans is a reliable currency system and has been optimized and improved over ti
        * Automatically sending
        * Send only to certain groups
        * Per server or world options
-* **Integrations**
+* **Third party integrations**
     * Placeholders for PlaceholderAPI
     * Vault coins support
     * LabyMod integration (voice chat mute)

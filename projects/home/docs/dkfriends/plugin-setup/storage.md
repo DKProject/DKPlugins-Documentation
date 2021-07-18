@@ -4,7 +4,7 @@ title: Storage
 
 # Storage setup
 
-DKBans uses the McNative storage technology and supports all storage types supported by McNative. McNative storage technology 
+DKFriends uses the McNative storage technology and supports all storage types supported by McNative. McNative storage technology 
 is centralized storage integration for all supported plugins, it brings various performance and time benefits. Read more about it [here](https://github.com/McNative/McNative/wiki/Storage-Configuration)
 
 **Location:** ``./plugins/McNative/storage.yml``
@@ -42,24 +42,24 @@ drivers:
 
 ### **Database settings**
 
-After the driver configuration, you have to set up a database for DKBans in the `databases` section.
+After the driver configuration, you have to set up a database for DKFriends in the `databases` section.
 
-* ``pluginName`` The plugin name, use `DKBans`
+* ``pluginName`` The plugin name, use `DKFriends`
 * ``name`` The internal database name, use `default`
-* ``database`` The name of your database (e.g. `DKBans`)
+* ``database`` The name of your database (e.g. `DKFriends`)
 * ``driverName`` The above configured driver to use
 
 **Example:**
 ```
 databases: 
-  - pluginName: 'DKBans'
+  - pluginName: 'DKFriends'
     name: 'default'
-    database: 'DKBans'
+    database: 'DKFriends'
     driverName: 'default'
 ```
 
 ### **Database settings**
-A complete configuration may look something like this (Only DKBans):
+A complete configuration may look something like this (Only DKFriends):
 
 ```
 drivers: 
@@ -72,8 +72,8 @@ drivers:
     dialectName: 'MySQL'
     useSSL: false
 databases: 
-  - pluginName: 'DKBans'
+  - pluginName: 'DKFriends'
     name: 'default'
-    database: 'DKBans'
+    database: 'DKFriends'
     driverName: 'mysql'
 ```

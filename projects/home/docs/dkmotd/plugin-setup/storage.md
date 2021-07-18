@@ -4,7 +4,7 @@ title: Storage
 
 # Storage setup
 
-DKBans uses the McNative storage technology and supports all storage types supported by McNative. McNative storage technology 
+DKMotd uses the McNative storage technology and supports all storage types supported by McNative. McNative storage technology 
 is centralized storage integration for all supported plugins, it brings various performance and time benefits. Read more about it [here](https://github.com/McNative/McNative/wiki/Storage-Configuration)
 
 **Location:** ``./plugins/McNative/storage.yml``
@@ -42,24 +42,24 @@ drivers:
 
 ### **Database settings**
 
-After the driver configuration, you have to set up a database for DKBans in the `databases` section.
+After the driver configuration, you have to set up a database for DKMotd in the `databases` section.
 
-* ``pluginName`` The plugin name, use `DKBans`
+* ``pluginName`` The plugin name, use `DKMotd`
 * ``name`` The internal database name, use `default`
-* ``database`` The name of your database (e.g. `DKBans`)
+* ``database`` The name of your database (e.g. `DKMotd`)
 * ``driverName`` The above configured driver to use
 
 **Example:**
 ```
 databases: 
-  - pluginName: 'DKBans'
+  - pluginName: 'DKMotd'
     name: 'default'
-    database: 'DKBans'
+    database: 'DKMotd'
     driverName: 'default'
 ```
 
 ### **Database settings**
-A complete configuration may look something like this (Only DKBans):
+A complete configuration may look something like this (Only DKMotd):
 
 ```
 drivers: 
@@ -72,8 +72,8 @@ drivers:
     dialectName: 'MySQL'
     useSSL: false
 databases: 
-  - pluginName: 'DKBans'
+  - pluginName: 'DKMotd'
     name: 'default'
-    database: 'DKBans'
+    database: 'DKMotd'
     driverName: 'mysql'
 ```

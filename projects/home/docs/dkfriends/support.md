@@ -4,7 +4,7 @@ title: Support
 
 # Support
 
-DKBans support is offered by our team and community via Discord. All supporters do this voluntarily and answer as soon as possible.
+DKFriends support is offered by our team and community via Discord. All supporters do this voluntarily and answer as soon as possible.
 
 Before you ask, please try to solve the problem by yourself with the help of this wiki.
 <br/> **-> Checkout the [FAQ](frequently-asked-questions.md)**
@@ -17,7 +17,7 @@ Before you create a bug report, make sure it is not a configuration issue, or a 
 Make sure you use the following template to create your report, otherwise we will delete your report and are not able to fix the issue.
 
 ```
-**Project:** DKBans
+**Project:** DKFriends
 **Version**: 2.0.3
 
 **Platform**: BungeeCord / Bukkit
@@ -43,8 +43,8 @@ What we have to do, to trigger the bug.
 ```
 
 ## Suggestions
-If you have a great idea that should be implemented in DKBans. Feel free to create a suggestion.
+If you have a great idea that should be implemented in DKFriends. Feel free to create a suggestion.
 We use the Feedbacky platform to collect and vote for suggestions.
 
-[Create a new Idea](https://feedbacky.pretronic.net/b/dkbans)
+[Create a new Idea](https://feedbacky.pretronic.net/b/dkfriends)
 

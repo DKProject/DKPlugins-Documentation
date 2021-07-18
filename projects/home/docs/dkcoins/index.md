@@ -13,7 +13,7 @@ DKCoins is a reliable currency system and has been optimized and improved over t
 ## Features
 * **Platform & Environment**
     * Running on Spigot and BungeeCord
-    * Minecraft 1.8 - 1.16 support
+    * Minecraft 1.8 - 1.17.1 support
     * H2 (SQLite), MySQL, MariaDB, PostgreSQL, MS-SQL and MongoDB support
     * Everything is configurable and customizable
     * Live update over network
@@ -31,7 +31,7 @@ DKCoins is a reliable currency system and has been optimized and improved over t
     * Currency conversion with exchange rates
     * Isolated currencies (e.g. vote credits)
     * Per world and server currencies
-* **Integrations**
+* **Third party integrations**
     * Placeholders for PlaceholderAPI
     * Vault coins support
     * CloudNet V2 & V3 support (Multi proxy)

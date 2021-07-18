@@ -140,4 +140,32 @@ nav:
           - DKPerms Scopes: dkperms/developer/scopes.md
           - Permission objects: dkperms/developer/objects.md
           - DKPerms Events: dkperms/developer/events.md
+  - DKFriends:
+      - Introduction: dkfriends/index.md
+      - Support: dkfriends/support.md
+      - License: dkfriends/license.md
+      - Plugin Setup:
+          - Installation: dkfriends/plugin-setup/installation.md
+          - Storage: dkfriends/plugin-setup/storage.md
+  - DKConnect:
+      - Introduction: dkconnect/index.md
+      - Support: dkconnect/support.md
+      - License: dkconnect/license.md
+      - Plugin Setup:
+          - Installation: dkconnect/plugin-setup/installation.md
+          - Storage: dkconnect/plugin-setup/storage.md
+  - DKMotd:
+      - Introduction: dkmotd/index.md
+      - Support: dkmotd/support.md
+      - License: dkmotd/license.md
+      - Plugin Setup:
+          - Installation: dkmotd/plugin-setup/installation.md
+          - Storage: dkmotd/plugin-setup/storage.md
+  - DKSupport:
+      - Introduction: dksupport/index.md
+      - Support: dksupport/support.md
+      - License: dksupport/license.md
+      - Plugin Setup:
+          - Installation: dksupport/plugin-setup/installation.md
+          - Storage: dksupport/plugin-setup/storage.md
 

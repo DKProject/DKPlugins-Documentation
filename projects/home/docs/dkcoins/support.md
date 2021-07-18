@@ -17,7 +17,7 @@ Before you create a bug report, make sure it is not a configuration issue, or a 
 Make sure you use the following template to create your report, otherwise we will delete your report and are not able to fix the issue.
 
 ```
-**Project:** DKBans | DKPerms | etc.
+**Project:** DKCoins
 **Version**: 2.0.3
 
 **Platform**: BungeeCord / Bukkit

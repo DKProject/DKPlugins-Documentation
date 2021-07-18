@@ -5,7 +5,7 @@ title: Storage
 # Storage setup
 
 DKCoins uses the McNative storage technology and supports all storage types supported by McNative. McNative storage technology 
-is centralized storage integration for all supported plugins, it brings various performance and time benefits. Read more about it [here]()
+is centralized storage integration for all supported plugins, it brings various performance and time benefits. Read more about it [here](https://github.com/McNative/McNative/wiki/Storage-Configuration)
 
 **Location:** ``./plugins/McNative/storage.yml``
 
