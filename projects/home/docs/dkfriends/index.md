@@ -26,15 +26,15 @@ DKFriends is maintained by [Pretronic](https://pretronic.net/) and was first rel
     * Favorite friend option
     * Private message system
     * Settings system
-* **Clan system**
-    * Rank system
-    * Clan chat system
-    * Clan tags
-    * Settings system
 * **Party system**
     * Private and public parties
     * Party rank system
     * Party chat system
+    * Settings system
+* **Clan system**
+    * Rank system
+    * Clan chat system
+    * Clan tags
     * Settings system
 * **Inventory GUI**
     * Friends menu
