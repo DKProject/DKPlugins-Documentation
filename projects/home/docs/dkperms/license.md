@@ -69,6 +69,15 @@ DKPerms is licensed under the **Pretronic Premium Resource License (PPR)**, see 
     You are allowed to redistribute the software to persons in your organization/team 
     team, provided that they can ensure that this license is respected and that the 
     and that upon abandonment the product will be irrevocably deleted. 
+6.  End of live
+    If for financial or other reasons it should no longer be possible to operate this
+    product and related services, they can be discontinued at any time. 
+    be discontinued. Online services may be discontinued completely. 
+    be discontinued. If this should happen, you will receive the source code for this product
+    product and can develop it further on your own. Also no 
+    refund any costs 
+
+Translated with www.DeepL.com/Translator (free version)
 
     Translated with www.DeepL.com/Translator
 ```
@@ -135,7 +144,7 @@ DKPerms is licensed under the **Pretronic Premium Resource License (PPR)**, see 
     weiterzugeben, sofern sie sicher stellen können, dass diese Lizenz eingehalten 
     wird und bei Verlass das Produkt unwiderruflich gelöscht wird. 
     
-5.  Service Einstellung
+6.  End of live
     Sollte es aus Finanziellen oder anderen Gründen nicht mehr möglich sein dieses
     Produkt und dazugehörige Services zu betreiben, so können diese jederzeit 
     eingestellt werden. Online Services werden möglicherweise komplett eingestellt 
