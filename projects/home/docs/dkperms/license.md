@@ -134,4 +134,12 @@ DKPerms is licensed under the **Pretronic Premium Resource License (PPR)**, see 
     Sie sind berechtigt die Software an Personen in ihrer Organisation/Team 
     weiterzugeben, sofern sie sicher stellen können, dass diese Lizenz eingehalten 
     wird und bei Verlass das Produkt unwiderruflich gelöscht wird. 
+    
+5.  Service Einstellung
+    Sollte es aus Finanziellen oder anderen Gründen nicht mehr möglich sein dieses
+    Produkt und dazugehörige Services zu betreiben, so können diese jederzeit 
+    eingestellt werden. Online Services werden möglicherweise komplett eingestellt 
+    werden. Sollte dieser Fall eintreffen, erhalten Sie den source code zu diesem
+    Produkt und können es eigenständig weiterentwickeln. Ebenfalls werden keine 
+    Kosten zurückerstatten 
 ```
