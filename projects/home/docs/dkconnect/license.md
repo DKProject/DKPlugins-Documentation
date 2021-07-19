@@ -75,7 +75,7 @@ DKConnect is licensed under the **Pretronic Premium Resource License (PPR)**, se
     operate this product and related services, they can be discontinued at any time. 
     Online services may be discontinued completely. If this should happen, you will 
     receive the source code for this product and can develop it further on your own. 
-    Also no costs will be refunded
+    Also no costs will be refunded.
 
     Translated with www.DeepL.com/Translator
 ```
