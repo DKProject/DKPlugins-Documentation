@@ -14,9 +14,9 @@ Important things to remember:
 #### Index
 
 * [```/tablist info```](#tablist-info)
-* [```/tablist header <header>```](#maintenance-info)
-* [```/tablist footer <footer>```](#maintenance-timeout-timeout)
-* [```/tablist labyModServerBanner <imageUrl>```](#maintenance-reason-reason)
+* [```/tablist header <header>```](#tablist-header-header)
+* [```/tablist footer <footer>```](#tablist-footer-footer)
+* [```/tablist labyModServerBanner <imageUrl>```](#tablist-labymodserverbanner-imageurl)
 ***
 
 ## **```/tablist info```**
