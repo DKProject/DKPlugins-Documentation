@@ -16,7 +16,7 @@
     
     
       
-        <title>motd playerInfo commands - DKPlugins Documentation</title>
+        <title>Motd playerinfo Commands - DKPlugins Documentation</title>
       
     
     
@@ -93,6 +93,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#motd-playerinfo-commands" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -133,7 +138,7 @@
                 <div class="md-header__topic" >
           <span class="md-ellipsis">
             
-              motd playerInfo commands
+              Motd playerinfo Commands
             
           </span>
                 </div>
@@ -2231,6 +2236,66 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#motd-name-playerinfo-add-line" class="md-nav__link">
+    /motd &lt;name&gt; playerInfo add &lt;line&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motd-name-playerinfo-remove-index" class="md-nav__link">
+    /motd &lt;name&gt; playerInfo remove &lt;index&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motd-name-playerinfo-set-line" class="md-nav__link">
+    /motd &lt;name&gt; playerInfo set &lt;line&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motd-name-playerinfo-modify-index-line" class="md-nav__link">
+    /motd &lt;name&gt; playerInfo modify &lt;index&gt; &lt;line&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motd-name-playerinfo-clear" class="md-nav__link">
+    /motd &lt;name&gt; playerInfo clear
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -2241,9 +2306,73 @@
                   </a>
                 
                 
-                  <h1>motd playerInfo commands</h1>
-                
-                
+                <h1 id="motd-playerinfo-commands">Motd playerinfo Commands<a class="headerlink" href="#motd-playerinfo-commands" title="Permanent link">&para;</a></h1>
+<p>&amp;7/motd <name> playerInfo add <line>
+&amp;7/motd <name> playerInfo remove <index>
+&amp;7/motd <name> playerInfo set <line>
+&amp;7/motd <name> playerInfo modify <index> <line>
+&amp;7/motd <name> playerInfo clear</p>
+<p>This page describes the usage and permissions of the Motd commands. The motd command always
+starts with <code>/motd &lt;name&gt; playerInfo</code>, while <code>&lt;name&gt;</code> is the name of the motd template.</p>
+<p>Important things to remember:</p>
+<ul>
+<li>Required arguments are declared with <code>&lt;example&gt;</code></li>
+<li>Optional arguments are declared with <code>[example]</code></li>
+</ul>
+<h4>Index</h4>
+<ul>
+<li><a href="#motd-name-playerinfo-add-line"><code>/motd &lt;name&gt; playerInfo add &lt;line&gt;</code></a></li>
+<li><a href="#motd-name-playerinfo-remove-index"><code>/motd &lt;name&gt; playerInfo remove &lt;index&gt;</code></a></li>
+<li><a href="#motd-name-playerinfo-set-line"><code>/motd &lt;name&gt; playerInfo set &lt;line&gt;</code></a></li>
+<li><a href="#motd-name-playerinfo-modify-index-line"><code>/motd &lt;name&gt; playerInfo modify &lt;index&gt; &lt;line&gt;</code></a></li>
+<li><a href="#motd-name-playerinfo-clear"><code>/motd &lt;name&gt; playerInfo clear</code></a></li>
+</ul>
+<hr />
+<h2 id="motd-name-playerinfo-add-line"><strong><code>/motd &lt;name&gt; playerInfo add &lt;line&gt;</code></strong><a class="headerlink" href="#motd-name-playerinfo-add-line" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkmotd.command.motd<br />
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> the name of motd template</li>
+<li><code>&lt;line&gt;</code> the new line to be added</li>
+</ul>
+<p>This command adds a new line to the player info</p>
+<hr />
+<h2 id="motd-name-playerinfo-remove-index"><strong><code>/motd &lt;name&gt; playerInfo remove &lt;index&gt;</code></strong><a class="headerlink" href="#motd-name-playerinfo-remove-index" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkmotd.command.motd<br />
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> the name of motd template</li>
+<li><code>&lt;index&gt;</code> the index to remove</li>
+</ul>
+<p>This command removes a new line of the player info by the index of the player info.</p>
+<hr />
+<h2 id="motd-name-playerinfo-set-line"><strong><code>/motd &lt;name&gt; playerInfo set &lt;line&gt;</code></strong><a class="headerlink" href="#motd-name-playerinfo-set-line" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkmotd.command.motd<br />
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> the name of motd template</li>
+<li><code>&lt;line&gt;</code> the line to set</li>
+</ul>
+<p>This command sets the line of the player info and removes all other player info lines.</p>
+<hr />
+<h2 id="motd-name-playerinfo-modify-index-line"><strong><code>/motd &lt;name&gt; playerInfo modify &lt;index&gt; &lt;line&gt;</code></strong><a class="headerlink" href="#motd-name-playerinfo-modify-index-line" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkmotd.command.motd<br />
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> the name of motd template</li>
+<li><code>&lt;index&gt;</code> the index to modify</li>
+<li><code>&lt;line&gt;</code> the modified line</li>
+</ul>
+<p>This command modifies the line of the <code>&lt;index&gt;</code> to <code>&lt;line&gt;</code>.</p>
+<hr />
+<h2 id="motd-name-playerinfo-clear"><strong><code>/motd &lt;name&gt; playerInfo clear</code></strong><a class="headerlink" href="#motd-name-playerinfo-clear" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkmotd.command.motd<br />
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> the name of motd template</li>
+</ul>
+<p>This command clears the player info of the motd template.</p>
+<hr />
                 
                   
                     
