@@ -161,6 +161,13 @@ nav:
       - Plugin Setup:
           - Installation: dkmotd/plugin-setup/installation.md
           - Storage: dkmotd/plugin-setup/storage.md
+      - Plugin Usage:
+          - Commands:
+              - Overview: dkmotd/plugin-usage/commands/index.md
+              - Motd Commands: dkmotd/plugin-usage/command/motd-commands.md
+              - Maintenance Commands: dkmotd/plugin-usage/command/maintenance-commands.md
+              - Join message Commands: dkmotd/plugin-usage/command/join-message-commands.md
+              - Tablist Commands: dkmotd/plugin-usage/command/tablist-commands.md
   - DKSupport:
       - Introduction: dksupport/index.md
       - Support: dksupport/support.md
