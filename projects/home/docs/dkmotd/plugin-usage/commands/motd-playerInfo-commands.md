@@ -4,12 +4,6 @@ title: Motd playerinfo Commands
 
 # Motd playerinfo Commands
 
-&7/motd <name> playerInfo add <line>
-&7/motd <name> playerInfo remove <index>
-&7/motd <name> playerInfo set <line>
-&7/motd <name> playerInfo modify <index> <line>
-&7/motd <name> playerInfo clear
-
 This page describes the usage and permissions of the Motd commands. The motd command always
 starts with `/motd <name> playerInfo`, while `<name>` is the name of the motd template.
 
