@@ -157,7 +157,7 @@ nav:
   - DKMotd:
       - Introduction: dkmotd/index.md
       - Support: dkmotd/support.md
-      - Defintions: dkmotd/defintions.md
+      - Defintions: dkmotd/definitions.md
       - License: dkmotd/license.md
       - Plugin Setup:
           - Installation: dkmotd/plugin-setup/installation.md
