@@ -16,7 +16,7 @@
     
     
       
-        <title>motd secondLines commands - DKPlugins Documentation</title>
+        <title>Motd Secondlines Commands - DKPlugins Documentation</title>
       
     
     
@@ -93,6 +93,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#motd-second-lines-commands" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -133,7 +138,7 @@
                 <div class="md-header__topic" >
           <span class="md-ellipsis">
             
-              motd secondLines commands
+              Motd Secondlines Commands
             
           </span>
                 </div>
@@ -2231,6 +2236,66 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#motd-name-secondlines-add-line" class="md-nav__link">
+    /motd &lt;name&gt; secondlines add &lt;line&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motd-name-secondlines-remove-index" class="md-nav__link">
+    /motd &lt;name&gt; secondlines remove &lt;index&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motd-name-secondlines-set-line" class="md-nav__link">
+    /motd &lt;name&gt; secondlines set &lt;line&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motd-name-secondlines-modify-index-line" class="md-nav__link">
+    /motd &lt;name&gt; secondlines modify &lt;index&gt; &lt;line&gt;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motd-name-secondlines-clear" class="md-nav__link">
+    /motd &lt;name&gt; secondlines clear
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -2241,9 +2306,68 @@
                   </a>
                 
                 
-                  <h1>motd secondLines commands</h1>
-                
-                
+                <h1 id="motd-second-lines-commands">Motd second lines Commands<a class="headerlink" href="#motd-second-lines-commands" title="Permanent link">&para;</a></h1>
+<p>This page describes the usage and permissions of the Motd commands. The motd command always
+starts with <code>/motd &lt;name&gt; secondLines</code>, while <code>&lt;name&gt;</code> is the name of the motd template.</p>
+<p>Important things to remember:</p>
+<ul>
+<li>Required arguments are declared with <code>&lt;example&gt;</code></li>
+<li>Optional arguments are declared with <code>[example]</code></li>
+</ul>
+<h4>Index</h4>
+<ul>
+<li><a href="#motd-name-secondlines-add-line"><code>/motd &lt;name&gt; secondlines add &lt;line&gt;</code></a></li>
+<li><a href="#motd-name-secondlines-remove-index"><code>/motd &lt;name&gt; secondlines remove &lt;index&gt;</code></a></li>
+<li><a href="#motd-name-secondlines-set-line"><code>/motd &lt;name&gt; secondlines set &lt;line&gt;</code></a></li>
+<li><a href="#motd-name-secondlines-modify-index-line"><code>/motd &lt;name&gt; secondlines modify &lt;index&gt; &lt;line&gt;</code></a></li>
+<li><a href="#motd-name-secondlines-clear"><code>/motd &lt;name&gt; secondlines clear</code></a></li>
+</ul>
+<hr />
+<h2 id="motd-name-secondlines-add-line"><strong><code>/motd &lt;name&gt; secondlines add &lt;line&gt;</code></strong><a class="headerlink" href="#motd-name-secondlines-add-line" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkmotd.command.motd<br />
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> the name of motd template</li>
+<li><code>&lt;line&gt;</code> the new line to be added</li>
+</ul>
+<p>This command adds a new line to the second lines.</p>
+<hr />
+<h2 id="motd-name-secondlines-remove-index"><strong><code>/motd &lt;name&gt; secondlines remove &lt;index&gt;</code></strong><a class="headerlink" href="#motd-name-secondlines-remove-index" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkmotd.command.motd<br />
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> the name of motd template</li>
+<li><code>&lt;index&gt;</code> the index to remove</li>
+</ul>
+<p>This command removes line of the second lines by the index of the line.</p>
+<hr />
+<h2 id="motd-name-secondlines-set-line"><strong><code>/motd &lt;name&gt; secondlines set &lt;line&gt;</code></strong><a class="headerlink" href="#motd-name-secondlines-set-line" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkmotd.command.motd<br />
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> the name of motd template</li>
+<li><code>&lt;line&gt;</code> the line to set</li>
+</ul>
+<p>This command sets the line of the second lines and removes all other lines.</p>
+<hr />
+<h2 id="motd-name-secondlines-modify-index-line"><strong><code>/motd &lt;name&gt; secondlines modify &lt;index&gt; &lt;line&gt;</code></strong><a class="headerlink" href="#motd-name-secondlines-modify-index-line" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkmotd.command.motd<br />
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> the name of motd template</li>
+<li><code>&lt;index&gt;</code> the index to modify</li>
+<li><code>&lt;line&gt;</code> the modified line</li>
+</ul>
+<p>This command modifies the second line of the <code>&lt;index&gt;</code> to <code>&lt;line&gt;</code>.</p>
+<hr />
+<h2 id="motd-name-secondlines-clear"><strong><code>/motd &lt;name&gt; secondlines clear</code></strong><a class="headerlink" href="#motd-name-secondlines-clear" title="Permanent link">&para;</a></h2>
+<p><strong>Permission:</strong> dkmotd.command.motd<br />
+<strong>Arguments:</strong></p>
+<ul>
+<li><code>&lt;name&gt;</code> the name of motd template</li>
+</ul>
+<p>This command clears the second lines of the motd template.</p>
+<hr />
                 
                   
                     
