@@ -166,7 +166,7 @@ nav:
               - Overview: dkmotd/plugin-usage/commands/index.md
               - Motd Commands: dkmotd/plugin-usage/commands/motd-commands.md
               - Maintenance Commands: dkmotd/plugin-usage/commands/maintenance-commands.md
-              - Join message Commands: dkmotd/plugin-usage/commands/join-message-commands.md
+              - Join message Commands: dkmotd/plugin-usage/commands/joinmessage-commands.md
               - Tablist Commands: dkmotd/plugin-usage/commands/tablist-commands.md
   - DKSupport:
       - Introduction: dksupport/index.md
