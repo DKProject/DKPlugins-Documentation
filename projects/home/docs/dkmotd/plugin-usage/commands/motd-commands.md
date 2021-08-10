@@ -42,7 +42,7 @@ This is the motd list command. It lists all motd templates.
 **Permission:** dkmotd.command.motd<br />
 **Arguments:**
 
-* `name` the name of motd template
+* `<name>` the name of motd template
 
 This is the base command for a motd template. It shows you all information of the motd template, like name, baseLine and more.
 If the motd template does not exist, it will be shown in the chat.
@@ -54,7 +54,7 @@ If the motd template does not exist, it will be shown in the chat.
 **Permission:** dkmotd.command.motd<br />
 **Arguments:**
 
-* `name` the name of motd template
+* `<name>` the name of motd template
 
 This command toggle the active of a motd template. If you toggle on a motd template, all other motd templates will be inactive.
 
@@ -65,7 +65,7 @@ This command toggle the active of a motd template. If you toggle on a motd templ
 **Permission:** dkmotd.command.motd<br />
 **Arguments:**
 
-* `name` the name of motd template
+* `<name>` the name of motd template
 
 This command creates a new motd template with the name ``<name>``.
 
@@ -76,7 +76,7 @@ This command creates a new motd template with the name ``<name>``.
 **Permission:** dkmotd.command.motd<br />
 **Arguments:**
 
-* `name` the name of motd template
+* `<name>` the name of motd template
 
 This command deletes the motd template ``<name>``, if it exists.
 
@@ -87,8 +87,8 @@ This command deletes the motd template ``<name>``, if it exists.
 **Permission:** dkmotd.command.motd<br />
 **Arguments:**
 
-* `name` the name of motd template
-* `newName` the new name of motd template
+* `<name>` the name of motd template
+* `<newName>` the new name of motd template
 
 This command renames the motd template to ``<newName>``, if no other motd template is named `<newName>`.
 
@@ -99,8 +99,8 @@ This command renames the motd template to ``<newName>``, if no other motd templa
 **Permission:** dkmotd.command.motd<br />
 **Arguments:**
 
-* `name` the name of motd template
-* `text` the new text of motd template
+* `<name>` the name of motd template
+* `<text>` the new text of motd template
 
 This command changes the motd baseLine to ``<text>``.
 
@@ -111,7 +111,7 @@ This command changes the motd baseLine to ``<text>``.
 **Permission:** dkmotd.command.motd<br />
 **Arguments:**
 
-* `name` the name of motd template
+* `<name>` the name of motd template
 
 This command manages the second lines of a motd template. For more information, look on this [page](motd-secondLines-commands.md).
 
@@ -122,8 +122,8 @@ This command manages the second lines of a motd template. For more information, 
 **Permission:** dkmotd.command.motd<br />
 **Arguments:**
 
-* `name` the name of motd template
-* `text` the new version text of the motd template
+* `<name>` the name of motd template
+* `<text>` the new version text of the motd template
 
 This command changes the motd version text to ``<text>``.
 
@@ -134,8 +134,8 @@ This command changes the motd version text to ``<text>``.
 **Permission:** dkmotd.command.motd<br />
 **Arguments:**
 
-* `name` the name of motd template
-* `text` the new wrong version text of the motd template
+* `<name>` the name of motd template
+* `<text>` the new wrong version text of the motd template
 
 This command changes the motd wrong version text to ``<text>``.
 
@@ -146,7 +146,7 @@ This command changes the motd wrong version text to ``<text>``.
 **Permission:** dkmotd.command.motd<br />
 **Arguments:**
 
-* `name` the name of motd template
+* `<name>` the name of motd template
 
 This command manages the supported versions of a motd template. For more information, look on this [page](motd-supportedVersions-commands.md).
 
@@ -157,8 +157,8 @@ This command manages the supported versions of a motd template. For more informa
 **Permission:** dkmotd.command.motd<br />
 **Arguments:**
 
-* `name` the name of motd template
-* `favicon` the new favicon of the motd template
+* `<name>` the name of motd template
+* `<favicon>` the new favicon of the motd template
 
 This command changes the motd favicon to ``<favicon>``.
 
@@ -171,7 +171,7 @@ Also the image must be in a 64x64 format.
 **Permission:** dkmotd.command.motd<br />
 **Arguments:**
 
-* `name` the name of motd template
+* `<name>` the name of motd template
 
 This command manages the player info of a motd template. For more information, look on this [page](motd-playerInfo-commands.md).
 
