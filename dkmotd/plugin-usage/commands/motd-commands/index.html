@@ -94,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#bank-commands" class="md-skip">
+        <a href="#motd-commands" class="md-skip">
           Skip to content
         </a>
       
@@ -2494,7 +2494,7 @@
                   </a>
                 
                 
-                <h1 id="bank-commands">Bank Commands<a class="headerlink" href="#bank-commands" title="Permanent link">&para;</a></h1>
+                <h1 id="motd-commands">Motd Commands<a class="headerlink" href="#motd-commands" title="Permanent link">&para;</a></h1>
 <p>This page describes the usage and permissions of the Motd commands. The motd command always
 starts with <code>/motd &lt;name&gt;</code>, while <code>&lt;name&gt;</code> is the name of the motd template.</p>
 <p>Important things to remember:</p>
@@ -2502,17 +2502,6 @@ starts with <code>/motd &lt;name&gt;</code>, while <code>&lt;name&gt;</code> is 
 <li>Required arguments are declared with <code>&lt;example&gt;</code></li>
 <li>Optional arguments are declared with <code>[example]</code></li>
 </ul>
-<p>&amp;7
-&amp;7
-&amp;7
-&amp;7
-&amp;7
-&amp;7
-&amp;7
-&amp;7
-&amp;7
-&amp;7
-&amp;7</p>
 <h4>Index</h4>
 <ul>
 <li><a href="#motd-list"><code>/motd list</code></a></li>
@@ -2526,8 +2515,8 @@ starts with <code>/motd &lt;name&gt;</code>, while <code>&lt;name&gt;</code> is 
 <li><a href="#motd-name-versiontext-text"><code>/motd &lt;name&gt; versionText &lt;text&gt;</code></a></li>
 <li><a href="#motd-name-wrongversiontext-text"><code>/motd &lt;name&gt; wrongVersionText &lt;text&gt;</code></a></li>
 <li><a href="#motd-name-supportedversions"><code>/motd &lt;name&gt; supportedVersions</code></a></li>
-<li><a href="#bank-name-statement"><code>/motd &lt;name&gt; favicon &lt;favicon&gt;</code></a></li>
-<li><a href="#bank-name-statement"><code>/motd &lt;name&gt; playerInfo</code></a></li>
+<li><a href="#motd-name-favicon-favicon"><code>/motd &lt;name&gt; favicon &lt;favicon&gt;</code></a></li>
+<li><a href="#motd-name-playerinfo"><code>/motd &lt;name&gt; playerInfo</code></a></li>
 </ul>
 <hr />
 <h2 id="motd-list"><strong><code>/motd list</code></strong><a class="headerlink" href="#motd-list" title="Permanent link">&para;</a></h2>
@@ -2536,72 +2525,72 @@ starts with <code>/motd &lt;name&gt;</code>, while <code>&lt;name&gt;</code> is 
 <hr />
 <h2 id="motd-name-info"><strong><code>/motd &lt;name&gt; [info]</code></strong><a class="headerlink" href="#motd-name-info" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkmotd.command.motd<br />
-<strong>Arguments:</strong>
+<strong>Arguments:</strong><br />
 * <code>name</code> the name of motd template</p>
 <p>This is the base command for a motd template. It shows you all information of the motd template, like name, baseLine and more.
 If the motd template does not exist, it will be shown in the chat.</p>
 <hr />
 <h2 id="motd-name-active"><strong><code>/motd &lt;name&gt; active</code></strong><a class="headerlink" href="#motd-name-active" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkmotd.command.motd<br />
-<strong>Arguments:</strong>
+<strong>Arguments:</strong><br />
 * <code>name</code> the name of motd template</p>
 <p>This command toggle the active of a motd template. If you toggle on a motd template, all other motd templates will be inactive.</p>
 <hr />
 <h2 id="motd-name-create"><strong><code>/motd &lt;name&gt; create</code></strong><a class="headerlink" href="#motd-name-create" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkmotd.command.motd<br />
-<strong>Arguments:</strong>
+<strong>Arguments:</strong><br />
 * <code>name</code> the name of motd template</p>
 <p>This command creates a new motd template with the name <code>&lt;name&gt;</code>.</p>
 <hr />
 <h2 id="motd-name-delete"><strong><code>/motd &lt;name&gt; delete</code></strong><a class="headerlink" href="#motd-name-delete" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkmotd.command.motd<br />
-<strong>Arguments:</strong>
+<strong>Arguments:</strong><br />
 * <code>name</code> the name of motd template</p>
 <p>This command deletes the motd template <code>&lt;name&gt;</code>, if it exists.</p>
 <hr />
 <h2 id="motd-name-name-newname"><strong><code>/motd &lt;name&gt; name &lt;newName&gt;</code></strong><a class="headerlink" href="#motd-name-name-newname" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkmotd.command.motd<br />
-<strong>Arguments:</strong>
+<strong>Arguments:</strong><br />
 * <code>name</code> the name of motd template
 * <code>newName</code> the new name of motd template</p>
 <p>This command renames the motd template to <code>&lt;newName&gt;</code>, if no other motd template is named <code>&lt;newName&gt;</code>.</p>
 <hr />
 <h2 id="motd-name-baseline-text"><strong><code>/motd &lt;name&gt; baseLine &lt;text&gt;</code></strong><a class="headerlink" href="#motd-name-baseline-text" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkmotd.command.motd<br />
-<strong>Arguments:</strong>
+<strong>Arguments:</strong><br />
 * <code>name</code> the name of motd template
 * <code>text</code> the new text of motd template</p>
 <p>This command changes the motd baseLine to <code>&lt;text&gt;</code>.</p>
 <hr />
 <h2 id="motd-name-secondlines"><strong><code>/motd &lt;name&gt; secondLines</code></strong><a class="headerlink" href="#motd-name-secondlines" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkmotd.command.motd<br />
-<strong>Arguments:</strong>
+<strong>Arguments:</strong><br />
 * <code>name</code> the name of motd template</p>
 <p>This command manages the second lines of a motd template. For more information, look on this <a href="../motd-secondLines-commands/">page</a>.</p>
 <hr />
 <h2 id="motd-name-versiontext-text"><strong><code>/motd &lt;name&gt; versionText &lt;text&gt;</code></strong><a class="headerlink" href="#motd-name-versiontext-text" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkmotd.command.motd<br />
-<strong>Arguments:</strong>
+<strong>Arguments:</strong><br />
 * <code>name</code> the name of motd template
 * <code>text</code> the new version text of the motd template</p>
 <p>This command changes the motd version text to <code>&lt;text&gt;</code>.</p>
 <hr />
 <h2 id="motd-name-wrongversiontext-text"><strong><code>/motd &lt;name&gt; wrongVersionText &lt;text&gt;</code></strong><a class="headerlink" href="#motd-name-wrongversiontext-text" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkmotd.command.motd<br />
-<strong>Arguments:</strong>
+<strong>Arguments:</strong><br />
 * <code>name</code> the name of motd template
 * <code>text</code> the new wrong version text of the motd template</p>
 <p>This command changes the motd wrong version text to <code>&lt;text&gt;</code>.</p>
 <hr />
 <h2 id="motd-name-supportedversions"><strong><code>/motd &lt;name&gt; supportedVersions</code></strong><a class="headerlink" href="#motd-name-supportedversions" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkmotd.command.motd<br />
-<strong>Arguments:</strong>
+<strong>Arguments:</strong><br />
 * <code>name</code> the name of motd template</p>
 <p>This command manages the supported versions of a motd template. For more information, look on this <a href="../motd-supportedVersions-commands/">page</a>.</p>
 <hr />
 <h2 id="motd-name-favicon-favicon"><strong><code>/motd &lt;name&gt; favicon &lt;favicon&gt;</code></strong><a class="headerlink" href="#motd-name-favicon-favicon" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkmotd.command.motd<br />
-<strong>Arguments:</strong>
+<strong>Arguments:</strong><br />
 * <code>name</code> the name of motd template
 * <code>favicon</code> the new favicon of the motd template</p>
 <p>This command changes the motd favicon to <code>&lt;favicon&gt;</code>.</p>
@@ -2610,7 +2599,7 @@ Also the image must be in a 64x64 format.</p>
 <hr />
 <h2 id="motd-name-playerinfo"><strong><code>/motd &lt;name&gt; playerInfo</code></strong><a class="headerlink" href="#motd-name-playerinfo" title="Permanent link">&para;</a></h2>
 <p><strong>Permission:</strong> dkmotd.command.motd<br />
-<strong>Arguments:</strong>
+<strong>Arguments:</strong><br />
 * <code>name</code> the name of motd template</p>
 <p>This command manages the player info of a motd template. For more information, look on this <a href="../motd-playerInfo-commands/">page</a>.</p>
 <hr />
