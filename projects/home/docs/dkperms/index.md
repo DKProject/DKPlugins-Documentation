@@ -45,7 +45,7 @@ DKPerms is a reliable permission system and has been optimized and improved over
 * **Additional features**
     * Simplified ```/rank``` command for assigning groups
     * ```/team``` command for listing your team members.
-    * Offline player support
+    * Full UUID support
     * Tab completion in all commands
     * Tree based structure
     * Change logging

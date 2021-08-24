@@ -10,7 +10,7 @@ exactly and contact our support if you have any questions or problems.
 ***
 
 ## **Compatibility**
-DKBans supports Minecraft 1.8 - 1.17.1 and runs on all McNative supported platforms:
+DKBans supports Minecraft (java) 1.8 - 1.17.1 and runs on all McNative supported platforms:
 
 * Bukkit, Spigot, PaperSpigot, Yatopia, Tunity, Purpur, Airplane
 * BungeeCord, Waterfall, Travertine, FlameCord
@@ -21,6 +21,8 @@ DKBans is designed for running on multiple servers and supports all McNative mes
  * BungeeCord Proxy Network (Plugin Message Channels)
  * CloudNet V2 (Multi proxy)
  * CloudNet V3 (Multi proxy)
+
+DKBans only support official Minecraft versions published by Mojang. Cracked (offline mode) is not supported.
 
 ***
 

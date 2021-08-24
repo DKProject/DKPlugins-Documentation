@@ -60,7 +60,7 @@ DKBans is a reliable currency system and has been optimized and improved over ti
     * LabyMod integration (voice chat mute)
     * CloudNet V2 & V3 support (Multi proxy)
 * **Additional features**
-    * Offline player support
+    * Full UUID support
     * Team chat functionality
     * Many other commands (e.g. /ping, /joinme)
     * Migration functionality

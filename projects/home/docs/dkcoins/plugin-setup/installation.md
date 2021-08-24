@@ -22,6 +22,8 @@ DKCoins is designed for running on multiple servers and supports all McNative me
  * CloudNet V2 (Multi proxy)
  * CloudNet V3 (Multi proxy)
 
+DKCoins only support official Minecraft versions published by Mojang. Cracked (offline mode) is not supported.
+
 ***
 
 ## **Requirements**
