@@ -31,17 +31,14 @@ DKMotd is maintained by [Pretronic](https://pretronic.net/) and was first releas
     * Ingame commands
     * Whitelist
     * Bypass permission
-* **Third party integrations**
-  * CloudNet V2 & V3 support (Multi proxy)
-* **Additional features**
-    * Join message
-
-## Features under development
-Since DKMotd is a new plugin and has just been released, there are still some open features that will be implemented in the coming weeks.
-
 * **Tablist header and footer**
     * Templates
         * Rotating lines
+* **Third party integrations**
+  * CloudNet V2 & V3 support (Multi proxy)
+  * LabyMod tablist banner 
+* **Additional features**
+    * Join message
 
 
 ## Support
