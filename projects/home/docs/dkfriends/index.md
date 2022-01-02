@@ -10,8 +10,7 @@ Here you will find a complete documentation how to administrate, install and set
 DKFriends is maintained by [Pretronic](https://pretronic.net/) and was first released in July 2021.
 
 !!! note ""
-    DKFriends is a new plugin and in Beta mode, it was just released on 2021-07-18 and is under Hypercare until 2021-07-01. The documentation will also be
-    completed over the next weeks.
+    DKFriends is a new plugin and in Beta mode, it was just released on 2021-07-18.
 
 ## Features
 * **Platform & Environment**

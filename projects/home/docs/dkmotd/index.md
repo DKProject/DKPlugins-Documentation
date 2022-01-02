@@ -10,8 +10,7 @@ Here you will find a complete documentation how to administrate, install and set
 DKMotd is maintained by [Pretronic](https://pretronic.net/) and was first released in July 2021.
 
 !!! note ""
-    DKMotd is a new plugin and in Beta mode, it was just released on 2021-07-18 and is under Hypercare until 2021-07-01. The documentation will also be
-    completed over the next weeks.
+    DKMotd is a new plugin and in Beta mode, it was just released on 2021-07-18.
 
 ## Features
 * **Platform & Environment**
@@ -31,17 +30,14 @@ DKMotd is maintained by [Pretronic](https://pretronic.net/) and was first releas
     * Ingame commands
     * Whitelist
     * Bypass permission
-* **Third party integrations**
-  * CloudNet V2 & V3 support (Multi proxy)
-* **Additional features**
-    * Join message
-
-## Features under development
-Since DKMotd is a new plugin and has just been released, there are still some open features that will be implemented in the coming weeks.
-
 * **Tablist header and footer**
     * Templates
         * Rotating lines
+* **Third party integrations**
+  * CloudNet V2 & V3 support (Multi proxy)
+  * LabyMod tablist banner 
+* **Additional features**
+    * Join message
 
 
 ## Support
