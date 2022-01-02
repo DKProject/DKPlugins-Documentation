@@ -10,8 +10,8 @@ theme:
   extra_css:
     - stylesheets/bootstrap-grid.min.css
     - stylesheets/style.css
-  logo: https://content.pretronic.net/brand/dkplugins-logo.png
-  favicon: https://content.pretronic.net/brand/dkplugins-logo.png
+  logo: https://content.pretronic.net/products/dkplugins.png
+  favicon: https://content.pretronic.net/products/dkplugins.png
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
