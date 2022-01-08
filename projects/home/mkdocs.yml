@@ -32,6 +32,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
