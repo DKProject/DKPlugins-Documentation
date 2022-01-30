@@ -148,6 +148,8 @@ nav:
       - Plugin Setup:
           - Installation: dkfriends/plugin-setup/installation.md
           - Storage: dkfriends/plugin-setup/storage.md
+      - Plugin Usage:
+          - Placeholders: dkfriends/plugin-usage/placeholders.md
   - DKConnect:
       - Introduction: dkconnect/index.md
       - Support: dkconnect/support.md
