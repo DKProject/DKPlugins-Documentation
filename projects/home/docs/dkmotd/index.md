@@ -15,7 +15,7 @@ DKMotd is maintained by [Pretronic](https://pretronic.net/) and was first releas
 ## Features
 * **Platform & Environment**
     * Running on Spigot and BungeeCord
-    * Minecraft 1.8 - 1.17.1 support
+    * Minecraft 1.8 - 1.18 support
     * H2 (SQLite), MySQL, MariaDB, PostgreSQL, MS-SQL and MongoDB support
     * Everything is configurable and customizable
     * Live update over network
