@@ -10,7 +10,7 @@ exactly and contact our support if you have any questions or problems.
 ***
 
 ## **Compatibility**
-DKCoins supports Minecraft 1.8 - 1.17.1 and later and runs on all McNative supported platforms:
+DKCoins supports Minecraft 1.8 - 1.18.1 and later and runs on all McNative supported platforms:
 
 * Bukkit, Spigot, PaperSpigot, Yatopia, Tunity, Purpur, Airplane
 * BungeeCord, Waterfall, Travertine, FlameCord

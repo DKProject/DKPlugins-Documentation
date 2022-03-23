@@ -10,7 +10,7 @@ exactly and contact our support if you have any questions or problems.
 ***
 
 ## **Compatibility**
-DKPerms supports Minecraft 1.8 - 1.17.1 and runs on all McNative supported platforms:
+DKPerms supports Minecraft 1.8 - 1.18.1 and runs on all McNative supported platforms:
 
  * Bukkit, Spigot, PaperSpigot, Yatopia, Tunity, Purpur, Airplane
  * BungeeCord, Waterfall, Travertine, FlameCord
@@ -28,7 +28,7 @@ DKPerms only support official Minecraft versions published by Mojang. Cracked (o
 
 ## **Requirements**
 
-DKPerms supports java 8 - 1.17.1 and requires a stable internet connection (DKPerms downloads all necessary libraries dynamically). 
+DKPerms supports java 8 - 1.18.1 and requires a stable internet connection (DKPerms downloads all necessary libraries dynamically). 
 If you are using DKPerms on multiple servers, you also need a supported remote database (MySQL, PostgreSQL, MS-SQL, MongoDB et.c).
 
 ***
