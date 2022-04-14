@@ -57,5 +57,5 @@ After the installation you can optionally set up a storage solution like MySQL. 
 After DKCoins is successfully installed on your network, join with your minecraft account on the server and run the 
 following command to set your coin amount (Replace `<player>` with your username).
 
- * `./dkperms admin <player> set 100000`
+ * `./dkcoins admin <player> set 100000`
 
