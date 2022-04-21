@@ -10,7 +10,7 @@ exactly and contact our support if you have any questions or problems.
 ***
 
 ## **Compatibility**
-DKBans supports Minecraft (java) 1.8 - 1.18.1 and runs on all McNative supported platforms:
+DKBans supports Minecraft (java) 1.8 - 1.18.2 and runs on all McNative supported platforms:
 
 * Bukkit, Spigot, PaperSpigot, Yatopia, Tunity, Purpur, Airplane
 * BungeeCord, Waterfall, Travertine, FlameCord
