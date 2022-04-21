@@ -10,7 +10,7 @@ exactly and contact our support if you have any questions or problems.
 ***
 
 ## **Compatibility**
-DKCoins supports Minecraft 1.8 - 1.18.1 and later and runs on all McNative supported platforms:
+DKCoins supports Minecraft 1.8 - 1.18.2 and later and runs on all McNative supported platforms:
 
 * Bukkit, Spigot, PaperSpigot, Yatopia, Tunity, Purpur, Airplane
 * BungeeCord, Waterfall, Travertine, FlameCord
@@ -28,7 +28,7 @@ DKCoins only support official Minecraft versions published by Mojang. Cracked (o
 
 ## **Requirements**
 
-DKCoins supports java 8 - 16 and requires a stable internet connection (DKCoins downloads all necessary libraries dynamically). 
+DKCoins supports java 8 - 17 and requires a stable internet connection (DKCoins downloads all necessary libraries dynamically). 
 If you are using DKCoins on multiple servers, you also need a supported remote database (MySQL, PostgreSQL, MS-SQL, MongoDB et.c).
 
 ***
