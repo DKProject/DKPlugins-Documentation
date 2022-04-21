@@ -10,7 +10,7 @@ exactly and contact our support if you have any questions or problems.
 ***
 
 ## **Compatibility**
-DKConnect supports Minecraft 1.8 - 1.18.1 and runs on all McNative supported platforms:
+DKConnect supports Minecraft 1.8 - 1.18.2 and runs on all McNative supported platforms:
 
  * Bukkit, Spigot, PaperSpigot, Yatopia, Tunity, Purpur, Airplane
  * BungeeCord, Waterfall, Travertine, FlameCord
@@ -28,7 +28,7 @@ DKConnect only support official Minecraft versions published by Mojang. Cracked 
 
 ## **Requirements**
 
-DKConnect supports java 8 - 1.18.1 and requires a stable internet connection (DKConnect downloads all necessary libraries dynamically). 
+DKConnect supports java 8 - 17 and requires a stable internet connection (DKConnect downloads all necessary libraries dynamically). 
 If you are using DKConnect on multiple servers, you also need a supported remote database (MySQL, PostgreSQL, MS-SQL, MongoDB et.c).
 
 ***
