@@ -11,7 +11,7 @@
         <link rel="canonical" href="http://dkplugins.pretronic.net/dkperms/developer/scopes/">
       
       <link rel="icon" href="https://content.pretronic.net/products/dkplugins.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.9">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.15">
     
     
       
@@ -19,10 +19,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.120efc48.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.c382b1dc.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.9647289d.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cc9b2e1e.min.css">
         
       
     
@@ -2754,33 +2754,33 @@ created automatically and managed internally in DKPerms. There are many ways to 
 <hr />
 <h2 id="root-scope">Root scope<a class="headerlink" href="#root-scope" title="Permanent link">&para;</a></h2>
 <p>The root area is the base scope of the tree structure.</p>
-<div class="highlight"><pre><span></span><code><span class="n">PermissionScope</span> <span class="n">scope</span> <span class="o">=</span> <span class="n">dkperms</span><span class="p">.</span><span class="na">getScopeManager</span><span class="p">().</span><span class="na">getRoot</span><span class="p">();</span>
+<div class="highlight"><pre><span></span><code><span class="n">PermissionScope</span><span class="w"> </span><span class="n">scope</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dkperms</span><span class="p">.</span><span class="na">getScopeManager</span><span class="p">().</span><span class="na">getRoot</span><span class="p">();</span><span class="w"></span>
 </code></pre></div>
 <hr />
 <h2 id="namespace-scope">Namespace scope<a class="headerlink" href="#namespace-scope" title="Permanent link">&para;</a></h2>
 <p>DKPerms separates permission areas between parent namespaces to have more possibilities to extend DKPerms to other 
 areas (e.g. Discord, TeamSpeak). In most cases, you will only need the <code>Minecraft</code> namespace.</p>
-<div class="highlight"><pre><span></span><code><span class="n">PermissionScope</span> <span class="n">scope</span> <span class="o">=</span> <span class="n">dkperms</span><span class="p">.</span><span class="na">getScopeManager</span><span class="p">().</span><span class="na">getNamespace</span><span class="p">(</span><span class="s">&quot;Minecraft&quot;</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="n">PermissionScope</span><span class="w"> </span><span class="n">scope</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dkperms</span><span class="p">.</span><span class="na">getScopeManager</span><span class="p">().</span><span class="na">getNamespace</span><span class="p">(</span><span class="s">&quot;Minecraft&quot;</span><span class="p">);</span><span class="w"></span>
 </code></pre></div>
 <hr />
 <h2 id="current-instance-scope">Current instance scope<a class="headerlink" href="#current-instance-scope" title="Permanent link">&para;</a></h2>
 <p>Each runtime instance has its own base scope, which defines the current location of the instance.
 However, also note that not every player has the same scope on the same instance.</p>
-<div class="highlight"><pre><span></span><code><span class="n">PermissionScope</span> <span class="n">scope</span> <span class="o">=</span> <span class="n">dkperms</span><span class="p">.</span><span class="na">getScopeManager</span><span class="p">().</span><span class="na">getCurrentInstanceScope</span><span class="p">();</span>
+<div class="highlight"><pre><span></span><code><span class="n">PermissionScope</span><span class="w"> </span><span class="n">scope</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dkperms</span><span class="p">.</span><span class="na">getScopeManager</span><span class="p">().</span><span class="na">getCurrentInstanceScope</span><span class="p">();</span><span class="w"></span>
 </code></pre></div>
 <hr />
 <h2 id="obtain-scope-tree">Obtain scope tree<a class="headerlink" href="#obtain-scope-tree" title="Permanent link">&para;</a></h2>
 <p>As mentioned before, DKPerms scopes are structured in a tree, you can easily find the required 
 scope using the <code>getChild</code> method.</p>
-<div class="highlight"><pre><span></span><code><span class="n">PermissionScope</span> <span class="n">scope</span> <span class="o">=</span> <span class="n">dkperms</span><span class="p">.</span><span class="na">getScopeManager</span><span class="p">().</span><span class="na">getRoot</span><span class="p">()</span>
-        <span class="p">.</span><span class="na">getChild</span><span class="p">(</span><span class="s">&quot;namespace&quot;</span><span class="p">,</span><span class="s">&quot;Minecraft&quot;</span><span class="p">)</span>
-        <span class="p">.</span><span class="na">getChild</span><span class="p">(</span><span class="s">&quot;server&quot;</span><span class="p">,</span><span class="s">&quot;Lobby-1&quot;</span><span class="p">)</span>
-        <span class="p">.</span><span class="na">getChild</span><span class="p">(</span><span class="s">&quot;world&quot;</span><span class="p">,</span><span class="s">&quot;World-1&quot;</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="n">PermissionScope</span><span class="w"> </span><span class="n">scope</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dkperms</span><span class="p">.</span><span class="na">getScopeManager</span><span class="p">().</span><span class="na">getRoot</span><span class="p">()</span><span class="w"></span>
+<span class="w">        </span><span class="p">.</span><span class="na">getChild</span><span class="p">(</span><span class="s">&quot;namespace&quot;</span><span class="p">,</span><span class="s">&quot;Minecraft&quot;</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">.</span><span class="na">getChild</span><span class="p">(</span><span class="s">&quot;server&quot;</span><span class="p">,</span><span class="s">&quot;Lobby-1&quot;</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">.</span><span class="na">getChild</span><span class="p">(</span><span class="s">&quot;world&quot;</span><span class="p">,</span><span class="s">&quot;World-1&quot;</span><span class="p">);</span><span class="w"></span>
 </code></pre></div>
 <hr />
 <h2 id="compile-scope-tree">Compile scope tree<a class="headerlink" href="#compile-scope-tree" title="Permanent link">&para;</a></h2>
 <p>You are also able to easily compile a scope definition string to a DKPerms scope tree.</p>
-<div class="highlight"><pre><span></span><code><span class="n">PermissionScope</span> <span class="n">scope</span> <span class="o">=</span> <span class="n">dkperms</span><span class="p">.</span><span class="na">getScopeManager</span><span class="p">().</span><span class="na">get</span><span class="p">(</span><span class="s">&quot;namespace=Minecraft\\server=Lobby-1\\world=World-1&quot;</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="n">PermissionScope</span><span class="w"> </span><span class="n">scope</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dkperms</span><span class="p">.</span><span class="na">getScopeManager</span><span class="p">().</span><span class="na">get</span><span class="p">(</span><span class="s">&quot;namespace=Minecraft\\server=Lobby-1\\world=World-1&quot;</span><span class="p">);</span><span class="w"></span>
 </code></pre></div>
 
   <hr>
@@ -2866,7 +2866,7 @@ scope using the <code>getChild</code> method.</p>
     <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "search": "../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.6e54b5cd.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a6c66575.min.js"></script>
       
     
   </body>
