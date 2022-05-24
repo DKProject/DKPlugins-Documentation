@@ -71,7 +71,7 @@ DKBans is built with the Maven build tool and has its own repository (Public ava
 
     ```
     dependencies {
-        compile 'net.pretronic.dkcoins:dkcoins-api:VERSION'
+        compile 'net.pretronic.dkbans:dkbans-api:VERSION'
     }
 
 
