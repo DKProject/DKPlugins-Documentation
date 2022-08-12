@@ -18,7 +18,7 @@ All operations in DKBans are totally thread safety and designed for asynchronous
 
 **Storage & Synchronisation operations**
 
-DKBans offers you a simple api to create, modify, update and delete currency and bank account and other things. 
+DKBans offers you a simple api to create, modify, update and delete bans, mutes, warns and many other things. 
 You have not to deal with saving or synchronizing data, DKBans is automatically handling those things in the background.
 
 
